@@ -14,6 +14,18 @@ export interface Medicine {
   description?: string;
 }
 
+// Shape written by scraper/scrape.js → public/data/medicines.json
+export interface ScrapedMedicine {
+  slug: string;
+  name: string;
+  strength: string;
+  generic: string;
+  manufacturer: string;
+  url: string;
+  image: string | null;
+  sections: Record<string, string>;
+}
+
 export interface Category {
   slug: string;
   icon: string;

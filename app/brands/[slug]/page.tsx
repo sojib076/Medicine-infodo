@@ -2,6 +2,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { medicines, tabContent } from "@/lib/data";
+import { getScrapedMedicine } from "@/lib/scraped-data.server";
 import BrandDetailClient from "./BrandDetailClient";
 
 interface Props { params: { slug: string } }
@@ -25,11 +26,15 @@ export default function BrandDetailPage({ params }: Props) {
 
   const related = medicines.filter((m) => m.slug !== med.slug && (m.category === med.category || m.generic === med.generic)).slice(0, 4);
 
+  // Prefer sections from the scraped JSON; fall back to demo tabContent
+  const scraped = getScrapedMedicine(params.slug);
+  const resolvedTabContent = scraped?.sections ?? tabContent;
+
   return (
     <BrandDetailClient
       med={med}
       related={related}
-      tabContent={tabContent}
+      tabContent={resolvedTabContent}
     />
   );
 }
