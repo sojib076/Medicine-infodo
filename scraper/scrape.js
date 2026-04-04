@@ -3,15 +3,38 @@ const fs = require("fs");
 const path = require("path");
 
 const BASE_URL = "https://medex.com.bd";
-const OUTPUT_DIR = "./medicines";
 
-if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR);
+// ── Output / checkpoint paths ─────────────────────────────────────────────
+const OUTPUT_FILE    = path.resolve(__dirname, "../public/data/medicines.json");
+const CHECKPOINT_FILE = path.resolve(__dirname, "./checkpoint.json");
+
+// ── Tunables ──────────────────────────────────────────────────────────────
+const MAX_PAGES   = 2;      // number of brand-list pages to scrape
+const RETRY_LIMIT = 3;      // attempts per URL before giving up
+const RETRY_DELAY = 3000;   // base ms between retries (doubles each attempt)
+const NAV_TIMEOUT = 30000;  // ms for page.goto / waitForSelector
+const PAGE_DELAY  = 2500;   // base ms between successive medicine requests
+
+// ── Anti-blocking: rotate through these common desktop user-agents ─────────
+const USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+];
+
+function randomUserAgent() {
+    return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
-function cleanText(text) {
-    return text.replace(/\s+/g, " ").trim();
+// Jitter: return PAGE_DELAY ± 30 % so requests don't look perfectly metronomic
+function jitterDelay(base = PAGE_DELAY) {
+    const spread = base * 0.3;
+    return base + Math.floor(Math.random() * spread * 2 - spread);
 }
+
+// ── Helpers ───────────────────────────────────────────────────────────────
 
 function slugify(text) {
     return text.toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -21,150 +44,259 @@ function delay(ms) {
     return new Promise((res) => setTimeout(res, ms));
 }
 
-async function scrape() {
-    const browser = await puppeteer.launch({
-        headless: false,
-        defaultViewport: null,
+// Block resource types that waste bandwidth and trigger fingerprinting scripts
+const BLOCKED_TYPES = new Set(["image", "media", "font", "stylesheet"]);
+// Block known analytics / ad domains
+const BLOCKED_DOMAINS = [
+    "google-analytics.com", "googletagmanager.com", "doubleclick.net",
+    "facebook.com", "fbcdn.net", "hotjar.com", "clarity.ms", "ads.com",
+];
+
+async function setupPage(browser) {
+    const page = await browser.newPage();
+    await page.setUserAgent(randomUserAgent());
+
+    // Hide WebDriver flag to reduce bot-detection risk
+    await page.evaluateOnNewDocument(() => {
+        Object.defineProperty(navigator, "webdriver", { get: () => false });
     });
 
-    const page = await browser.newPage();
-
-    await page.setUserAgent(
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
-    );
-
-    for (let p = 1; p <= 2; p++) {
-        const url = `${BASE_URL}/brands?page=${p}`;
-        console.log("Page:", url);
-
-        await page.goto(url, { waitUntil: "networkidle2" });
-        await page.waitForSelector(".hoverable-block");
-
-        const links = await page.$$eval(".hoverable-block", (els) =>
-            els.map((el) => ({
-                url: el.href,
-                name: el.querySelector(".data-row-top")?.innerText,
-                strength: el.querySelector(".data-row-strength")?.innerText,
-                generic: el.querySelector(".data-row-strength")
-                    ?.parentElement?.nextElementSibling?.innerText,
-                company: el.querySelector(".data-row-company")?.innerText,
-            }))
-        );
-
-        for (const item of links) {
-            console.log("→", item.name);
-
-            const detailPage = await browser.newPage();
-
-            try {
-                await detailPage.goto(item.url, { waitUntil: "networkidle2" });
-                await detailPage.waitForSelector(".ac-header");
-
-                const data = await detailPage.evaluate(() => {
-                    function formatNode(node) {
-                        let result = "";
-
-                        node.childNodes.forEach((child) => {
-                            if (child.nodeType === Node.TEXT_NODE) {
-                                result += child.textContent.trim() + "\n";
-                            }
-
-                            if (child.nodeName === "BR") {
-                                result += "\n";
-                            }
-
-                            if (child.nodeName === "UL") {
-                                child.querySelectorAll("li").forEach((li) => {
-                                    result += `- ${li.innerText.trim()}\n`;
-                                });
-                                result += "\n";
-                            }
-
-                            if (child.nodeName === "OL") {
-                                child.querySelectorAll("li").forEach((li, i) => {
-                                    result += `${i + 1}. ${li.innerText.trim()}\n`;
-                                });
-                                result += "\n";
-                            }
-
-                            if (child.nodeName === "STRONG") {
-                                result += `**${child.innerText.trim()}** `;
-                            }
-                        });
-
-                        return result.trim();
-                    }
-
-                    const sections = {};
-
-                    document.querySelectorAll(".ac-header").forEach((header) => {
-                        const title = header.innerText.trim();
-                        const body = header.parentElement.nextElementSibling;
-
-                        if (body && body.classList.contains("ac-body")) {
-                            sections[title] = formatNode(body);
-                        }
-                    });
-
-                    // IMAGE (top OR bottom)
-                    const image =
-                        document.querySelector(".mp-trigger")?.href ||
-                        document.querySelector(".img-defer")?.src ||
-                        null;
-
-                    return { sections, image };
-                });
-
-                const companyFolder = path.join(
-                    OUTPUT_DIR,
-                    slugify(item.company || "unknown")
-                );
-
-                if (!fs.existsSync(companyFolder)) {
-                    fs.mkdirSync(companyFolder, { recursive: true });
-                }
-
-                const fileSlug = slugify(item.name);
-                const mdPath = path.join(companyFolder, fileSlug + ".md");
-                const imgPath = path.join(companyFolder, fileSlug + ".webp");
-
-                // DOWNLOAD IMAGE
-                if (data.image) {
-                    const view = await detailPage.goto(data.image);
-                    const buffer = await view.buffer();
-                    fs.writeFileSync(imgPath, buffer);
-                }
-
-                // MARKDOWN
-                let markdown = `# ${item.name}
-
-**Strength:** ${item.strength}  
-**Generic:** ${item.generic}  
-**Company:** ${item.company}  
-
----
-
-`;
-
-                if (data.image) {
-                    markdown += `![${item.name}](./${fileSlug}.webp)\n\n---\n\n`;
-                }
-
-                for (const [title, content] of Object.entries(data.sections)) {
-                    markdown += `## ${title}\n${cleanText(content)}\n\n---\n\n`;
-                }
-
-                fs.writeFileSync(mdPath, markdown);
-            } catch (err) {
-                console.log("❌ Failed:", item.name);
-            }
-
-            await detailPage.close();
-            await delay(2500); // slower = safer
+    // Intercept and block unnecessary requests
+    await page.setRequestInterception(true);
+    page.on("request", (req) => {
+        const type   = req.resourceType();
+        const reqUrl = req.url();
+        const isBlockedDomain = BLOCKED_DOMAINS.some((d) => reqUrl.includes(d));
+        if (BLOCKED_TYPES.has(type) || isBlockedDomain) {
+            req.abort();
+        } else {
+            req.continue();
         }
-    }
+    });
 
-    await browser.close();
+    return page;
 }
 
-scrape();
+// Navigate to a URL and retry up to RETRY_LIMIT times on any network error,
+// using exponential backoff between attempts (3 s → 6 s → 12 s …).
+async function gotoWithRetry(page, url, options = {}) {
+    let lastErr;
+    for (let attempt = 1; attempt <= RETRY_LIMIT; attempt++) {
+        try {
+            await page.goto(url, {
+                waitUntil: "domcontentloaded",
+                timeout: NAV_TIMEOUT,
+                ...options,
+            });
+            return; // success
+        } catch (err) {
+            lastErr = err;
+            if (attempt < RETRY_LIMIT) {
+                const wait = RETRY_DELAY * Math.pow(2, attempt - 1); // 3 s → 6 s → 12 s
+                console.warn(
+                    `  ⚠ Attempt ${attempt}/${RETRY_LIMIT} failed for ${url} ` +
+                    `(${err.message.split("\n")[0]}) — retrying in ${wait / 1000}s…`
+                );
+                await delay(wait);
+            }
+        }
+    }
+    throw lastErr; // re-throw after all retries exhausted
+}
+
+// ── Checkpoint helpers ────────────────────────────────────────────────────
+
+function loadCheckpoint() {
+    try {
+        if (fs.existsSync(CHECKPOINT_FILE)) {
+            return JSON.parse(fs.readFileSync(CHECKPOINT_FILE, "utf8"));
+        }
+    } catch (_) {}
+    return { done: [] };
+}
+
+function saveCheckpoint(checkpoint) {
+    fs.writeFileSync(CHECKPOINT_FILE, JSON.stringify(checkpoint, null, 2));
+}
+
+// ── Output helpers ────────────────────────────────────────────────────────
+
+function loadExistingData() {
+    try {
+        if (fs.existsSync(OUTPUT_FILE)) {
+            return JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
+        }
+    } catch (_) {}
+    return [];
+}
+
+function saveOutput(data) {
+    const dir = path.dirname(OUTPUT_FILE);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
+}
+
+// ── Main scraper ──────────────────────────────────────────────────────────
+
+async function scrape() {
+    const checkpoint = loadCheckpoint();
+    const results    = loadExistingData();
+    const doneSet    = new Set(checkpoint.done);
+
+    console.log(`Resuming: ${doneSet.size} medicines already scraped.`);
+
+    const browser = await puppeteer.launch({
+        // "new" headless mode is stable and works in server / CI environments
+        headless: "new",
+        defaultViewport: { width: 1280, height: 800 },
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+
+    try {
+        const listPage = await setupPage(browser);
+
+        for (let p = 1; p <= MAX_PAGES; p++) {
+            const url = `${BASE_URL}/brands?page=${p}`;
+            console.log(`\nFetching brand list page ${p}: ${url}`);
+
+            // Retry the brand-list page itself on network errors
+            await gotoWithRetry(listPage, url, { waitUntil: "networkidle2" });
+            await listPage.waitForSelector(".hoverable-block", { timeout: NAV_TIMEOUT });
+
+            const links = await listPage.$$eval(".hoverable-block", (els) =>
+                els.map((el) => ({
+                    url:      el.href,
+                    name:     el.querySelector(".data-row-top")?.innerText?.trim()  || "",
+                    strength: el.querySelector(".data-row-strength")?.innerText?.trim() || "",
+                    generic:  el.querySelector(".data-row-strength")
+                                  ?.parentElement?.nextElementSibling?.innerText?.trim() || "",
+                    company:  el.querySelector(".data-row-company")?.innerText?.trim()  || "",
+                }))
+            );
+
+            console.log(`  Found ${links.length} medicines on page ${p}`);
+
+            for (const item of links) {
+                const slug = slugify(item.name || item.url);
+
+                if (doneSet.has(slug)) {
+                    console.log(`  ↩ Skip (already scraped): ${item.name}`);
+                    continue;
+                }
+
+                console.log(`  → Scraping: ${item.name}`);
+                // Each detail page gets a fresh page with a rotated user-agent
+                const detailPage = await setupPage(browser);
+
+                let scraped = false;
+
+                // Each medicine gets its own retry loop so one flaky URL doesn't
+                // abort the whole run.
+                for (let attempt = 1; attempt <= RETRY_LIMIT; attempt++) {
+                    try {
+                        await gotoWithRetry(detailPage, item.url);
+                        await detailPage.waitForSelector(".ac-header", {
+                            timeout: NAV_TIMEOUT,
+                        });
+
+                        const data = await detailPage.evaluate(() => {
+                            function extractText(node) {
+                                let result = "";
+                                node.childNodes.forEach((child) => {
+                                    if (child.nodeType === Node.TEXT_NODE) {
+                                        const t = child.textContent.trim();
+                                        if (t) result += t + " ";
+                                    } else if (child.nodeName === "BR") {
+                                        result += "\n";
+                                    } else if (child.nodeName === "UL") {
+                                        child.querySelectorAll("li").forEach((li) => {
+                                            result += `\n- ${li.innerText.trim()}`;
+                                        });
+                                        result += "\n";
+                                    } else if (child.nodeName === "OL") {
+                                        child.querySelectorAll("li").forEach((li, i) => {
+                                            result += `\n${i + 1}. ${li.innerText.trim()}`;
+                                        });
+                                        result += "\n";
+                                    } else if (child.nodeName === "STRONG") {
+                                        result += child.innerText.trim() + " ";
+                                    } else if (child.innerText) {
+                                        result += child.innerText.trim() + " ";
+                                    }
+                                });
+                                return result.trim();
+                            }
+
+                            const sections = {};
+                            document.querySelectorAll(".ac-header").forEach((header) => {
+                                const title = header.innerText.trim();
+                                const body  = header.parentElement.nextElementSibling;
+                                if (body && body.classList.contains("ac-body")) {
+                                    sections[title] = extractText(body);
+                                }
+                            });
+
+                            const image =
+                                document.querySelector(".mp-trigger")?.href ||
+                                document.querySelector(".img-defer")?.src  ||
+                                null;
+
+                            return { sections, image };
+                        });
+
+                        results.push({
+                            slug,
+                            name:         item.name,
+                            strength:     item.strength,
+                            generic:      item.generic,
+                            manufacturer: item.company,
+                            url:          item.url,
+                            image:        data.image || null,
+                            sections:     data.sections,
+                        });
+
+                        // Persist after every medicine so progress is never lost
+                        doneSet.add(slug);
+                        checkpoint.done.push(slug);
+                        saveOutput(results);
+                        saveCheckpoint(checkpoint);
+
+                        console.log(`    ✓ Saved: ${item.name}`);
+                        scraped = true;
+                        break;
+                    } catch (err) {
+                        if (attempt < RETRY_LIMIT) {
+                            const wait = RETRY_DELAY * Math.pow(2, attempt - 1); // 3 s → 6 s → 12 s
+                            console.warn(
+                                `    ⚠ Attempt ${attempt}/${RETRY_LIMIT} failed: ` +
+                                `${err.message.split("\n")[0]} — retrying in ${wait / 1000}s…`
+                            );
+                            await delay(wait);
+                        } else {
+                            console.error(
+                                `    ✗ Gave up after ${RETRY_LIMIT} attempts: ` +
+                                `${item.name} — ${err.message.split("\n")[0]}`
+                            );
+                        }
+                    }
+                }
+
+                await detailPage.close();
+                // Jittered delay avoids metronomic request patterns that trigger rate-limiting
+                if (scraped) await delay(jitterDelay());
+            }
+        }
+    } finally {
+        await browser.close();
+    }
+
+    console.log(`\nDone. ${results.length} medicines written to ${OUTPUT_FILE}`);
+
+    // Remove checkpoint on clean completion so the next full run starts fresh
+    if (fs.existsSync(CHECKPOINT_FILE)) fs.unlinkSync(CHECKPOINT_FILE);
+}
+
+scrape().catch((err) => {
+    console.error("Fatal scraper error:", err.message);
+    process.exit(1);
+});

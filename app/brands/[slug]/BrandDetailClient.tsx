@@ -24,21 +24,26 @@ import MonitorHeartIcon from "@mui/icons-material/MonitorHeart";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import ArticleIcon from "@mui/icons-material/Article";
 import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
 import MedicineBadge from "@/components/ui/MedicineBadge";
 import MedicineCard from "@/components/medicine/MedicineCard";
 import type { Medicine } from "@/lib/data";
 import { tokens } from "@/lib/theme";
 
-const TAB_ICONS: Record<string, React.ReactNode> = {
-  Composition:     <ScienceIcon sx={{ fontSize: 18 }} />,
-  Indications:     <LocalHospitalIcon sx={{ fontSize: 18 }} />,
-  Dosage:          <MonitorHeartIcon sx={{ fontSize: 18 }} />,
-  "Side Effects":  <WarningAmberIcon sx={{ fontSize: 18 }} />,
-  Warnings:        <InfoOutlinedIcon sx={{ fontSize: 18 }} />,
-  Storage:         <AcUnitIcon sx={{ fontSize: 18 }} />,
+// Known section → icon mapping; unknown sections fall back to ArticleIcon
+const SECTION_ICONS: Record<string, React.ReactNode> = {
+  Composition:      <ScienceIcon sx={{ fontSize: 18 }} />,
+  Indications:      <LocalHospitalIcon sx={{ fontSize: 18 }} />,
+  Dosage:           <MonitorHeartIcon sx={{ fontSize: 18 }} />,
+  "Side Effects":   <WarningAmberIcon sx={{ fontSize: 18 }} />,
+  Warnings:         <InfoOutlinedIcon sx={{ fontSize: 18 }} />,
+  Storage:          <AcUnitIcon sx={{ fontSize: 18 }} />,
 };
-const TABS = Object.keys(TAB_ICONS);
+
+function iconFor(section: string): React.ReactNode {
+  return SECTION_ICONS[section] ?? <ArticleIcon sx={{ fontSize: 18 }} />;
+}
 
 interface Props {
   med: Medicine;
@@ -47,30 +52,34 @@ interface Props {
 }
 
 export default function BrandDetailClient({ med, related, tabContent }: Props) {
+  // Derive tab list dynamically from whatever sections are present
+  const sections = Object.keys(tabContent);
   const [activeTab, setActiveTab] = useState(0);
   const [expandedAccordion, setExpandedAccordion] = useState<string | false>(false);
 
-  const infoRows = [
+  const infoRows: [string, string][] = [
     ["Generic Name", med.generic],
-    ["Strength", med.strength],
-    ["Form", med.form],
-    ["Pack Size", med.pack],
-    ["Category", med.category.charAt(0).toUpperCase() + med.category.slice(1)],
-    ["Price", med.price],
+    ["Strength",     med.strength],
+    ["Form",         med.form],
+    ["Pack Size",    med.pack],
+    ["Category",     med.category.charAt(0).toUpperCase() + med.category.slice(1)],
+    ["Price",        med.price],
   ];
+
+  const activeSection = sections[activeTab] ?? "";
 
   return (
     <Container maxWidth="lg" sx={{ py: { xs: "15px", md: "25px" }, px: { xs: "10px", md: "20px" } }}>
       {/* Breadcrumbs */}
       <AppBreadcrumbs crumbs={[
-        { label: "Home", href: "/" },
+        { label: "Home",       href: "/" },
         { label: "All Brands", href: "/brands" },
         { label: med.name },
       ]} />
 
       {/* ── Hero Section ── */}
       <Grid container spacing={{ xs: 2, md: 4 }} sx={{ mb: 4 }}>
-        {/* Image */}
+        {/* Placeholder image / icon */}
         <Grid item xs={12} md="auto">
           <Box sx={{
             width: { xs: 150, md: 300 }, height: { xs: 150, md: 300 },
@@ -93,19 +102,16 @@ export default function BrandDetailClient({ med, related, tabContent }: Props) {
               <MedicineBadge badge={med.badge} />
             </Box>
 
-            {/* Medicine Name */}
-            <Typography variant="h4" sx={{ fontSize: { xs: 20, md: 28 }, mb: "6px" }}>
+            <Typography variant="h4" component="h1" sx={{ fontSize: { xs: 20, md: 28 }, mb: "6px" }}>
               {med.name}
             </Typography>
 
-            {/* Manufacturer */}
             <Typography variant="body2" sx={{ fontSize: { xs: 12, md: 14 }, mb: "8px" }}>
               by <strong>{med.manufacturer}</strong>
             </Typography>
 
             <Divider sx={{ my: 2 }} />
 
-            {/* Info Grid */}
             <Grid container spacing={1.5} sx={{ mb: 3 }}>
               {infoRows.map(([label, value]) => (
                 <Grid item xs={6} sm={4} key={label}>
@@ -119,7 +125,6 @@ export default function BrandDetailClient({ med, related, tabContent }: Props) {
               ))}
             </Grid>
 
-            {/* Actions */}
             <Box sx={{ display: "flex", gap: 1.5, flexWrap: "wrap" }}>
               <Button variant="contained" startIcon={<LocalHospitalIcon />} sx={{ minHeight: 44 }}>
                 View Full Details
@@ -133,58 +138,64 @@ export default function BrandDetailClient({ med, related, tabContent }: Props) {
       </Grid>
 
       {/* ── Tabs (Desktop) ── */}
-      <Typography variant="h5" sx={{ mb: 2, display: { xs: "none", md: "block" } }}>Medicine Information</Typography>
-
-      <Box sx={{ display: { xs: "none", md: "block" }, mb: 4 }}>
-        <Tabs
-          value={activeTab}
-          onChange={(_, v) => setActiveTab(v)}
-          variant="scrollable"
-          scrollButtons="auto"
-          TabIndicatorProps={{ style: { backgroundColor: tokens.primary, height: 3 } }}
-          sx={{ borderBottom: `2px solid ${tokens.border}`, mb: 2 }}
-        >
-          {TABS.map((t) => (
-            <Tab key={t} label={t} icon={TAB_ICONS[t] as any} iconPosition="start" />
-          ))}
-        </Tabs>
-
-        <Paper elevation={0} sx={{ p: 3 }}>
-          <Typography variant="h6" sx={{ mb: 1.5, display: "flex", alignItems: "center", gap: 1 }}>
-            {TAB_ICONS[TABS[activeTab]]} {TABS[activeTab]}
+      {sections.length > 0 && (
+        <>
+          <Typography variant="h5" sx={{ mb: 2, display: { xs: "none", md: "block" } }}>
+            Medicine Information
           </Typography>
-          <Divider sx={{ mb: 2 }} />
-          <Typography variant="body1" sx={{ lineHeight: 1.7 }}>
-            {tabContent[TABS[activeTab]]}
-          </Typography>
-        </Paper>
-      </Box>
 
-      {/* ── Accordion (Mobile) ── */}
-      <Box sx={{ display: { xs: "block", md: "none" }, mb: 4 }}>
-        <Typography variant="h5" sx={{ mb: 2, fontSize: 18 }}>Medicine Information</Typography>
-        {TABS.map((t) => (
-          <Accordion
-            key={t}
-            expanded={expandedAccordion === t}
-            onChange={(_, open) => setExpandedAccordion(open ? t : false)}
-            elevation={0}
-          >
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                <Box sx={{ color: tokens.primary }}>{TAB_ICONS[t]}</Box>
-                <Typography sx={{ fontWeight: 700, color: tokens.primary, fontSize: 15 }}>{t}</Typography>
-              </Box>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Divider sx={{ mb: 1.5 }} />
-              <Typography variant="body1" sx={{ fontSize: 14, lineHeight: 1.7 }}>
-                {tabContent[t]}
+          <Box sx={{ display: { xs: "none", md: "block" }, mb: 4 }}>
+            <Tabs
+              value={activeTab}
+              onChange={(_, v) => setActiveTab(v)}
+              variant="scrollable"
+              scrollButtons="auto"
+              TabIndicatorProps={{ style: { backgroundColor: tokens.primary, height: 3 } }}
+              sx={{ borderBottom: `2px solid ${tokens.border}`, mb: 2 }}
+            >
+              {sections.map((t) => (
+                <Tab key={t} label={t} icon={iconFor(t) as React.ReactElement} iconPosition="start" />
+              ))}
+            </Tabs>
+
+            <Paper elevation={0} sx={{ p: 3 }}>
+              <Typography variant="h6" sx={{ mb: 1.5, display: "flex", alignItems: "center", gap: 1 }}>
+                {iconFor(activeSection)} {activeSection}
               </Typography>
-            </AccordionDetails>
-          </Accordion>
-        ))}
-      </Box>
+              <Divider sx={{ mb: 2 }} />
+              <Typography variant="body1" sx={{ lineHeight: 1.7, whiteSpace: "pre-wrap" }}>
+                {tabContent[activeSection]}
+              </Typography>
+            </Paper>
+          </Box>
+
+          {/* ── Accordion (Mobile) ── */}
+          <Box sx={{ display: { xs: "block", md: "none" }, mb: 4 }}>
+            <Typography variant="h5" sx={{ mb: 2, fontSize: 18 }}>Medicine Information</Typography>
+            {sections.map((t) => (
+              <Accordion
+                key={t}
+                expanded={expandedAccordion === t}
+                onChange={(_, open) => setExpandedAccordion(open ? t : false)}
+                elevation={0}
+              >
+                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <Box sx={{ color: tokens.primary }}>{iconFor(t)}</Box>
+                    <Typography sx={{ fontWeight: 700, color: tokens.primary, fontSize: 15 }}>{t}</Typography>
+                  </Box>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Divider sx={{ mb: 1.5 }} />
+                  <Typography variant="body1" sx={{ fontSize: 14, lineHeight: 1.7, whiteSpace: "pre-wrap" }}>
+                    {tabContent[t]}
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            ))}
+          </Box>
+        </>
+      )}
 
       {/* ── Related Medicines ── */}
       {related.length > 0 && (
