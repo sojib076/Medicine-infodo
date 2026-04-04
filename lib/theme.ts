@@ -1,13 +1,3 @@
-
-import { createTheme } from "@mui/material/styles";
-import { DM_Sans } from "next/font/google";
-
-export const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
 // ── Design Tokens ──────────────────────────────────────────────────────────
 export const tokens = {
   primary: "#0D47A1",
@@ -22,6 +12,3 @@ export const tokens = {
   shadowHover: "0 6px 24px rgba(13,71,161,0.13)",
   radius: "12px",
 } as const;
-
-// ── MUI Theme ──────────────────────────────────────────────────────────────
-

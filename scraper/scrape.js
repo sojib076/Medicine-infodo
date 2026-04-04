@@ -5,27 +5,36 @@ const path = require("path");
 const BASE_URL = "https://medex.com.bd";
 
 // ── Output / checkpoint paths ─────────────────────────────────────────────
-// Scraped data is written as a single JSON file that the Next.js app can read.
-const OUTPUT_FILE = path.resolve(__dirname, "../public/data/medicines.json");
-// Checkpoint persists the list of slugs already scraped so a crashed run can
-// resume from where it left off instead of restarting from zero.
+const OUTPUT_FILE    = path.resolve(__dirname, "../public/data/medicines.json");
 const CHECKPOINT_FILE = path.resolve(__dirname, "./checkpoint.json");
 
 // ── Tunables ──────────────────────────────────────────────────────────────
-const MAX_PAGES    = 2;     // number of brand-list pages to scrape
-const RETRY_LIMIT  = 3;     // attempts per URL before giving up
-const RETRY_DELAY  = 3000;  // base ms between retries (doubles each attempt)
-const NAV_TIMEOUT  = 30000; // ms for page.goto / waitForSelector
-const PAGE_DELAY   = 2500;  // ms between successive medicine requests
+const MAX_PAGES   = 2;      // number of brand-list pages to scrape
+const RETRY_LIMIT = 3;      // attempts per URL before giving up
+const RETRY_DELAY = 3000;   // base ms between retries (doubles each attempt)
+const NAV_TIMEOUT = 30000;  // ms for page.goto / waitForSelector
+const PAGE_DELAY  = 2500;   // base ms between successive medicine requests
 
-const USER_AGENT =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36";
+// ── Anti-blocking: rotate through these common desktop user-agents ─────────
+const USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+];
+
+function randomUserAgent() {
+    return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+}
+
+// Jitter: return PAGE_DELAY ± 30 % so requests don't look perfectly metronomic
+function jitterDelay(base = PAGE_DELAY) {
+    const spread = base * 0.3;
+    return base + Math.floor(Math.random() * spread * 2 - spread);
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────
-
-function cleanText(text) {
-    return text.replace(/\s+/g, " ").trim();
-}
 
 function slugify(text) {
     return text.toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -35,8 +44,41 @@ function delay(ms) {
     return new Promise((res) => setTimeout(res, ms));
 }
 
+// Block resource types that waste bandwidth and trigger fingerprinting scripts
+const BLOCKED_TYPES = new Set(["image", "media", "font", "stylesheet"]);
+// Block known analytics / ad domains
+const BLOCKED_DOMAINS = [
+    "google-analytics.com", "googletagmanager.com", "doubleclick.net",
+    "facebook.com", "fbcdn.net", "hotjar.com", "clarity.ms", "ads.com",
+];
+
+async function setupPage(browser) {
+    const page = await browser.newPage();
+    await page.setUserAgent(randomUserAgent());
+
+    // Hide WebDriver flag to reduce bot-detection risk
+    await page.evaluateOnNewDocument(() => {
+        Object.defineProperty(navigator, "webdriver", { get: () => false });
+    });
+
+    // Intercept and block unnecessary requests
+    await page.setRequestInterception(true);
+    page.on("request", (req) => {
+        const type   = req.resourceType();
+        const reqUrl = req.url();
+        const isBlockedDomain = BLOCKED_DOMAINS.some((d) => reqUrl.includes(d));
+        if (BLOCKED_TYPES.has(type) || isBlockedDomain) {
+            req.abort();
+        } else {
+            req.continue();
+        }
+    });
+
+    return page;
+}
+
 // Navigate to a URL and retry up to RETRY_LIMIT times on any network error,
-// using exponential backoff between attempts.
+// using exponential backoff between attempts (3 s → 6 s → 12 s …).
 async function gotoWithRetry(page, url, options = {}) {
     let lastErr;
     for (let attempt = 1; attempt <= RETRY_LIMIT; attempt++) {
@@ -50,7 +92,7 @@ async function gotoWithRetry(page, url, options = {}) {
         } catch (err) {
             lastErr = err;
             if (attempt < RETRY_LIMIT) {
-                const wait = RETRY_DELAY * attempt; // 3 s → 6 s → 9 s
+                const wait = RETRY_DELAY * Math.pow(2, attempt - 1); // 3 s → 6 s → 12 s
                 console.warn(
                     `  ⚠ Attempt ${attempt}/${RETRY_LIMIT} failed for ${url} ` +
                     `(${err.message.split("\n")[0]}) — retrying in ${wait / 1000}s…`
@@ -111,8 +153,7 @@ async function scrape() {
     });
 
     try {
-        const listPage = await browser.newPage();
-        await listPage.setUserAgent(USER_AGENT);
+        const listPage = await setupPage(browser);
 
         for (let p = 1; p <= MAX_PAGES; p++) {
             const url = `${BASE_URL}/brands?page=${p}`;
@@ -144,8 +185,8 @@ async function scrape() {
                 }
 
                 console.log(`  → Scraping: ${item.name}`);
-                const detailPage = await browser.newPage();
-                await detailPage.setUserAgent(USER_AGENT);
+                // Each detail page gets a fresh page with a rotated user-agent
+                const detailPage = await setupPage(browser);
 
                 let scraped = false;
 
@@ -225,7 +266,7 @@ async function scrape() {
                         break;
                     } catch (err) {
                         if (attempt < RETRY_LIMIT) {
-                            const wait = RETRY_DELAY * attempt;
+                            const wait = RETRY_DELAY * Math.pow(2, attempt - 1); // 3 s → 6 s → 12 s
                             console.warn(
                                 `    ⚠ Attempt ${attempt}/${RETRY_LIMIT} failed: ` +
                                 `${err.message.split("\n")[0]} — retrying in ${wait / 1000}s…`
@@ -241,7 +282,8 @@ async function scrape() {
                 }
 
                 await detailPage.close();
-                if (scraped) await delay(PAGE_DELAY);
+                // Jittered delay avoids metronomic request patterns that trigger rate-limiting
+                if (scraped) await delay(jitterDelay());
             }
         }
     } finally {
