@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 # ── Paths ─────────────────────────────────────────────────────────────────
 BASE_DIR       = Path(__file__).parent
@@ -162,13 +162,8 @@ def extract_text(node) -> str:
     """
     result = []
     for child in node.children:
-        if hasattr(child, "name") and child.name is None:
-            # NavigableString
+        if isinstance(child, NavigableString):
             text = child.strip()
-            if text:
-                result.append(text + " ")
-        elif not hasattr(child, "name"):
-            text = str(child).strip()
             if text:
                 result.append(text + " ")
         elif child.name == "br":
@@ -249,7 +244,7 @@ def scrape() -> None:
 
                     # Verify we got something useful
                     if not data["sections"]:
-                        raise ValueError("No sections found — page may not have loaded correctly")
+                        raise ValueError("No sections found — page content may be invalid or empty")
 
                     results.append({
                         "slug":         slug,
@@ -263,7 +258,7 @@ def scrape() -> None:
                     })
 
                     done_set.add(slug)
-                    checkpoint["done"].append(slug)
+                    checkpoint["done"] = list(done_set)
                     save_output(results)
                     save_checkpoint(checkpoint)
 
