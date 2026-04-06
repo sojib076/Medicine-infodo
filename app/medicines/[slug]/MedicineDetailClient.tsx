@@ -177,6 +177,9 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
   // Derive introduction text from Indications section (first sentence).
   // Split only on ". " followed by an uppercase letter to avoid splitting on
   // decimal numbers (e.g. "0.5 mg") or abbreviations within a sentence.
+  // Note: this heuristic may occasionally grab two short sentences when an
+  // abbreviation (e.g. "i.v.") is followed by a capital — acceptable for
+  // a brief introductory snippet where exactness is not critical.
   const indicationsText = sections["Indications"] ?? sections["Indication"] ?? "";
   const introSentence = indicationsText
     ? indicationsText.split(/\.(?=\s+[A-Z])/)[0].replace(/\.$/, "") + "."

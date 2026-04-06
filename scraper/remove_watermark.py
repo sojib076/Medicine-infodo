@@ -203,7 +203,7 @@ def _colour_detect(hsv: np.ndarray, roi_rects: List[Tuple[int, int, int, int]],
 
 # ── Main processing ───────────────────────────────────────────────────────────
 
-def remove_watermark(img: np.ndarray) -> tuple[np.ndarray, bool]:
+def remove_watermark(img: np.ndarray) -> Tuple[np.ndarray, bool]:
     """
     Detect and remove the MedEx watermark from *img*.
 
@@ -244,11 +244,11 @@ def process_image(src: Path, dst: Path, inplace: bool) -> str:
     Process a single image file.  Returns a status string for logging.
     """
     if dst.exists() and not inplace:
-        return f"skip (exists): {src.name}"
+        return f"skip: {src.name} (already exists)"
 
     img = cv2.imread(str(src), cv2.IMREAD_UNCHANGED)
     if img is None:
-        return f"error (unreadable): {src.name}"
+        return f"error: {src.name} (unreadable)"
 
     # Normalise: always work in BGR (strip alpha if present)
     if img.ndim == 2:
@@ -262,7 +262,7 @@ def process_image(src: Path, dst: Path, inplace: bool) -> str:
 
     # For WebP, force lossless-like high quality to preserve medicine details
     ext = dst.suffix.lower()
-    encode_params: list[int] = []
+    encode_params: List[int] = []
     if ext == ".webp":
         encode_params = [cv2.IMWRITE_WEBP_QUALITY, 95]
     elif ext in {".jpg", ".jpeg"}:
