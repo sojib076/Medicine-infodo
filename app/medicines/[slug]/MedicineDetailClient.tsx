@@ -17,6 +17,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Divider from "@mui/material/Divider";
 import Chip from "@mui/material/Chip";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import MedicationIcon from "@mui/icons-material/Medication";
 import ScienceIcon from "@mui/icons-material/Science";
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
@@ -165,12 +166,14 @@ interface Props {
   related: MedicineIndex[];
   sections: Record<string, string>;
   manufacturerSlug: string;
+  faqEntries: Array<{ question: string; answer: string }>;
 }
 
-export default function MedicineDetailClient({ med, related, sections, manufacturerSlug }: Props) {
+export default function MedicineDetailClient({ med, related, sections, manufacturerSlug, faqEntries }: Props) {
   const sectionKeys = Object.keys(sections);
   const [activeTab, setActiveTab] = useState(0);
   const [expandedAccordion, setExpandedAccordion] = useState<string | false>(false);
+  const [expandedFaq, setExpandedFaq] = useState<number | false>(0);
 
   const activeSection = sectionKeys[activeTab] ?? "";
 
@@ -373,6 +376,70 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
             ))}
           </Box>
         </>
+      )}
+
+      {/* ── Common Questions (FAQ) ── */}
+      {faqEntries.length > 0 && (
+        <Box sx={{ mb: 4 }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 2.5 }}>
+            <HelpOutlineIcon sx={{ fontSize: 26, color: "#00838F" }} aria-hidden="true" />
+            <Typography
+              variant="h5"
+              component="h2"
+              sx={{ fontWeight: 800, fontSize: { xs: 18, md: 22 }, color: "#00695C" }}
+            >
+              Common Questions
+            </Typography>
+          </Box>
+
+          {faqEntries.map((entry, i) => (
+            <Accordion
+              key={i}
+              expanded={expandedFaq === i}
+              onChange={(_, open) => setExpandedFaq(open ? i : false)}
+              elevation={0}
+              sx={{
+                mb: "10px",
+                border: "1px solid",
+                borderColor: expandedFaq === i ? "#80CBC4" : "#E0F2F1",
+                borderRadius: `${tokens.radius} !important`,
+                "&:before": { display: "none" },
+                transition: "border-color 0.2s",
+              }}
+            >
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon sx={{ color: "#00838F" }} />}
+                aria-controls={`faq-content-${i}`}
+                id={`faq-header-${i}`}
+                sx={{
+                  borderRadius: tokens.radius,
+                  bgcolor: expandedFaq === i ? "#E0F2F1" : "transparent",
+                  "& .MuiAccordionSummary-content": { my: 1.2 },
+                  transition: "background-color 0.2s",
+                }}
+              >
+                <Typography
+                  component="h3"
+                  sx={{
+                    fontWeight: 700,
+                    fontSize: { xs: 14, md: 15 },
+                    color: "#00695C",
+                    lineHeight: 1.5,
+                    pr: 1,
+                  }}
+                >
+                  {entry.question}
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails id={`faq-content-${i}`} sx={{ pt: 0, px: 2.5, pb: 2 }}>
+                <Divider sx={{ mb: 1.5, borderColor: "#B2DFDB" }} />
+                <Typography sx={{ fontSize: { xs: 13, md: 14 }, color: tokens.body, lineHeight: 1.8 }}>
+                  {entry.answer}
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          ))}
+        </Box>
       )}
 
       {/* ── Related Medicines ── */}

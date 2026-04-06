@@ -201,6 +201,7 @@ export default function MedicineDetailPage({ params }: Props) {
         related={related}
         sections={sections}
         manufacturerSlug={manufacturerSlug}
+        faqEntries={faqEntries}
       />
     </>
   );
