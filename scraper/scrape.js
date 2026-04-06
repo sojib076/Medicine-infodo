@@ -1,11 +1,15 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
+const https = require("https");
+const http  = require("http");
 
 const BASE_URL = "https://medex.com.bd";
 
 // ── Output / checkpoint paths ─────────────────────────────────────────────
-const OUTPUT_FILE    = path.resolve(__dirname, "../public/data/medicines.json");
+const INDEX_FILE      = path.resolve(__dirname, "../public/data/medicines-index.json");
+const MD_DIR          = path.resolve(__dirname, "../public/data/medicines");
+const IMAGES_DIR      = path.resolve(__dirname, "../public/images/medicines");
 const CHECKPOINT_FILE = path.resolve(__dirname, "./checkpoint.json");
 
 // ── Tunables ──────────────────────────────────────────────────────────────
@@ -123,17 +127,51 @@ function saveCheckpoint(checkpoint) {
 
 function loadExistingData() {
     try {
-        if (fs.existsSync(OUTPUT_FILE)) {
-            return JSON.parse(fs.readFileSync(OUTPUT_FILE, "utf8"));
+        if (fs.existsSync(INDEX_FILE)) {
+            return JSON.parse(fs.readFileSync(INDEX_FILE, "utf8"));
         }
     } catch (_) {}
     return [];
 }
 
-function saveOutput(data) {
-    const dir = path.dirname(OUTPUT_FILE);
+function saveIndex(data) {
+    const dir = path.dirname(INDEX_FILE);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
+    fs.writeFileSync(INDEX_FILE, JSON.stringify(data, null, 2));
+}
+
+/** Write per-medicine sections to a .md file in ## Heading\nContent format. */
+function writeMd(slug, sections) {
+    if (!fs.existsSync(MD_DIR)) fs.mkdirSync(MD_DIR, { recursive: true });
+    const parts = Object.entries(sections).map(([title, body]) => `## ${title}\n${body}`);
+    fs.writeFileSync(path.join(MD_DIR, `${slug}.md`), parts.join("\n\n"), "utf8");
+}
+
+/** Download medicine image locally; resolves to the local public path or a fallback. */
+function downloadImage(imageUrl, slug) {
+    return new Promise((resolve) => {
+        if (!imageUrl) { resolve(null); return; }
+        const urlObj = new URL(imageUrl);
+        const ext = path.extname(urlObj.pathname) || ".webp";
+        const filename = `${slug}${ext}`;
+        const localPath = path.join(IMAGES_DIR, filename);
+        if (fs.existsSync(localPath)) { resolve(`/images/medicines/${filename}`); return; }
+        if (!fs.existsSync(IMAGES_DIR)) fs.mkdirSync(IMAGES_DIR, { recursive: true });
+        const file = fs.createWriteStream(localPath);
+        const proto = urlObj.protocol === "https:" ? https : http;
+        proto.get(imageUrl, (res) => {
+            res.pipe(file);
+            file.on("finish", () => {
+                file.close();
+                console.log(`    📷 Image saved: ${filename}`);
+                resolve(`/images/medicines/${filename}`);
+            });
+        }).on("error", (err) => {
+            fs.unlink(localPath, () => {});
+            console.warn(`    ⚠ Image download failed: ${err.message}`);
+            resolve(imageUrl); // fall back to remote URL
+        });
+    });
 }
 
 // ── Main scraper ──────────────────────────────────────────────────────────
@@ -244,21 +282,22 @@ async function scrape() {
                             return { sections, image };
                         });
 
+                        const localImage = await downloadImage(data.image, slug);
+                        writeMd(slug, data.sections);
+
                         results.push({
                             slug,
                             name:         item.name,
                             strength:     item.strength,
                             generic:      item.generic,
                             manufacturer: item.company,
-                            url:          item.url,
-                            image:        data.image || null,
-                            sections:     data.sections,
+                            image:        localImage,
                         });
 
                         // Persist after every medicine so progress is never lost
                         doneSet.add(slug);
                         checkpoint.done.push(slug);
-                        saveOutput(results);
+                        saveIndex(results);
                         saveCheckpoint(checkpoint);
 
                         console.log(`    ✓ Saved: ${item.name}`);
@@ -290,7 +329,7 @@ async function scrape() {
         await browser.close();
     }
 
-    console.log(`\nDone. ${results.length} medicines written to ${OUTPUT_FILE}`);
+    console.log(`\nDone. ${results.length} medicines written to ${INDEX_FILE}`);
 
     // Remove checkpoint on clean completion so the next full run starts fresh
     if (fs.existsSync(CHECKPOINT_FILE)) fs.unlinkSync(CHECKPOINT_FILE);
