@@ -1,81 +1,92 @@
 // app/brands/[slug]/page.tsx
+// Shows all medicines from a specific manufacturer brand.
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Script from "next/script";
-import { medicines, tabContent } from "@/lib/data";
-import { getScrapedMedicine } from "@/lib/scraped-data.server";
-import BrandDetailClient from "./BrandDetailClient";
+import NextLink from "next/link";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import BusinessIcon from "@mui/icons-material/Business";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
+import MedicineCard from "@/components/medicine/MedicineCard";
+import {
+  getManufacturers,
+  getMedicinesByManufacturer,
+} from "@/lib/scraped-data.server";
+import { tokens } from "@/lib/theme";
 
 const BASE_URL = "https://medinfo.com.bd";
 
 interface Props { params: { slug: string } }
 
 export async function generateStaticParams() {
-  return medicines.map((m) => ({ slug: m.slug }));
+  return getManufacturers().map((m) => ({ slug: m.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const med = medicines.find((m) => m.slug === params.slug);
-  if (!med) return {};
-  const title = `${med.name} – ${med.generic} ${med.strength}`;
-  const description = `${med.name} by ${med.manufacturer}. Generic: ${med.generic} ${med.strength}. Dosage, side effects, warnings, composition, and storage information.`;
+  const mfr = getManufacturers().find((m) => m.slug === params.slug);
+  if (!mfr) return {};
+  const title = `${mfr.name} Medicines – MedInfoBD`;
+  const description = `Browse all ${mfr.count} medicines manufactured by ${mfr.name} available in Bangladesh.`;
   return {
     title,
     description,
-    keywords: [med.name, med.generic, med.manufacturer, "medicine bangladesh", "drug information"],
-    openGraph: {
-      title,
-      description,
-      url: `${BASE_URL}/brands/${med.slug}`,
-      siteName: "MedInfoBD",
-      locale: "en_BD",
-      type: "article",
-    },
+    openGraph: { title, description, url: `${BASE_URL}/brands/${mfr.slug}`, siteName: "MedInfoBD", locale: "en_BD", type: "website" },
     twitter: { card: "summary", title, description },
-    alternates: { canonical: `${BASE_URL}/brands/${med.slug}` },
+    alternates: { canonical: `${BASE_URL}/brands/${mfr.slug}` },
   };
 }
 
-export default function BrandDetailPage({ params }: Props) {
-  const med = medicines.find((m) => m.slug === params.slug);
-  if (!med) notFound();
+export default function BrandMedicinesPage({ params }: Props) {
+  const mfr = getManufacturers().find((m) => m.slug === params.slug);
+  if (!mfr) notFound();
 
-  const related = medicines
-    .filter((m) => m.slug !== med.slug && (m.category === med.category || m.generic === med.generic))
-    .slice(0, 4);
-
-  // Prefer sections from the scraped JSON; fall back to demo tabContent
-  const scraped = getScrapedMedicine(params.slug);
-  const resolvedTabContent = scraped?.sections ?? tabContent;
-
-  // JSON-LD: Drug schema (MedicalEntity)
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Drug",
-    name: med.name,
-    description: `${med.name} is a ${med.generic} ${med.strength} ${med.form} manufactured by ${med.manufacturer}.`,
-    activeIngredient: med.generic,
-    manufacturer: {
-      "@type": "Organization",
-      name: med.manufacturer,
-    },
-    dosageForm: med.form,
-    strengthValue: med.strength,
-    url: `${BASE_URL}/brands/${med.slug}`,
-  };
+  const medicines = getMedicinesByManufacturer(params.slug);
 
   return (
-    <>
-      <Script
-        id={`jsonld-drug-${med.slug}`}
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <BrandDetailClient
-        med={med}
-        related={related}
-        tabContent={resolvedTabContent}
-      />
-    </>
+    <Container maxWidth="lg" sx={{ py: { xs: "15px", md: "25px" }, px: { xs: "10px", md: "20px" } }}>
+      <AppBreadcrumbs crumbs={[
+        { label: "Home",   href: "/" },
+        { label: "Brands", href: "/brands" },
+        { label: mfr.name },
+      ]} />
+
+      {/* Header */}
+      <Box sx={{ display: "flex", alignItems: "flex-start", gap: 2, mb: 4 }}>
+        <Box sx={{
+          width: 56, height: 56, flexShrink: 0, borderRadius: "12px",
+          background: `linear-gradient(135deg, ${tokens.primary}18, ${tokens.accent}22)`,
+          display: "flex", alignItems: "center", justifyContent: "center",
+        }}>
+          <BusinessIcon sx={{ color: tokens.primary, fontSize: 28 }} />
+        </Box>
+        <Box>
+          <Typography variant="h4" sx={{ mb: 0.3, fontWeight: 800 }}>{mfr.name}</Typography>
+          <Typography variant="body1" sx={{ color: tokens.secondary }}>
+            {medicines.length} medicine{medicines.length !== 1 ? "s" : ""} in our database
+          </Typography>
+        </Box>
+      </Box>
+
+      {medicines.length === 0 ? (
+        <Box sx={{ textAlign: "center", py: 8 }}>
+          <Typography variant="h6" sx={{ color: tokens.secondary, mb: 2 }}>No medicines found for this brand.</Typography>
+          <Button component={NextLink} href="/brands" startIcon={<ArrowBackIcon />} variant="outlined">
+            Back to Brands
+          </Button>
+        </Box>
+      ) : (
+        <Grid container spacing={{ xs: 1, md: 2 }}>
+          {medicines.map((med) => (
+            <Grid item xs={12} sm={6} md={3} key={med.slug}>
+              <MedicineCard med={med} />
+            </Grid>
+          ))}
+        </Grid>
+      )}
+    </Container>
   );
 }
