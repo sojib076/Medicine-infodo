@@ -141,6 +141,9 @@ def download_image(session: requests.Session, image_url: str, slug: str):
     """Download medicine image locally; returns the local public path or None."""
     if not image_url:
         return None
+    # Inline data URIs (e.g. lazy-load placeholder SVGs) cannot be fetched via HTTP
+    if image_url.startswith("data:"):
+        return None
     url_path = image_url.split("?")[0]
     ext = os.path.splitext(url_path)[1] or ".webp"
     filename = f"{slug}{ext}"
@@ -235,7 +238,16 @@ def parse_detail_page(html: str) -> dict:
     if not image:
         img = soup.select_one(".img-defer")
         if img:
-            image = img.get("src")
+            # Prefer lazy-load attributes over src (src is often a placeholder data URI)
+            image = (
+                img.get("data-src")
+                or img.get("data-original")
+                or img.get("data-lazy-src")
+                or img.get("src")
+            )
+            # Discard inline data URIs — they are placeholder SVGs, not real images
+            if image and image.startswith("data:"):
+                image = None
 
     return {"sections": sections, "image": image}
 
