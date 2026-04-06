@@ -25,10 +25,9 @@ import LocalPharmacyIcon from "@mui/icons-material/LocalPharmacy";
 import { tokens } from "@/lib/theme";
 
 const navItems = [
-  { label: "All Brands", href: "/brands" },
-  { label: "Categories", href: "/categories" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Search", href: "/search" },
+  { label: "Medicines", href: "/medicines" },
+  { label: "Brands",    href: "/brands" },
+  { label: "Search",    href: "/search" },
 ];
 
 export default function Header() {

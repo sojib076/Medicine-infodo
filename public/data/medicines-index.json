@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "3-bion",
+    "name": "3 Bion",
+    "strength": "100 mg+200 mg+200 mcg",
+    "generic": "Vitamin B1+B6+B12",
+    "manufacturer": "Jenphar Bangladesh Ltd.",
+    "image": "https://medex.com.bd/storage/images/packaging/3-bion-100-mg-tablet-82838507321-i1-5EF11Vv0tjz2c3LfvMxO.webp"
+  },
+  {
+    "slug": "napa",
+    "name": "Napa",
+    "strength": "500 mg",
+    "generic": "Paracetamol",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "napa-extend",
+    "name": "Napa Extend",
+    "strength": "665 mg",
+    "generic": "Paracetamol",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "azimax",
+    "name": "Azimax",
+    "strength": "500 mg",
+    "generic": "Azithromycin",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "seclo",
+    "name": "Seclo",
+    "strength": "20 mg",
+    "generic": "Omeprazole",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexo",
+    "name": "Fexo",
+    "strength": "120 mg",
+    "generic": "Fexofenadine Hydrochloride",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "pantonix",
+    "name": "Pantonix",
+    "strength": "40 mg",
+    "generic": "Pantoprazole Sodium",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "losectil",
+    "name": "Losectil",
+    "strength": "40 mg",
+    "generic": "Omeprazole",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "cef-3",
+    "name": "Cef-3",
+    "strength": "200 mg",
+    "generic": "Cefixime",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "cetrizin",
+    "name": "Cetrizin",
+    "strength": "10 mg",
+    "generic": "Cetirizine Hydrochloride",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "amoxil",
+    "name": "Amoxil",
+    "strength": "250 mg",
+    "generic": "Amoxicillin",
+    "manufacturer": "GlaxoSmithKline Bangladesh Ltd.",
+    "image": null
+  },
+  {
+    "slug": "zimax",
+    "name": "Zimax",
+    "strength": "250 mg",
+    "generic": "Azithromycin",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxacil",
+    "name": "Moxacil",
+    "strength": "500 mg",
+    "generic": "Amoxicillin",
+    "manufacturer": "Renata Limited",
+    "image": null
+  },
+  {
+    "slug": "cefam",
+    "name": "Cefam",
+    "strength": "500 mg",
+    "generic": "Cephalexin",
+    "manufacturer": "Drug International Ltd.",
+    "image": null
+  },
+  {
+    "slug": "clavam",
+    "name": "Clavam",
+    "strength": "625 mg",
+    "generic": "Amoxicillin + Clavulanate Potassium",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxef",
+    "name": "Moxef",
+    "strength": "400 mg",
+    "generic": "Moxifloxacin Hydrochloride",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "zantac",
+    "name": "Zantac",
+    "strength": "150 mg",
+    "generic": "Ranitidine Hydrochloride",
+    "manufacturer": "GlaxoSmithKline Bangladesh Ltd.",
+    "image": null
+  }
+]

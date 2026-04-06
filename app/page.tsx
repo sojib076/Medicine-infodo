@@ -14,7 +14,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import MedicationIcon from "@mui/icons-material/Medication";
-import { categories, medicines } from "@/lib/data";
+import { getMedicinesIndex, getManufacturers } from "@/lib/scraped-data.server";
 import { tokens } from "@/lib/theme";
 import MedicineCard from "@/components/medicine/MedicineCard";
 import HomeSearch from "@/components/home/HomeSearch";
@@ -22,7 +22,7 @@ import HomeSearch from "@/components/home/HomeSearch";
 export const metadata: Metadata = {
   title: "MedInfoBD – Bangladesh Medicine Information Database",
   description:
-    "Search and explore detailed information on thousands of DGDA-approved medicines in Bangladesh. Find brand names, generics, dosage, side effects, and pricing.",
+    "Search and explore detailed information on DGDA-approved medicines in Bangladesh. Find brand names, generics, dosage, side effects, and pricing.",
   openGraph: {
     title: "MedInfoBD – Bangladesh Medicine Database",
     description:
@@ -35,17 +35,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "MedInfoBD – Bangladesh Medicine Database",
-    description:
-      "Bangladesh's most comprehensive online medicine information database.",
+    description: "Bangladesh's most comprehensive online medicine information database.",
   },
 };
-
-const STATS = [
-  { value: "30,000+", label: "Medicines", icon: "💊" },
-  { value: "12", label: "Categories", icon: "🗂️" },
-  { value: "500+", label: "Manufacturers", icon: "🏭" },
-  { value: "DGDA", label: "Approved Data", icon: "✅" },
-];
 
 const HOW_IT_WORKS = [
   {
@@ -65,9 +57,19 @@ const HOW_IT_WORKS = [
   },
 ];
 
-const featuredMedicines = medicines.filter((m) => m.badge === "Popular").slice(0, 4);
-
 export default function HomePage() {
+  const medicines = getMedicinesIndex();
+  const manufacturers = getManufacturers();
+
+  const STATS = [
+    { value: `${medicines.length}`, label: "Medicines", icon: "💊" },
+    { value: `${manufacturers.length}`, label: "Brands", icon: "🏭" },
+    { value: "DGDA", label: "Approved Data", icon: "✅" },
+    { value: "Free", label: "No Account Needed", icon: "🔓" },
+  ];
+
+  const featured = medicines.slice(0, 8);
+
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────────── */}
@@ -124,11 +126,10 @@ export default function HomePage() {
               lineHeight: 1.6,
             }}
           >
-            Detailed dosage, compositions, side effects, and DGDA-approved pricing
-            for over 30,000 medicines available in Bangladesh.
+            Detailed dosage, compositions, side effects, and DGDA-approved information
+            for medicines available in Bangladesh.
           </Typography>
 
-          {/* Search – client component */}
           <HomeSearch />
 
           <Typography sx={{ color: "rgba(255,255,255,0.6)", fontSize: 12, mt: 2 }}>
@@ -168,87 +169,27 @@ export default function HomePage() {
 
       <Container maxWidth="lg" sx={{ py: { xs: "28px", md: "48px" }, px: { xs: "10px", md: "20px" } }}>
 
-        {/* ── Browse by Category ───────────────────────────────────── */}
+        {/* ── Browse Medicines ─────────────────────────────────────── */}
         <Box sx={{ mb: { xs: "32px", md: "52px" } }}>
           <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", mb: { xs: 2, md: 3 } }}>
             <Box>
-              <Typography variant="h5" sx={{ mb: 0.4 }}>Browse by Category</Typography>
-              <Typography variant="body2">Find medicines by therapeutic class</Typography>
+              <Typography variant="h5" sx={{ mb: 0.4 }}>Browse Medicines</Typography>
+              <Typography variant="body2">
+                Showing {featured.length} of {medicines.length} medicines
+              </Typography>
             </Box>
             <Button
               component={NextLink}
-              href="/categories"
+              href="/medicines"
               endIcon={<ArrowForwardIcon />}
               sx={{ color: tokens.accent, fontWeight: 700, fontSize: 14, display: { xs: "none", sm: "flex" } }}
             >
-              All categories
-            </Button>
-          </Box>
-
-          <Grid container spacing={{ xs: 1.5, md: 2 }}>
-            {categories.slice(0, 8).map((cat) => (
-              <Grid item xs={6} sm={4} md={3} key={cat.slug}>
-                <Paper
-                  component={NextLink}
-                  href={`/categories/${cat.slug}`}
-                  elevation={0}
-                  sx={{
-                    display: "block",
-                    textDecoration: "none",
-                    p: { xs: "14px", md: "20px" },
-                    borderRadius: tokens.radius,
-                    bgcolor: tokens.cardBg,
-                    boxShadow: tokens.shadow,
-                    transition: "box-shadow 0.2s, transform 0.2s",
-                    "&:hover": { boxShadow: tokens.shadowHover, transform: "translateY(-3px)" },
-                    border: `1px solid ${tokens.border}`,
-                  }}
-                >
-                  <Typography sx={{ fontSize: { xs: 28, md: 34 }, lineHeight: 1, mb: 1 }}>{cat.icon}</Typography>
-                  <Typography
-                    sx={{ fontWeight: 700, fontSize: { xs: 14, md: 15 }, color: tokens.primary, mb: 0.3, lineHeight: 1.3 }}
-                  >
-                    {cat.name}
-                  </Typography>
-                  <Typography variant="body2" sx={{ fontSize: { xs: 11, md: 12 }, lineHeight: 1.4, mb: 1 }}>
-                    {cat.desc}
-                  </Typography>
-                  <Typography sx={{ fontSize: 11, fontWeight: 700, color: tokens.accent }}>
-                    {cat.count.toLocaleString()} medicines
-                  </Typography>
-                </Paper>
-              </Grid>
-            ))}
-          </Grid>
-
-          <Box sx={{ textAlign: "center", mt: 2, display: { xs: "block", sm: "none" } }}>
-            <Button component={NextLink} href="/categories" endIcon={<ArrowForwardIcon />} sx={{ color: tokens.accent, fontWeight: 700 }}>
-              View all categories
-            </Button>
-          </Box>
-        </Box>
-
-        <Divider sx={{ mb: { xs: "32px", md: "52px" } }} />
-
-        {/* ── Popular Medicines ─────────────────────────────────────── */}
-        <Box sx={{ mb: { xs: "32px", md: "52px" } }}>
-          <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", mb: { xs: 2, md: 3 } }}>
-            <Box>
-              <Typography variant="h5" sx={{ mb: 0.4 }}>Popular Medicines</Typography>
-              <Typography variant="body2">Most searched brands in Bangladesh</Typography>
-            </Box>
-            <Button
-              component={NextLink}
-              href="/brands"
-              endIcon={<ArrowForwardIcon />}
-              sx={{ color: tokens.accent, fontWeight: 700, fontSize: 14, display: { xs: "none", sm: "flex" } }}
-            >
-              All brands
+              All medicines
             </Button>
           </Box>
 
           <Grid container spacing={{ xs: 1, md: 2 }}>
-            {featuredMedicines.map((med) => (
+            {featured.map((med) => (
               <Grid item xs={12} sm={6} md={3} key={med.slug}>
                 <MedicineCard med={med} />
               </Grid>
@@ -256,8 +197,8 @@ export default function HomePage() {
           </Grid>
 
           <Box sx={{ textAlign: "center", mt: 2, display: { xs: "block", sm: "none" } }}>
-            <Button component={NextLink} href="/brands" endIcon={<ArrowForwardIcon />} sx={{ color: tokens.accent, fontWeight: 700 }}>
-              Browse all brands
+            <Button component={NextLink} href="/medicines" endIcon={<ArrowForwardIcon />} sx={{ color: tokens.accent, fontWeight: 700 }}>
+              View all medicines
             </Button>
           </Box>
         </Box>
@@ -345,12 +286,12 @@ export default function HomePage() {
           <Typography
             sx={{ color: "rgba(255,255,255,0.8)", fontSize: { xs: 14, md: 16 }, mb: 3, maxWidth: 500, mx: "auto" }}
           >
-            Over 30,000 DGDA-approved medicines at your fingertips. No account required.
+            DGDA-approved medicine information at your fingertips. No account required.
           </Typography>
           <Box sx={{ display: "flex", gap: 2, justifyContent: "center", flexWrap: "wrap" }}>
             <Button
               component={NextLink}
-              href="/brands"
+              href="/medicines"
               variant="contained"
               sx={{
                 bgcolor: "#fff",
@@ -360,11 +301,11 @@ export default function HomePage() {
                 "&:hover": { bgcolor: "#E3F2FD" },
               }}
             >
-              Browse All Brands
+              Browse All Medicines
             </Button>
             <Button
               component={NextLink}
-              href="/search"
+              href="/brands"
               variant="outlined"
               sx={{
                 borderColor: "rgba(255,255,255,0.6)",
@@ -374,7 +315,7 @@ export default function HomePage() {
                 "&:hover": { bgcolor: "rgba(255,255,255,0.1)", borderColor: "#fff" },
               }}
             >
-              Search Medicines
+              View Brands
             </Button>
           </Box>
         </Box>
