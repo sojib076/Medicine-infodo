@@ -171,11 +171,20 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
 
   const activeSection = sectionKeys[activeTab] ?? "";
 
-  // Derive introduction text from Indications section (first sentence / 200 chars)
+  // Derive introduction text from Indications section (first sentence)
   const indicationsText = sections["Indications"] ?? sections["Indication"] ?? "";
   const introSentence = indicationsText
-    ? indicationsText.split(/\. /)[0].replace(/\.$/, "") + "."
+    ? indicationsText.split(/\.(?:\s|$)/)[0].replace(/\.$/, "") + "."
     : null;
+
+  // Build dynamic "learn more" suffix based on available sections
+  const learnAboutParts: string[] = [];
+  if (sections["Dosage & Administration"] ?? sections["Dosage"]) learnAboutParts.push("dosage");
+  if (sections["Side Effects"]) learnAboutParts.push("side effects");
+  if (sections["Precautions & Warnings"] ?? sections["Precautions"]) learnAboutParts.push("precautions");
+  const learnAboutSuffix = learnAboutParts.length > 0
+    ? ` Learn about ${learnAboutParts.join(", ")}, and more below.`
+    : "";
 
   const imageAlt = `${med.name} ${med.strength} – ${med.generic} medicine`;
 
@@ -245,7 +254,7 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
                 variant="body2"
                 sx={{ fontSize: { xs: 13, md: 14 }, color: tokens.secondary, mb: 1.5, lineHeight: 1.7, fontStyle: "italic" }}
               >
-                {med.name} {med.strength} ({med.generic}) — {introSentence} Learn about dosage, side effects, precautions, and more below.
+                {med.name} {med.strength} ({med.generic}) — {introSentence}{learnAboutSuffix}
               </Typography>
             )}
 

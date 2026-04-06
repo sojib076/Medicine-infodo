@@ -18,14 +18,22 @@ export async function generateStaticParams() {
   return getMedicinesIndex().map((m) => ({ slug: m.slug }));
 }
 
+/** Builds an SEO title guaranteed to be ≤ 60 characters. */
+function buildPageTitle(name: string, strength: string, generic: string): string {
+  const full = `${name} ${strength} – ${generic} | MedInfoBD`;
+  if (full.length <= 60) return full;
+  const withoutSite = `${name} ${strength} – ${generic}`;
+  if (withoutSite.length <= 60) return withoutSite;
+  const nameStrength = `${name} ${strength}`;
+  if (nameStrength.length <= 60) return nameStrength;
+  // Last resort: truncate with ellipsis
+  return nameStrength.slice(0, 57) + "…";
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const med = getMedicineBySlug(params.slug);
   if (!med) return {};
-  const rawTitle = `${med.name} ${med.strength} – ${med.generic} | MedInfoBD`;
-  // Keep title ≤ 60 chars by trimming the template suffix if needed
-  const title = rawTitle.length > 60
-    ? `${med.name} ${med.strength} – ${med.generic}`
-    : rawTitle;
+  const title = buildPageTitle(med.name, med.strength, med.generic);
   const description = `${med.name} (${med.generic} ${med.strength}) by ${med.manufacturer}. Dosage, side effects, indications, composition and storage information.`;
   return {
     title,
@@ -59,6 +67,9 @@ function deriveDosageForm(name: string, strength: string): string {
   return "Tablet";
 }
 
+/** Max character limits for FAQ answers in structured data. */
+const FAQ_ANSWER_MAX_CHARS = 500;
+
 /** Build FAQ entries from well-known medicine sections for use in FAQPage schema. */
 function buildFaqEntries(
   name: string,
@@ -71,7 +82,7 @@ function buildFaqEntries(
   if (indications) {
     faqs.push({
       question: `What is ${name} ${strength} used for?`,
-      answer: indications.replace(/\n+/g, " ").trim().slice(0, 500),
+      answer: indications.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
     });
   }
 
@@ -79,7 +90,7 @@ function buildFaqEntries(
   if (dosage) {
     faqs.push({
       question: `What is the dosage for ${name} ${strength}?`,
-      answer: dosage.replace(/\n+/g, " ").trim().slice(0, 500),
+      answer: dosage.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
     });
   }
 
@@ -87,7 +98,7 @@ function buildFaqEntries(
   if (sideEffects) {
     faqs.push({
       question: `What are the side effects of ${name} ${strength}?`,
-      answer: sideEffects.replace(/\n+/g, " ").trim().slice(0, 500),
+      answer: sideEffects.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
     });
   }
 
@@ -95,7 +106,7 @@ function buildFaqEntries(
   if (precautions) {
     faqs.push({
       question: `What precautions should I take with ${name}?`,
-      answer: precautions.replace(/\n+/g, " ").trim().slice(0, 500),
+      answer: precautions.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
     });
   }
 
@@ -103,7 +114,7 @@ function buildFaqEntries(
   if (storage) {
     faqs.push({
       question: `How should ${name} be stored?`,
-      answer: storage.replace(/\n+/g, " ").trim().slice(0, 300),
+      answer: storage.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
     });
   }
 
