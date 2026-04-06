@@ -16,6 +16,9 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Divider from "@mui/material/Divider";
 import Chip from "@mui/material/Chip";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MedicationIcon from "@mui/icons-material/Medication";
 import ScienceIcon from "@mui/icons-material/Science";
@@ -45,6 +48,115 @@ function iconFor(section: string): React.ReactNode {
   return SECTION_ICONS[section] ?? <ArticleIcon sx={{ fontSize: 18 }} />;
 }
 
+/**
+ * Renders medicine section text that may contain markdown-style bullet lists
+ * (`- item`) into proper semantic HTML lists, and wraps plain paragraphs.
+ */
+function SectionContent({ text, fontSize = 15 }: { text: string; fontSize?: number }) {
+  const lines = text.split("\n");
+
+  type Block =
+    | { type: "ul"; items: string[] }
+    | { type: "ol"; items: string[] }
+    | { type: "para"; lines: string[] };
+
+  const blocks: Block[] = [];
+  let currentBlock: Block | null = null;
+
+  const flushBlock = () => {
+    if (currentBlock) {
+      blocks.push(currentBlock);
+      currentBlock = null;
+    }
+  };
+
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+
+    // Unordered bullet: "- text" or "• text"
+    if (/^[-•]\s+/.test(line)) {
+      const item = line.replace(/^[-•]\s+/, "");
+      if (currentBlock?.type === "ul") {
+        currentBlock.items.push(item);
+      } else {
+        flushBlock();
+        currentBlock = { type: "ul", items: [item] };
+      }
+      continue;
+    }
+
+    // Ordered bullet: "1. text"
+    if (/^\d+\.\s+/.test(line)) {
+      const item = line.replace(/^\d+\.\s+/, "");
+      if (currentBlock?.type === "ol") {
+        currentBlock.items.push(item);
+      } else {
+        flushBlock();
+        currentBlock = { type: "ol", items: [item] };
+      }
+      continue;
+    }
+
+    // Empty line → flush current block
+    if (line.trim() === "") {
+      flushBlock();
+      continue;
+    }
+
+    // Regular text
+    if (currentBlock?.type === "para") {
+      currentBlock.lines.push(line);
+    } else {
+      flushBlock();
+      currentBlock = { type: "para", lines: [line] };
+    }
+  }
+  flushBlock();
+
+  return (
+    <>
+      {blocks.map((block, i) => {
+        if (block.type === "ul") {
+          return (
+            <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }}>
+              {block.items.map((item, j) => (
+                <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
+                  <Typography component="span" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize }}>•</Typography>
+                  <ListItemText
+                    primary={item}
+                    primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
+                  />
+                </ListItem>
+              ))}
+            </List>
+          );
+        }
+        if (block.type === "ol") {
+          return (
+            <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }} component="ol">
+              {block.items.map((item, j) => (
+                <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
+                  <Typography component="span" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize, minWidth: 20 }}>{j + 1}.</Typography>
+                  <ListItemText
+                    primary={item}
+                    primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
+                  />
+                </ListItem>
+              ))}
+            </List>
+          );
+        }
+        // paragraph
+        return (
+          <Typography key={i} variant="body1" sx={{ fontSize, lineHeight: 1.8, mb: 1.2, color: tokens.body }}>
+            {block.lines.join(" ")}
+          </Typography>
+        );
+      })}
+    </>
+  );
+}
+
 interface Props {
   med: MedicineIndex;
   related: MedicineIndex[];
@@ -58,6 +170,14 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
   const [expandedAccordion, setExpandedAccordion] = useState<string | false>(false);
 
   const activeSection = sectionKeys[activeTab] ?? "";
+
+  // Derive introduction text from Indications section (first sentence / 200 chars)
+  const indicationsText = sections["Indications"] ?? sections["Indication"] ?? "";
+  const introSentence = indicationsText
+    ? indicationsText.split(/\. /)[0].replace(/\.$/, "") + "."
+    : null;
+
+  const imageAlt = `${med.name} ${med.strength} – ${med.generic} medicine`;
 
   return (
     <Container maxWidth="lg" sx={{ py: { xs: "15px", md: "25px" }, px: { xs: "10px", md: "20px" } }}>
@@ -85,13 +205,14 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
             {med.image ? (
               <Image
                 src={med.image}
-                alt={med.name}
+                alt={imageAlt}
                 fill
                 sizes="(max-width:600px) 150px, 260px"
                 style={{ objectFit: "contain" }}
+                loading="lazy"
               />
             ) : (
-              <MedicationIcon sx={{ fontSize: { xs: 64, md: 100 }, color: tokens.primary, opacity: 0.5 }} />
+              <MedicationIcon sx={{ fontSize: { xs: 64, md: 100 }, color: tokens.primary, opacity: 0.5 }} aria-hidden="true" />
             )}
           </Box>
         </Grid>
@@ -99,8 +220,9 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
         {/* Info card */}
         <Grid item xs={12} md>
           <Paper elevation={0} sx={{ p: { xs: "16px", md: "24px" }, height: "100%", boxShadow: tokens.shadow, borderRadius: tokens.radius }}>
+            {/* H1 includes medicine name + strength for SEO */}
             <Typography variant="h4" component="h1" sx={{ fontSize: { xs: 22, md: 30 }, fontWeight: 800, mb: 0.5, color: tokens.primary }}>
-              {med.name}
+              {med.name} {med.strength}
             </Typography>
 
             <Typography variant="body2" sx={{ fontSize: { xs: 13, md: 15 }, mb: 1 }}>
@@ -110,11 +232,22 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
                 href={`/brands/${manufacturerSlug}`}
                 variant="text"
                 startIcon={<BusinessIcon sx={{ fontSize: 16 }} />}
+                aria-label={`View all medicines by ${med.manufacturer}`}
                 sx={{ p: 0, minWidth: 0, fontSize: "inherit", fontWeight: 700, color: tokens.accent, verticalAlign: "baseline", textTransform: "none" }}
               >
                 {med.manufacturer}
               </Button>
             </Typography>
+
+            {/* Introduction paragraph with primary keyword */}
+            {introSentence && (
+              <Typography
+                variant="body2"
+                sx={{ fontSize: { xs: 13, md: 14 }, color: tokens.secondary, mb: 1.5, lineHeight: 1.7, fontStyle: "italic" }}
+              >
+                {med.name} {med.strength} ({med.generic}) — {introSentence} Learn about dosage, side effects, precautions, and more below.
+              </Typography>
+            )}
 
             <Divider sx={{ my: 2 }} />
 
@@ -154,7 +287,7 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
       {/* ── Sections – Tabs (desktop) ── */}
       {sectionKeys.length > 0 && (
         <>
-          <Typography variant="h5" sx={{ mb: 2, display: { xs: "none", md: "block" } }}>
+          <Typography variant="h5" component="h2" sx={{ mb: 2, display: { xs: "none", md: "block" } }}>
             Medicine Information
           </Typography>
 
@@ -164,28 +297,40 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
               onChange={(_, v) => setActiveTab(v)}
               variant="scrollable"
               scrollButtons="auto"
+              aria-label={`${med.name} information sections`}
               TabIndicatorProps={{ style: { backgroundColor: tokens.primary, height: 3 } }}
               sx={{ borderBottom: `2px solid ${tokens.border}`, mb: 2 }}
             >
-              {sectionKeys.map((t) => (
-                <Tab key={t} label={t} icon={iconFor(t) as React.ReactElement} iconPosition="start" />
+              {sectionKeys.map((t, idx) => (
+                <Tab
+                  key={t}
+                  label={t}
+                  icon={iconFor(t) as React.ReactElement}
+                  iconPosition="start"
+                  id={`medicine-tab-${idx}`}
+                  aria-controls={`medicine-tabpanel-${idx}`}
+                />
               ))}
             </Tabs>
 
-            <Paper elevation={0} sx={{ p: 3, boxShadow: tokens.shadow, borderRadius: tokens.radius }}>
-              <Typography variant="h6" sx={{ mb: 1.5, display: "flex", alignItems: "center", gap: 1 }}>
+            <Paper
+              elevation={0}
+              role="tabpanel"
+              id={`medicine-tabpanel-${activeTab}`}
+              aria-labelledby={`medicine-tab-${activeTab}`}
+              sx={{ p: 3, boxShadow: tokens.shadow, borderRadius: tokens.radius }}
+            >
+              <Typography variant="h6" component="h2" sx={{ mb: 1.5, display: "flex", alignItems: "center", gap: 1 }}>
                 {iconFor(activeSection)} {activeSection}
               </Typography>
               <Divider sx={{ mb: 2 }} />
-              <Typography variant="body1" sx={{ lineHeight: 1.8, whiteSpace: "pre-wrap" }}>
-                {sections[activeSection]}
-              </Typography>
+              <SectionContent text={sections[activeSection] ?? ""} />
             </Paper>
           </Box>
 
           {/* ── Sections – Accordion (mobile) ── */}
           <Box sx={{ display: { xs: "block", md: "none" }, mb: 4 }}>
-            <Typography variant="h5" sx={{ mb: 2, fontSize: 18 }}>Medicine Information</Typography>
+            <Typography variant="h5" component="h2" sx={{ mb: 2, fontSize: 18 }}>Medicine Information</Typography>
             {sectionKeys.map((t) => (
               <Accordion
                 key={t}
@@ -193,17 +338,19 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
                 onChange={(_, open) => setExpandedAccordion(open ? t : false)}
                 elevation={0}
               >
-                <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls={`accordion-content-${t}`}
+                  id={`accordion-header-${t}`}
+                >
                   <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                    <Box sx={{ color: tokens.primary }}>{iconFor(t)}</Box>
-                    <Typography sx={{ fontWeight: 700, color: tokens.primary, fontSize: 15 }}>{t}</Typography>
+                    <Box sx={{ color: tokens.primary }} aria-hidden="true">{iconFor(t)}</Box>
+                    <Typography component="h2" sx={{ fontWeight: 700, color: tokens.primary, fontSize: 15 }}>{t}</Typography>
                   </Box>
                 </AccordionSummary>
-                <AccordionDetails>
+                <AccordionDetails id={`accordion-content-${t}`} aria-labelledby={`accordion-header-${t}`}>
                   <Divider sx={{ mb: 1.5 }} />
-                  <Typography variant="body1" sx={{ fontSize: 14, lineHeight: 1.8, whiteSpace: "pre-wrap" }}>
-                    {sections[t]}
-                  </Typography>
+                  <SectionContent text={sections[t] ?? ""} fontSize={14} />
                 </AccordionDetails>
               </Accordion>
             ))}
@@ -214,7 +361,7 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
       {/* ── Related Medicines ── */}
       {related.length > 0 && (
         <Box sx={{ bgcolor: "#F0F5FF", borderRadius: 4, p: { xs: "15px", md: "25px" } }}>
-          <Typography variant="h5" sx={{ mb: 2 }}>Related Medicines</Typography>
+          <Typography variant="h5" component="h2" sx={{ mb: 2 }}>Related Medicines</Typography>
           <Grid container spacing={{ xs: 1, md: 2 }}>
             {related.map((m) => (
               <Grid item xs={6} md={3} key={m.slug}>
