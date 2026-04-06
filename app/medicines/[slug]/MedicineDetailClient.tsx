@@ -121,7 +121,7 @@ function SectionContent({ text, fontSize = 15 }: { text: string; fontSize?: numb
             <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }}>
               {block.items.map((item, j) => (
                 <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
-                  <Typography component="span" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize }}>•</Typography>
+                  <Typography component="span" aria-hidden="true" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize }}>•</Typography>
                   <ListItemText
                     primary={item}
                     primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
@@ -136,7 +136,7 @@ function SectionContent({ text, fontSize = 15 }: { text: string; fontSize?: numb
             <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }} component="ol">
               {block.items.map((item, j) => (
                 <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
-                  <Typography component="span" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize, minWidth: 20 }}>{j + 1}.</Typography>
+                  <Typography component="span" aria-hidden="true" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize, minWidth: 20 }}>{j + 1}.</Typography>
                   <ListItemText
                     primary={item}
                     primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
@@ -171,10 +171,12 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
 
   const activeSection = sectionKeys[activeTab] ?? "";
 
-  // Derive introduction text from Indications section (first sentence)
+  // Derive introduction text from Indications section (first sentence).
+  // Split only on ". " followed by an uppercase letter to avoid splitting on
+  // decimal numbers (e.g. "0.5 mg") or abbreviations within a sentence.
   const indicationsText = sections["Indications"] ?? sections["Indication"] ?? "";
   const introSentence = indicationsText
-    ? indicationsText.split(/\.(?:\s|$)/)[0].replace(/\.$/, "") + "."
+    ? indicationsText.split(/\.(?=\s+[A-Z])/)[0].replace(/\.$/, "") + "."
     : null;
 
   // Build dynamic "learn more" suffix based on available sections

@@ -70,7 +70,16 @@ function deriveDosageForm(name: string, strength: string): string {
 /** Max character limits for FAQ answers in structured data. */
 const FAQ_ANSWER_MAX_CHARS = 500;
 
-/** Build FAQ entries from well-known medicine sections for use in FAQPage schema. */
+/**
+ * Builds FAQ entries from well-known medicine sections for use in the
+ * FAQPage JSON-LD structured data schema. Each entry pairs a common
+ * patient question with an answer derived from the corresponding section.
+ *
+ * @param name - Brand name of the medicine
+ * @param strength - Dosage strength (e.g., "500 mg")
+ * @param sections - Map of section titles to their text content
+ * @returns Array of question/answer pairs ready for FAQPage schema
+ */
 function buildFaqEntries(
   name: string,
   strength: string,
