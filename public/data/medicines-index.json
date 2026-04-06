@@ -43086,5 +43086,3173 @@
     "generic": "",
     "manufacturer": "Nevian Lifescience PLC",
     "image": "/images/medicines/exelon-patch-15.webp"
+  },
+  {
+    "slug": "exelon-patch-5",
+    "name": "Exelon Patch 5",
+    "strength": "4.6 mg/24 hr",
+    "generic": "",
+    "manufacturer": "Nevian Lifescience PLC",
+    "image": "/images/medicines/exelon-patch-5.webp"
+  },
+  {
+    "slug": "exemis",
+    "name": "Exemis",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exemis.webp"
+  },
+  {
+    "slug": "exephin",
+    "name": "Exephin",
+    "strength": "250 mg/vial",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exephin.webp"
+  },
+  {
+    "slug": "exfen",
+    "name": "Exfen",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "C2C Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exforge",
+    "name": "Exforge",
+    "strength": "5 mg+80 mg",
+    "generic": "",
+    "manufacturer": "Nevian Lifescience PLC",
+    "image": "/images/medicines/exforge.webp"
+  },
+  {
+    "slug": "exformin-er",
+    "name": "Exformin ER",
+    "strength": "1000 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/exformin-er.webp"
+  },
+  {
+    "slug": "exib",
+    "name": "Exib",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Prime Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exiben",
+    "name": "Exiben",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Benham Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exicof",
+    "name": "Exicof",
+    "strength": "(14 mg+6.5 mg+2 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "exifil",
+    "name": "Exifil",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "exilant",
+    "name": "Exilant",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": null
+  },
+  {
+    "slug": "exilok",
+    "name": "Exilok",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "exinil",
+    "name": "Exinil",
+    "strength": "1%+0.1%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/exinil.webp"
+  },
+  {
+    "slug": "exipain",
+    "name": "Exipain",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "exipid",
+    "name": "Exipid",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Team Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exipro",
+    "name": "Exipro",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Leon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exiron",
+    "name": "Exiron",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exiron.webp"
+  },
+  {
+    "slug": "exitra",
+    "name": "Exitra",
+    "strength": "(30 mg+100 mg+1.25 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exium",
+    "name": "Exium",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exium.jpg"
+  },
+  {
+    "slug": "exium-mups",
+    "name": "Exium MUPS",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exium-mups.jpg"
+  },
+  {
+    "slug": "exler",
+    "name": "Exler",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exler.jpg"
+  },
+  {
+    "slug": "exmart",
+    "name": "Exmart",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "MST Pharma",
+    "image": null
+  },
+  {
+    "slug": "exolev",
+    "name": "Exolev",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "SANDOZ (A Novartis Division)",
+    "image": null
+  },
+  {
+    "slug": "exome",
+    "name": "Exome",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exomi-mups",
+    "name": "Exomi MUPS",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exonid",
+    "name": "Exonid",
+    "strength": "30 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exopan",
+    "name": "Exopan",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "exophan",
+    "name": "Exophan",
+    "strength": "10 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Apollo Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exor",
+    "name": "Exor",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/exor.jpg"
+  },
+  {
+    "slug": "exovate",
+    "name": "Exovate",
+    "strength": "0.05%",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exovate.jpg"
+  },
+  {
+    "slug": "exovate-n",
+    "name": "Exovate N",
+    "strength": "(0.5 mg+5 mg+1 Lac IU)/gm",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/exovate-n.jpg"
+  },
+  {
+    "slug": "expansol",
+    "name": "Expansol",
+    "strength": "6%+0.9%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/expansol.webp"
+  },
+  {
+    "slug": "expecto",
+    "name": "Expecto",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/expecto.webp"
+  },
+  {
+    "slug": "expillin",
+    "name": "Expillin",
+    "strength": "2 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "expoten",
+    "name": "Expoten",
+    "strength": "(30 mg+100 mg+1.25 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "expres",
+    "name": "Expres",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/expres.webp"
+  },
+  {
+    "slug": "expreso",
+    "name": "Expreso",
+    "strength": "(200 mg+15 mg+15 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/expreso.webp"
+  },
+  {
+    "slug": "extals",
+    "name": "Extals",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/extals.webp"
+  },
+  {
+    "slug": "extil-plus",
+    "name": "Extil Plus",
+    "strength": "(100 mg+1.1 mg+14 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "extopel",
+    "name": "Extopel",
+    "strength": "(100 mg+1.1 mg+14 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "extracef",
+    "name": "Extracef",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/extracef.webp"
+  },
+  {
+    "slug": "extracef-ds",
+    "name": "Extracef DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/extracef-ds.jpg"
+  },
+  {
+    "slug": "extrafeel",
+    "name": "Extrafeel",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Pristine Pharmaceuticals Ltd",
+    "image": null
+  },
+  {
+    "slug": "extranil",
+    "name": "Extranil",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/extranil.webp"
+  },
+  {
+    "slug": "extreme",
+    "name": "Extreme",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exuten",
+    "name": "Exuten",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exworm",
+    "name": "Exworm",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Leon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "exzilor",
+    "name": "Exzilor",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/exzilor.webp"
+  },
+  {
+    "slug": "eye-bags-away-eye-cream",
+    "name": "Eye Bags Away Eye Cream",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "DBL Healthcare Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eye-gel",
+    "name": "Eye Gel",
+    "strength": "2%",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "eye-relief",
+    "name": "Eye Relief",
+    "strength": "99.05%",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/eye-relief.jpg"
+  },
+  {
+    "slug": "eye-q",
+    "name": "Eye-Q",
+    "strength": "60 mg+30 mg+6 mg+2 mg+15 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eyebet",
+    "name": "Eyebet",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/eyebet.webp"
+  },
+  {
+    "slug": "eyebrom",
+    "name": "Eyebrom",
+    "strength": "0.09%",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/eyebrom.webp"
+  },
+  {
+    "slug": "eyecaf",
+    "name": "Eyecaf",
+    "strength": "0.25%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/eyecaf.webp"
+  },
+  {
+    "slug": "eyedew",
+    "name": "Eyedew",
+    "strength": "0.5%+0.9%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/eyedew.webp"
+  },
+  {
+    "slug": "eyefen",
+    "name": "Eyefen",
+    "strength": "0.09%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eyefil",
+    "name": "Eyefil",
+    "strength": "1%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/eyefil.jpg"
+  },
+  {
+    "slug": "eyefresh",
+    "name": "Eyefresh",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "eyelia",
+    "name": "Eyelia",
+    "strength": "0.025%",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eyemist",
+    "name": "Eyemist",
+    "strength": "0.25%+0.3%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/eyemist.webp"
+  },
+  {
+    "slug": "eyemox",
+    "name": "Eyemox",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/eyemox.webp"
+  },
+  {
+    "slug": "eyemox-d",
+    "name": "Eyemox-D",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/eyemox-d.webp"
+  },
+  {
+    "slug": "eyephen",
+    "name": "Eyephen",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/eyephen.webp"
+  },
+  {
+    "slug": "eyephen-plus",
+    "name": "Eyephen Plus",
+    "strength": "0.1%+0.5%",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/eyephen-plus.webp"
+  },
+  {
+    "slug": "eyepro",
+    "name": "Eyepro",
+    "strength": "60 mg+30 mg+6 mg+2 mg+15 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/eyepro.webp"
+  },
+  {
+    "slug": "eyerin",
+    "name": "Eyerin",
+    "strength": "5% v/v",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "eyetear",
+    "name": "Eyetear",
+    "strength": "5% v/v",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/eyetear.jpg"
+  },
+  {
+    "slug": "eyetin",
+    "name": "Eyetin",
+    "strength": "1.5%",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eyetrop",
+    "name": "Eyetrop",
+    "strength": "1%",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eyevi",
+    "name": "Eyevi",
+    "strength": "60 mg+30 mg+6 mg+2 mg+15 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/eyevi.webp"
+  },
+  {
+    "slug": "eylon",
+    "name": "Eylon",
+    "strength": "0.1%+0.025%",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/eylon.jpg"
+  },
+  {
+    "slug": "eytex",
+    "name": "Eytex",
+    "strength": "0.1%+0.3%",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eytob",
+    "name": "Eytob",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ez-20",
+    "name": "EZ-20",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezair",
+    "name": "Ezair",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezemove",
+    "name": "Ezemove",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Globex Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezepain",
+    "name": "Ezepain",
+    "strength": "90 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/ezepain.png"
+  },
+  {
+    "slug": "ezeta",
+    "name": "Ezeta",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezeta.webp"
+  },
+  {
+    "slug": "ezetim",
+    "name": "Ezetim",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezetrol",
+    "name": "Ezetrol",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezetrol.webp"
+  },
+  {
+    "slug": "ezevent",
+    "name": "Ezevent",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/ezevent.jpg"
+  },
+  {
+    "slug": "ezex",
+    "name": "Ezex",
+    "strength": "0.05%",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/ezex.jpeg"
+  },
+  {
+    "slug": "ezide",
+    "name": "Ezide",
+    "strength": "80 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "eziflo",
+    "name": "Eziflo",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/eziflo.jpg"
+  },
+  {
+    "slug": "eziflo-d",
+    "name": "Eziflo-D",
+    "strength": "0.4 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/eziflo-d.jpg"
+  },
+  {
+    "slug": "ezipas",
+    "name": "Ezipas",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Leon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "eziride",
+    "name": "Eziride",
+    "strength": "150 mcg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezith",
+    "name": "Ezith",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "ezitor",
+    "name": "Ezitor",
+    "strength": "10 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezitor.webp"
+  },
+  {
+    "slug": "ezolid",
+    "name": "Ezolid",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/ezolid.jpeg"
+  },
+  {
+    "slug": "ezycolon",
+    "name": "EzyColon",
+    "strength": "(10 mg+3.5 gm+12 gm)/sachet",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/ezycolon.jpg"
+  },
+  {
+    "slug": "ezyfast",
+    "name": "Ezyfast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "ezyfeel",
+    "name": "Ezyfeel",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/ezyfeel.webp"
+  },
+  {
+    "slug": "ezyfix",
+    "name": "Ezyfix",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "DBL Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezygo",
+    "name": "Ezygo",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezygo.webp"
+  },
+  {
+    "slug": "ezykof",
+    "name": "Ezykof",
+    "strength": "(30 mg+100 mg+1.25 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezykof-plus",
+    "name": "Ezykof Plus",
+    "strength": "(100 mg+1.1 mg+14 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezykof-plus.webp"
+  },
+  {
+    "slug": "ezylax",
+    "name": "Ezylax",
+    "strength": "3.35 gm/5 ml",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/ezylax.jpg"
+  },
+  {
+    "slug": "ezylife",
+    "name": "Ezylife",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/ezylife.jpg"
+  },
+  {
+    "slug": "ezylife-kids",
+    "name": "Ezylife Kids",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/ezylife-kids.jpg"
+  },
+  {
+    "slug": "ezylife-max",
+    "name": "Ezylife Max",
+    "strength": "7.5 mg/ml",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/ezylife-max.jpg"
+  },
+  {
+    "slug": "ezymas",
+    "name": "Ezymas",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Novelta Bestway Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezymilk",
+    "name": "Ezymilk",
+    "strength": "3333.33 IU/ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ezymilk.jpg"
+  },
+  {
+    "slug": "ezyout",
+    "name": "Ezyout",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Kumudini Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ezytake",
+    "name": "Ezytake",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Goodman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "f-gurd",
+    "name": "F-Gurd",
+    "strength": "0.05%+1%",
+    "generic": "",
+    "manufacturer": "Ethical Drugs Limited",
+    "image": null
+  },
+  {
+    "slug": "f-lon",
+    "name": "F-Lon",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/f-lon.webp"
+  },
+  {
+    "slug": "f-pro",
+    "name": "F-Pro",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/f-pro.jpg"
+  },
+  {
+    "slug": "f-pro-plus",
+    "name": "F-Pro Plus",
+    "strength": "(137 mcg+50 mcg)/spray",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/f-pro-plus.webp"
+  },
+  {
+    "slug": "f-son",
+    "name": "F-Son",
+    "strength": "27.5 mcg/spray",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/f-son.jpg"
+  },
+  {
+    "slug": "f-zol",
+    "name": "F-Zol",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/f-zol.jpg"
+  },
+  {
+    "slug": "f-f",
+    "name": "F+F",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fabetor",
+    "name": "Fabetor",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fabetor.jpg"
+  },
+  {
+    "slug": "facid",
+    "name": "Facid",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/facid.webp"
+  },
+  {
+    "slug": "facid-bt",
+    "name": "Facid BT",
+    "strength": "2%+0.1%",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/facid-bt.jpg"
+  },
+  {
+    "slug": "facid-hc",
+    "name": "Facid HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/facid-hc.jpeg"
+  },
+  {
+    "slug": "facticin",
+    "name": "Facticin",
+    "strength": "320 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/facticin.webp"
+  },
+  {
+    "slug": "factiq",
+    "name": "Factiq",
+    "strength": "320 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "falcon",
+    "name": "Falcon",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Ethical Drugs Limited",
+    "image": null
+  },
+  {
+    "slug": "famas",
+    "name": "Famas",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/famas.webp"
+  },
+  {
+    "slug": "famicef",
+    "name": "Famicef",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/famicef.webp"
+  },
+  {
+    "slug": "famiclav",
+    "name": "Famiclav",
+    "strength": "250 mg+62.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/famiclav.jpg"
+  },
+  {
+    "slug": "famina",
+    "name": "Famina",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "famina-z",
+    "name": "Famina Z",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "famisus",
+    "name": "Famisus",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/famisus.webp"
+  },
+  {
+    "slug": "famodin",
+    "name": "Famodin",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/famodin.webp"
+  },
+  {
+    "slug": "famogen",
+    "name": "Famogen",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/famogen.jpg"
+  },
+  {
+    "slug": "famoloc",
+    "name": "Famoloc",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/famoloc.jpg"
+  },
+  {
+    "slug": "famomax",
+    "name": "Famomax",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/famomax.jpg"
+  },
+  {
+    "slug": "famonix",
+    "name": "Famonix",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "famopep",
+    "name": "Famopep",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Biogen Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "famosic",
+    "name": "Famosic",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Physic pharmaceuticals ltd.",
+    "image": null
+  },
+  {
+    "slug": "famotack",
+    "name": "Famotack",
+    "strength": "40 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/famotack.webp"
+  },
+  {
+    "slug": "famotid",
+    "name": "Famotid",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/famotid.jpg"
+  },
+  {
+    "slug": "fap",
+    "name": "Fap",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "fap-plus",
+    "name": "Fap Plus",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "fapdol",
+    "name": "Fapdol",
+    "strength": "325 mg+37.5 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "fapiravir",
+    "name": "Fapiravir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fapiravir.webp"
+  },
+  {
+    "slug": "fapravir",
+    "name": "Fapravir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "fardox",
+    "name": "Fardox",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "farin",
+    "name": "Farin",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "farlan",
+    "name": "Farlan",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/farlan.png"
+  },
+  {
+    "slug": "farmorubicin",
+    "name": "Farmorubicin",
+    "strength": "2 mg/ml",
+    "generic": "",
+    "manufacturer": "Janata Traders",
+    "image": null
+  },
+  {
+    "slug": "farobac",
+    "name": "Farobac",
+    "strength": "150 mg",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": "/images/medicines/farobac.jpg"
+  },
+  {
+    "slug": "farobest",
+    "name": "Farobest",
+    "strength": "150 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/farobest.jpg"
+  },
+  {
+    "slug": "faropen",
+    "name": "Faropen",
+    "strength": "150 mg",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/faropen.webp"
+  },
+  {
+    "slug": "farospec",
+    "name": "Farospec",
+    "strength": "150 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/farospec.webp"
+  },
+  {
+    "slug": "farpem",
+    "name": "Farpem",
+    "strength": "150 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/farpem.webp"
+  },
+  {
+    "slug": "faslodex",
+    "name": "Faslodex",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "MGH Healthcare Limited",
+    "image": "/images/medicines/faslodex.jpg"
+  },
+  {
+    "slug": "fast",
+    "name": "Fast",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fast.webp"
+  },
+  {
+    "slug": "fast-one",
+    "name": "Fast One",
+    "strength": "1000 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fast-one.webp"
+  },
+  {
+    "slug": "fast-oralsaline-n",
+    "name": "Fast oralsaline-N",
+    "strength": "10.25 gm",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fast-plus",
+    "name": "Fast Plus",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fast-plus.webp"
+  },
+  {
+    "slug": "fast-tasty-oral-saline",
+    "name": "Fast Tasty Oral Saline",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fast-xr",
+    "name": "Fast XR",
+    "strength": "665 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fast-xr.webp"
+  },
+  {
+    "slug": "fastact",
+    "name": "Fastact",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Globex Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fastcut",
+    "name": "Fastcut",
+    "strength": "30%+8%",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fastcut.webp"
+  },
+  {
+    "slug": "fastdol",
+    "name": "Fastdol",
+    "strength": "325 mg+37.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fastdol.webp"
+  },
+  {
+    "slug": "fastel",
+    "name": "Fastel",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fastel.webp"
+  },
+  {
+    "slug": "fastfit",
+    "name": "Fastfit",
+    "strength": "1% w/w",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fastfit.jpg"
+  },
+  {
+    "slug": "fatisol",
+    "name": "Fatisol",
+    "strength": "10%",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fatisol.jpg"
+  },
+  {
+    "slug": "favigan",
+    "name": "Favigan",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/favigan.webp"
+  },
+  {
+    "slug": "favilar",
+    "name": "Favilar",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/favilar.webp"
+  },
+  {
+    "slug": "favinil",
+    "name": "Favinil",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "favipir",
+    "name": "Favipir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/favipir.webp"
+  },
+  {
+    "slug": "favipira",
+    "name": "Favipira",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/favipira.webp"
+  },
+  {
+    "slug": "favira",
+    "name": "Favira",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/favira.jpg"
+  },
+  {
+    "slug": "favirab",
+    "name": "Favirab",
+    "strength": "1000 IU/5 ml",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/favirab.jpg"
+  },
+  {
+    "slug": "faviravir",
+    "name": "Faviravir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "favirest",
+    "name": "Favirest",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Everest Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "favitab",
+    "name": "Favitab",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/favitab.jpg"
+  },
+  {
+    "slug": "favivir",
+    "name": "Favivir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "favozyth",
+    "name": "Favozyth",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Kumudini Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "faxan",
+    "name": "Faxan",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/faxan.jpg"
+  },
+  {
+    "slug": "faxilin",
+    "name": "Faxilin",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Kumudini Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fbc",
+    "name": "FBC",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fbc.jpg"
+  },
+  {
+    "slug": "fd-120",
+    "name": "FD-120",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fd-120.jpg"
+  },
+  {
+    "slug": "fe-z",
+    "name": "Fe-Z",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "febout",
+    "name": "Febout",
+    "strength": "80 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "febox",
+    "name": "Febox",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/febox.webp"
+  },
+  {
+    "slug": "febulas",
+    "name": "Febulas",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/febulas.png"
+  },
+  {
+    "slug": "feburen",
+    "name": "Feburen",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/feburen.webp"
+  },
+  {
+    "slug": "febus",
+    "name": "Febus",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/febus.webp"
+  },
+  {
+    "slug": "febustat",
+    "name": "Febustat",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/febustat.webp"
+  },
+  {
+    "slug": "febux",
+    "name": "Febux",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/febux.jpg"
+  },
+  {
+    "slug": "febuxit",
+    "name": "Febuxit",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/febuxit.png"
+  },
+  {
+    "slug": "fecel-tr",
+    "name": "Fecel TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Asiatic Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fecon-bc",
+    "name": "Fecon BC",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fecon-tr",
+    "name": "Fecon TR",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fecon-z",
+    "name": "Fecon-Z",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fedrin",
+    "name": "Fedrin",
+    "strength": "25 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/fedrin.jpg"
+  },
+  {
+    "slug": "feel",
+    "name": "Feel",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/feel.jpg"
+  },
+  {
+    "slug": "feelbe-tr",
+    "name": "Feelbe TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feelex",
+    "name": "Feelex",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "feelfree",
+    "name": "Feelfree",
+    "strength": "1.8%+1%+0.4%",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feelfree.webp"
+  },
+  {
+    "slug": "feeliz",
+    "name": "Feeliz",
+    "strength": "12.5 mg+5 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feeliz.jpg"
+  },
+  {
+    "slug": "feelnor-mr",
+    "name": "Feelnor MR",
+    "strength": "35 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feelnor-mr.webp"
+  },
+  {
+    "slug": "fefa-tr",
+    "name": "Fefa TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fefun",
+    "name": "Fefun",
+    "strength": "100000 unit/ml",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feglo-fz",
+    "name": "Feglo-FZ",
+    "strength": "48 mg+0.5 mg+22.5 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/feglo-fz.webp"
+  },
+  {
+    "slug": "feglobin",
+    "name": "Feglobin",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Union Pharmaceuticals Ltd",
+    "image": null
+  },
+  {
+    "slug": "fegra",
+    "name": "Fegra",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "felbo",
+    "name": "Felbo",
+    "strength": "3%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/felbo.jpg"
+  },
+  {
+    "slug": "felo",
+    "name": "Felo",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "feluric",
+    "name": "Feluric",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feluric.webp"
+  },
+  {
+    "slug": "femanol",
+    "name": "Femanol",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femara",
+    "name": "Femara",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Nevian Lifescience PLC",
+    "image": "/images/medicines/femara.webp"
+  },
+  {
+    "slug": "femastin",
+    "name": "Femastin",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/femastin.webp"
+  },
+  {
+    "slug": "fematos",
+    "name": "Fematos",
+    "strength": "100 mg/2 ml",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fematos.webp"
+  },
+  {
+    "slug": "femavit-forte",
+    "name": "Femavit Forte",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Novelta Bestway Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femex",
+    "name": "Femex",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/femex.jpg"
+  },
+  {
+    "slug": "femicap",
+    "name": "Femicap",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femicon",
+    "name": "Femicon",
+    "strength": "0.3 mg+0.03 mg+75 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/femicon.webp"
+  },
+  {
+    "slug": "femikit",
+    "name": "Femikit",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/femikit.webp"
+  },
+  {
+    "slug": "feminine",
+    "name": "Feminine",
+    "strength": "1.2% w/v",
+    "generic": "",
+    "manufacturer": "Beauty Formulas",
+    "image": null
+  },
+  {
+    "slug": "feminor",
+    "name": "Feminor",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/feminor.webp"
+  },
+  {
+    "slug": "femipil",
+    "name": "Femipil",
+    "strength": "0.03 mg+0.15 mg+75 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/femipil.jpg"
+  },
+  {
+    "slug": "femitab",
+    "name": "Femitab",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/femitab.jpg"
+  },
+  {
+    "slug": "femixit",
+    "name": "Femixit",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femogest",
+    "name": "Femogest",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/femogest.webp"
+  },
+  {
+    "slug": "femoston",
+    "name": "Femoston",
+    "strength": "1 mg+10 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femotol",
+    "name": "Femotol",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/femotol.jpg"
+  },
+  {
+    "slug": "femroz",
+    "name": "Femroz",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Everest Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "femzole",
+    "name": "Femzole",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/femzole.jpg"
+  },
+  {
+    "slug": "fenaaf",
+    "name": "Fenaaf",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "fenacin",
+    "name": "Fenacin",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenadin",
+    "name": "Fenadin",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/fenadin.jpeg"
+  },
+  {
+    "slug": "fenadin-odt",
+    "name": "Fenadin ODT",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/fenadin-odt.webp"
+  },
+  {
+    "slug": "fenafex",
+    "name": "Fenafex",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Maks Drug Limited",
+    "image": null
+  },
+  {
+    "slug": "fenamic",
+    "name": "Fenamic",
+    "strength": "50 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenamic.jpg"
+  },
+  {
+    "slug": "fenargic",
+    "name": "Fenargic",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Rangs Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenasol",
+    "name": "Fenasol",
+    "strength": "0.09%",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenat",
+    "name": "Fenat",
+    "strength": "1 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/fenat.jpg"
+  },
+  {
+    "slug": "fenaton",
+    "name": "Fenaton",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/fenaton.webp"
+  },
+  {
+    "slug": "fenatrol",
+    "name": "Fenatrol",
+    "strength": "145 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/fenatrol.jpg"
+  },
+  {
+    "slug": "fenaxo",
+    "name": "Fenaxo",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenazine",
+    "name": "Fenazine",
+    "strength": "25 mg/ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenazine.jpg"
+  },
+  {
+    "slug": "fendex",
+    "name": "Fendex",
+    "strength": "300 mg",
+    "generic": "",
+    "manufacturer": "Asiatic Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenexi",
+    "name": "Fenexi",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Union Pharmaceuticals Ltd",
+    "image": null
+  },
+  {
+    "slug": "fengel",
+    "name": "Fengel",
+    "strength": "1% w/w",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fengel-sr",
+    "name": "Fengel SR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenidone",
+    "name": "Fenidone",
+    "strength": "267 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenidone.webp"
+  },
+  {
+    "slug": "fenimex",
+    "name": "Fenimex",
+    "strength": "45.5 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenitab",
+    "name": "Fenitab",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenitab.jpg"
+  },
+  {
+    "slug": "fenobac",
+    "name": "Fenobac",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenobac.webp"
+  },
+  {
+    "slug": "fenobate",
+    "name": "Fenobate",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/fenobate.webp"
+  },
+  {
+    "slug": "fenocap",
+    "name": "Fenocap",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/fenocap.webp"
+  },
+  {
+    "slug": "fenocol",
+    "name": "Fenocol",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Peoples Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenofex",
+    "name": "Fenofex",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenofex.webp"
+  },
+  {
+    "slug": "fenogard",
+    "name": "Fenogard",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fenolid",
+    "name": "Fenolid",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenolid.jpg"
+  },
+  {
+    "slug": "fenorat",
+    "name": "Fenorat",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fenorat.jpg"
+  },
+  {
+    "slug": "fenox",
+    "name": "Fenox",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/fenox.jpg"
+  },
+  {
+    "slug": "fentanyl",
+    "name": "Fentanyl",
+    "strength": "100 mcg/2 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/fentanyl.jpg"
+  },
+  {
+    "slug": "fentanyl-hexal",
+    "name": "Fentanyl Hexal",
+    "strength": "25 mcg/hour",
+    "generic": "",
+    "manufacturer": "Hexal AG, Germany",
+    "image": null
+  },
+  {
+    "slug": "fenticona",
+    "name": "Fenticona",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/fenticona.webp"
+  },
+  {
+    "slug": "fentigal",
+    "name": "Fentigal",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fentigal.jpg"
+  },
+  {
+    "slug": "fentigal-vt",
+    "name": "Fentigal VT",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fentigal-vt.webp"
+  },
+  {
+    "slug": "fentikol",
+    "name": "Fentikol",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fentinox-vc",
+    "name": "Fentinox VC",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fentizol-vt",
+    "name": "Fentizol VT",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/fentizol-vt.webp"
+  },
+  {
+    "slug": "fentyl",
+    "name": "Fentyl",
+    "strength": "100 mcg/2 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fentyl.jpg"
+  },
+  {
+    "slug": "feocron",
+    "name": "Feocron",
+    "strength": "50 mg+0.50 mg+61.80 mg",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feocron-plus",
+    "name": "Feocron Plus",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feofer",
+    "name": "Feofer",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feofer.webp"
+  },
+  {
+    "slug": "feofer-ds",
+    "name": "Feofer DS",
+    "strength": "200 mg/10 ml",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feofol",
+    "name": "Feofol",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feofol.webp"
+  },
+  {
+    "slug": "feofol-cl",
+    "name": "Feofol-Cl",
+    "strength": "50 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feofol-cl.webp"
+  },
+  {
+    "slug": "feona-fz",
+    "name": "FeonA FZ",
+    "strength": "48 mg+0.5 mg+22.5 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/feona-fz.jpg"
+  },
+  {
+    "slug": "feona-z",
+    "name": "FeonA Z",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/feona-z.jpg"
+  },
+  {
+    "slug": "feoplex-tr",
+    "name": "Feoplex TR",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Avarox Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feosil-z",
+    "name": "Feosil-Z",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feoza",
+    "name": "Feoza",
+    "strength": "45 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/feoza.webp"
+  },
+  {
+    "slug": "feozin",
+    "name": "Feozin",
+    "strength": "5 mg+20 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feozin.webp"
+  },
+  {
+    "slug": "ferasirrox",
+    "name": "Ferasirrox",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ferasirrox.webp"
+  },
+  {
+    "slug": "feraz",
+    "name": "Feraz",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferdin",
+    "name": "Ferdin",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Royal Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fericit",
+    "name": "Fericit",
+    "strength": "210 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fericit.webp"
+  },
+  {
+    "slug": "ferifix",
+    "name": "Ferifix",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/ferifix.webp"
+  },
+  {
+    "slug": "ferigun",
+    "name": "Ferigun",
+    "strength": "200 mg+500 mcg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferigun-s",
+    "name": "Ferigun S",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferijet",
+    "name": "Ferijet",
+    "strength": "500 mg/10 ml",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/ferijet.webp"
+  },
+  {
+    "slug": "ferimax",
+    "name": "Ferimax",
+    "strength": "200 mg/10 ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferina",
+    "name": "Ferina",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Guardian Healthcare Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferinject",
+    "name": "Ferinject",
+    "strength": "100 mg/2 ml",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ferinject.webp"
+  },
+  {
+    "slug": "ferintus",
+    "name": "Ferintus",
+    "strength": "500 mg/10 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ferintus.webp"
+  },
+  {
+    "slug": "feripon",
+    "name": "Feripon",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/feripon.jpg"
+  },
+  {
+    "slug": "ferisen",
+    "name": "Ferisen",
+    "strength": "100 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ferisen.webp"
+  },
+  {
+    "slug": "feristar",
+    "name": "Feristar",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/feristar.webp"
+  },
+  {
+    "slug": "feritol",
+    "name": "Feritol",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferium",
+    "name": "Ferium",
+    "strength": "500 mg/10 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/ferium.webp"
+  },
+  {
+    "slug": "ferix-v",
+    "name": "Ferix-V",
+    "strength": "50 mg+0.50 mg+61.80 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/ferix-v.jpg"
+  },
+  {
+    "slug": "feriz-tr",
+    "name": "Feriz TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fermid",
+    "name": "Fermid",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fero-plus",
+    "name": "Fero Plus",
+    "strength": "200 mg+400 mcg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fero-tr",
+    "name": "Fero TR",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feroblood",
+    "name": "Feroblood",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Aztec Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferocit-tr",
+    "name": "Ferocit TR",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/ferocit-tr.webp"
+  },
+  {
+    "slug": "ferocit-z",
+    "name": "Ferocit-Z",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferocom",
+    "name": "Ferocom",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "S.N. Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferofe-z-tr",
+    "name": "Ferofe Z TR",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Aexim Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferofol",
+    "name": "Ferofol",
+    "strength": "200 mg+350 mcg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferofol-z",
+    "name": "Ferofol-Z",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Central Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferofolin-tr",
+    "name": "Ferofolin TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Belsen Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferogurd",
+    "name": "Ferogurd",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "S.N. Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferokid",
+    "name": "Ferokid",
+    "strength": "27.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/ferokid.webp"
+  },
+  {
+    "slug": "ferol-tr",
+    "name": "Ferol-TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferolet-bc",
+    "name": "Ferolet BC",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Reliance Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferolet-tr-plus",
+    "name": "Ferolet TR Plus",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Reliance Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feromat",
+    "name": "Feromat",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feroplus-tr",
+    "name": "Feroplus TR",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feroplus-z-sr",
+    "name": "Feroplus Z SR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feropreg-tr",
+    "name": "Feropreg TR",
+    "strength": "50 mg+0.50 mg+61.80 mg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feroson",
+    "name": "Feroson",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feroson-tr",
+    "name": "Feroson TR",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferospan",
+    "name": "Ferospan",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/ferospan.jpg"
+  },
+  {
+    "slug": "feroven",
+    "name": "Feroven",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/feroven.jpg"
+  },
+  {
+    "slug": "ferover-z",
+    "name": "Ferover-Z",
+    "strength": "48 mg+0.5 mg+22.5 mg",
+    "generic": "",
+    "manufacturer": "Veritas Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferovit-tr",
+    "name": "Ferovit TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferox",
+    "name": "Ferox",
+    "strength": "500 mg/10 ml",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "feroz",
+    "name": "Feroz",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Aztec Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferozi",
+    "name": "Ferozi",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/ferozi.jpg"
+  },
+  {
+    "slug": "ferozi-ci",
+    "name": "Ferozi-CI",
+    "strength": "50 mg+0.50 mg+61.80 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/ferozi-ci.jpg"
+  },
+  {
+    "slug": "ferritin-tr",
+    "name": "Ferritin-TR",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Ambee Pharmaceuticals Ltd.",
+    "image": "/images/medicines/ferritin-tr.jpg"
+  },
+  {
+    "slug": "ferro-z-tr",
+    "name": "Ferro-Z TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "ferroglobin",
+    "name": "Ferroglobin",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/ferroglobin.webp"
+  },
+  {
+    "slug": "ferrolin-tr",
+    "name": "Ferrolin TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/ferrolin-tr.jpg"
+  },
+  {
+    "slug": "ferromax",
+    "name": "Ferromax",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/ferromax.webp"
+  },
+  {
+    "slug": "ferron-tr",
+    "name": "Ferron-TR",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Kumudini Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferrum",
+    "name": "Ferrum",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "ferticab",
+    "name": "Ferticab",
+    "strength": "0.5 mg",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": "/images/medicines/ferticab.webp"
+  },
+  {
+    "slug": "fertil",
+    "name": "Fertil",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fertil.jpg"
+  },
+  {
+    "slug": "fertilova",
+    "name": "FertilOva",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Total Natural Company (Unani)",
+    "image": null
+  },
+  {
+    "slug": "fertinatal",
+    "name": "Fertinatal",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Total Herbal & Nutraceuticals",
+    "image": null
+  },
+  {
+    "slug": "feryx",
+    "name": "Feryx",
+    "strength": "210 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feryx.webp"
+  },
+  {
+    "slug": "fesler",
+    "name": "Fesler",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fesotrex-er",
+    "name": "Fesotrex ER",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "festam",
+    "name": "Festam",
+    "strength": "2.5% w/w",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/festam.jpg"
+  },
+  {
+    "slug": "feup",
+    "name": "Feup",
+    "strength": "210 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/feup.webp"
+  },
+  {
+    "slug": "feva",
+    "name": "Feva",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feva.png"
+  },
+  {
+    "slug": "feva-extand",
+    "name": "Feva Extand",
+    "strength": "665 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feva-extand.jpg"
+  },
+  {
+    "slug": "feva-one",
+    "name": "Feva One",
+    "strength": "1000 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feva-one.jpg"
+  },
+  {
+    "slug": "feva-plus",
+    "name": "Feva Plus",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feva-rapid-actizorb",
+    "name": "Feva Rapid (Actizorb)",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feva-rapid-actizorb.jpg"
+  },
+  {
+    "slug": "fevac",
+    "name": "Fevac",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/fevac.jpg"
+  },
+  {
+    "slug": "fevac-extend",
+    "name": "Fevac Extend",
+    "strength": "665 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/fevac-extend.jpg"
+  },
+  {
+    "slug": "fevedol",
+    "name": "Fevedol",
+    "strength": "325 mg+37.5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/fevedol.jpg"
+  },
+  {
+    "slug": "fevigra",
+    "name": "Fevigra",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fevigra.webp"
+  },
+  {
+    "slug": "fevimol",
+    "name": "Fevimol",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Goodman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feviz-plus",
+    "name": "Feviz Plus",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/feviz-plus.jpg"
+  },
+  {
+    "slug": "fevnil",
+    "name": "Fevnil",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "C2C Pharma Ltd.",
+    "image": "/images/medicines/fevnil.webp"
+  },
+  {
+    "slug": "fevnil-p",
+    "name": "Fevnil-P",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "C2C Pharma Ltd.",
+    "image": "/images/medicines/fevnil-p.webp"
+  },
+  {
+    "slug": "fevrex-plus",
+    "name": "Fevrex Plus",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "Novus Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexadyne",
+    "name": "Fexadyne",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Arges Life Science Limited",
+    "image": null
+  },
+  {
+    "slug": "fexen",
+    "name": "Fexen",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Union Pharmaceuticals Ltd",
+    "image": null
+  },
+  {
+    "slug": "fexirin",
+    "name": "Fexirin",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Virgo Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexlor",
+    "name": "Fexlor",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexo",
+    "name": "Fexo",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/fexo.jpeg"
+  },
+  {
+    "slug": "fexobest",
+    "name": "Fexobest",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Goodman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexocare",
+    "name": "Fexocare",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Pristine Pharmaceuticals Ltd",
+    "image": null
+  },
+  {
+    "slug": "fexocold",
+    "name": "Fexocold",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "DBL Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexocon",
+    "name": "Fexocon",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexodin",
+    "name": "Fexodin",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fexodin.jpg"
+  },
+  {
+    "slug": "fexofast",
+    "name": "Fexofast",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/fexofast.jpg"
+  },
+  {
+    "slug": "fexofeda",
+    "name": "Fexofeda",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/fexofeda.webp"
+  },
+  {
+    "slug": "fexofen",
+    "name": "Fexofen",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Somatec Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fexofen.jpg"
+  },
+  {
+    "slug": "fexole",
+    "name": "Fexole",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Biogen Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexomax",
+    "name": "Fexomax",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Novus Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexomin",
+    "name": "Fexomin",
+    "strength": "60 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fexomin.webp"
+  },
+  {
+    "slug": "fexon",
+    "name": "Fexon",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexona",
+    "name": "Fexona",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fexona.jpg"
+  },
+  {
+    "slug": "fexonaaf",
+    "name": "Fexonaaf",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "fexonor",
+    "name": "Fexonor",
+    "strength": "30 mg/5 ml",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": "/images/medicines/fexonor.webp"
+  },
+  {
+    "slug": "fexoral",
+    "name": "Fexoral",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/fexoral.jpg"
+  },
+  {
+    "slug": "fexoril",
+    "name": "Fexoril",
+    "strength": "30 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "fexorush",
+    "name": "Fexorush",
+    "strength": "180 mg",
+    "generic": "",
+    "manufacturer": "DBL Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexosic",
+    "name": "Fexosic",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Physic pharmaceuticals ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexosun",
+    "name": "Fexosun",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/fexosun.webp"
+  },
+  {
+    "slug": "fexotab",
+    "name": "Fexotab",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Veritas Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexoton",
+    "name": "Fexoton",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Salton Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexozen",
+    "name": "Fexozen",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexsil",
+    "name": "Fexsil",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "Silco Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fexten",
+    "name": "Fexten",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/fexten.webp"
+  },
+  {
+    "slug": "fextive",
+    "name": "Fextive",
+    "strength": "120 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fezifol-tr",
+    "name": "Fezifol-TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "United Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fezin-ci",
+    "name": "Fezin-CI",
+    "strength": "50 mg+0.50 mg+61.80 mg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "feziplex",
+    "name": "Feziplex",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fezol",
+    "name": "Fezol",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fezol.webp"
+  },
+  {
+    "slug": "fezotan",
+    "name": "Fezotan",
+    "strength": "45 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/fezotan.webp"
+  },
+  {
+    "slug": "fezovit",
+    "name": "Fezovit",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Doctor’s Chemical Works Ltd.",
+    "image": null
+  },
+  {
+    "slug": "fia-biomed-blood-glucose",
+    "name": "Fia Biomed Blood Glucose",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Fia Biomed",
+    "image": null
+  },
+  {
+    "slug": "fiasp-flextouch",
+    "name": "Fiasp FlexTouch",
+    "strength": "100 IU/ml",
+    "generic": "",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "image": "/images/medicines/fiasp-flextouch.png"
+  },
+  {
+    "slug": "fibanix",
+    "name": "Fibanix",
+    "strength": "12.5 mg/250 ml",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "fibi",
+    "name": "Fibi",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "MST Pharma",
+    "image": null
+  },
+  {
+    "slug": "fibi-plus",
+    "name": "Fibi Plus",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "MST Pharma",
+    "image": null
   }
 ]
