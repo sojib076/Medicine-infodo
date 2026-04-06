@@ -73,6 +73,7 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
         {/* Image / icon */}
         <Grid item xs={12} md="auto">
           <Box sx={{
+            position: "relative",
             width: { xs: 150, md: 260 }, height: { xs: 150, md: 260 },
             borderRadius: tokens.radius,
             background: "linear-gradient(135deg, #E3F0FF, #F0F7FF)",

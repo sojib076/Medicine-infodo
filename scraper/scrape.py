@@ -7,8 +7,10 @@ Usage:
     python scrape.py
 
 Outputs:
-    ../public/data/medicines.json   — accumulated results
-    ./checkpoint.json               — resume support (deleted on clean finish)
+    ../public/data/medicines-index.json   — lean index (slug, name, strength, generic, manufacturer, local image path)
+    ../public/data/medicines/{slug}.md    — per-medicine sections in ## Heading format
+    ../public/images/medicines/{slug}.webp — downloaded medicine images
+    ./checkpoint.json                     — resume support (deleted on clean finish)
 """
 
 import json
@@ -23,8 +25,10 @@ import requests
 from bs4 import BeautifulSoup, NavigableString
 
 # ── Paths ─────────────────────────────────────────────────────────────────
-BASE_DIR       = Path(__file__).parent
-OUTPUT_FILE    = BASE_DIR / ".." / "public" / "data" / "medicines.json"
+BASE_DIR        = Path(__file__).parent
+INDEX_FILE      = BASE_DIR / ".." / "public" / "data" / "medicines-index.json"
+MD_DIR          = BASE_DIR / ".." / "public" / "data" / "medicines"
+IMAGES_DIR      = BASE_DIR / ".." / "public" / "images" / "medicines"
 CHECKPOINT_FILE = BASE_DIR / "checkpoint.json"
 
 # ── Tunables ──────────────────────────────────────────────────────────────
@@ -114,16 +118,44 @@ def save_checkpoint(checkpoint: dict) -> None:
 
 def load_existing_data() -> list:
     try:
-        if OUTPUT_FILE.exists():
-            return json.loads(OUTPUT_FILE.read_text("utf-8"))
+        if INDEX_FILE.exists():
+            return json.loads(INDEX_FILE.read_text("utf-8"))
     except Exception:
         pass
     return []
 
 
-def save_output(data: list) -> None:
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+def save_index(data: list) -> None:
+    INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
+    INDEX_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def write_md(slug: str, sections: dict) -> None:
+    """Write per-medicine sections to a .md file in ## Heading\nContent format."""
+    MD_DIR.mkdir(parents=True, exist_ok=True)
+    parts = [f"## {title}\n{body}" for title, body in sections.items()]
+    (MD_DIR / f"{slug}.md").write_text("\n\n".join(parts), encoding="utf-8")
+
+
+def download_image(session: requests.Session, image_url: str, slug: str):
+    """Download medicine image locally; returns the local public path or None."""
+    if not image_url:
+        return None
+    url_path = image_url.split("?")[0]
+    ext = os.path.splitext(url_path)[1] or ".webp"
+    filename = f"{slug}{ext}"
+    local_path = IMAGES_DIR / filename
+    if local_path.exists():
+        return f"/images/medicines/{filename}"
+    try:
+        resp = fetch_with_retry(session, image_url)
+        IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+        local_path.write_bytes(resp.content)
+        print(f"    📷 Image saved: {filename}")
+        return f"/images/medicines/{filename}"
+    except Exception as e:
+        print(f"    ⚠ Image download failed: {e}")
+        return image_url  # fall back to remote URL
 
 
 # ── HTML parsing ───────────────────────────────────────────────────────────
@@ -252,14 +284,14 @@ def scrape() -> None:
                         "strength":     item["strength"],
                         "generic":      item["generic"],
                         "manufacturer": item["company"],
-                        "url":          item["url"],
-                        "image":        data["image"],
-                        "sections":     data["sections"],
+                        "image":        download_image(session, data["image"], slug),
                     })
+
+                    write_md(slug, data["sections"])
 
                     done_set.add(slug)
                     checkpoint["done"] = list(done_set)
-                    save_output(results)
+                    save_index(results)
                     save_checkpoint(checkpoint)
 
                     print(f"    ✓ Saved: {item['name']}")
@@ -284,7 +316,7 @@ def scrape() -> None:
             if scraped:
                 time.sleep(jitter_delay())
 
-    print(f"\nDone. {len(results)} medicines written to {OUTPUT_FILE}")
+    print(f"\nDone. {len(results)} medicines written to {INDEX_FILE}")
 
     # Remove checkpoint on clean completion so next full run starts fresh
     if CHECKPOINT_FILE.exists():
