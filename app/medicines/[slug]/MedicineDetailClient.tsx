@@ -16,9 +16,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Divider from "@mui/material/Divider";
 import Chip from "@mui/material/Chip";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MedicationIcon from "@mui/icons-material/Medication";
 import ScienceIcon from "@mui/icons-material/Science";
@@ -118,32 +115,38 @@ function SectionContent({ text, fontSize = 15 }: { text: string; fontSize?: numb
       {blocks.map((block, i) => {
         if (block.type === "ul") {
           return (
-            <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }}>
+            <Box
+              key={i}
+              component="ul"
+              sx={{
+                mb: 1, pl: 3, listStyleType: "disc",
+                "& li": { mb: 0.3 },
+              }}
+            >
               {block.items.map((item, j) => (
-                <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
-                  <Typography component="span" aria-hidden="true" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize }}>•</Typography>
-                  <ListItemText
-                    primary={item}
-                    primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
-                  />
-                </ListItem>
+                <Typography key={j} component="li" sx={{ fontSize, lineHeight: 1.8, color: tokens.body }}>
+                  {item}
+                </Typography>
               ))}
-            </List>
+            </Box>
           );
         }
         if (block.type === "ol") {
           return (
-            <List key={i} dense disablePadding sx={{ mb: 1, pl: 1 }} component="ol">
+            <Box
+              key={i}
+              component="ol"
+              sx={{
+                mb: 1, pl: 3, listStyleType: "decimal",
+                "& li": { mb: 0.3 },
+              }}
+            >
               {block.items.map((item, j) => (
-                <ListItem key={j} disablePadding sx={{ alignItems: "flex-start", py: 0.3 }}>
-                  <Typography component="span" aria-hidden="true" sx={{ mr: 1, color: tokens.primary, lineHeight: 1.8, fontSize, minWidth: 20 }}>{j + 1}.</Typography>
-                  <ListItemText
-                    primary={item}
-                    primaryTypographyProps={{ sx: { fontSize, lineHeight: 1.8, color: tokens.body } }}
-                  />
-                </ListItem>
+                <Typography key={j} component="li" sx={{ fontSize, lineHeight: 1.8, color: tokens.body }}>
+                  {item}
+                </Typography>
               ))}
-            </List>
+            </Box>
           );
         }
         // paragraph

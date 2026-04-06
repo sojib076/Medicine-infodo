@@ -30,6 +30,11 @@ function buildPageTitle(name: string, strength: string, generic: string): string
   return nameStrength.slice(0, 57) + "…";
 }
 
+/** Builds a descriptive alt text string for the medicine image. */
+function buildImageAlt(name: string, strength: string, generic: string): string {
+  return `${name} ${strength} – ${generic}`;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const med = getMedicineBySlug(params.slug);
   if (!med) return {};
@@ -47,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "MedInfoBD",
       locale: "en_BD",
       type: "article",
-      ...(med.image ? { images: [{ url: med.image, alt: `${med.name} ${med.strength} – ${med.generic}` }] } : {}),
+      ...(med.image ? { images: [{ url: med.image, alt: buildImageAlt(med.name, med.strength, med.generic) }] } : {}),
     },
     twitter: { card: "summary", title, description },
     alternates: { canonical: `${BASE_URL}/medicines/${med.slug}` },

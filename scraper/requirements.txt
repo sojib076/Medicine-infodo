@@ -1,3 +1,8 @@
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=5.0.0
+# --- remove_watermark.py dependencies ---
+opencv-python>=4.9.0
+numpy>=1.26.0
+pytesseract>=0.3.10
+tqdm>=4.66.0
