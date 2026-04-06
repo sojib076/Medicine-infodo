@@ -13,7 +13,7 @@ const IMAGES_DIR      = path.resolve(__dirname, "../public/images/medicines");
 const CHECKPOINT_FILE = path.resolve(__dirname, "./checkpoint.json");
 
 // ── Tunables ──────────────────────────────────────────────────────────────
-const MAX_PAGES   = 2;      // number of brand-list pages to scrape
+const MAX_PAGES   = 839;    // number of brand-list pages to scrape
 const RETRY_LIMIT = 3;      // attempts per URL before giving up
 const RETRY_DELAY = 3000;   // base ms between retries (doubles each attempt)
 const NAV_TIMEOUT = 30000;  // ms for page.goto / waitForSelector
