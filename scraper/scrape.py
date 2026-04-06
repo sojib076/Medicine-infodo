@@ -33,7 +33,7 @@ CHECKPOINT_FILE = BASE_DIR / "checkpoint.json"
 
 # ── Tunables ──────────────────────────────────────────────────────────────
 BASE_URL    = "https://medex.com.bd"
-MAX_PAGES   = 2        # brand-list pages to scrape
+MAX_PAGES   = 3        # brand-list pages to scrape
 RETRY_LIMIT = 3        # attempts per URL before giving up
 RETRY_DELAY = 3.0      # base seconds between retries (doubles each attempt)
 PAGE_DELAY  = 2.5      # base seconds between successive medicine requests
@@ -158,7 +158,7 @@ def download_image(session: requests.Session, image_url: str, slug: str):
         return f"/images/medicines/{filename}"
     except Exception as e:
         print(f"    ⚠ Image download failed: {e}")
-        return image_url  # fall back to remote URL
+        return None  # no image rather than a broken remote URL
 
 
 # ── HTML parsing ───────────────────────────────────────────────────────────
