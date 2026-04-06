@@ -1,0 +1,2 @@
+## Indications
+A head cold can hamper sleep, making for restless nights. Espirar’s combination of natural vapors from Levomenthol, Thymol, Chlorobutanol & Terpineol work gently to help you or your child breathe more easily.

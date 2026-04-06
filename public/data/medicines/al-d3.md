@@ -1,0 +1,79 @@
+## Indications
+Vitamin D3 deficiency can occur in people whose exposure to sunlight is limited and in those whose diet is deficient in vitamin D3. 
+
+- AL-D3 is essential for the effective calcium and phosphate absorption required for healthy bones and teeth, preventing rickets, osteomalacia and osteoporosis.
+- AL-D3 is also essential to prevent pre-eclampsia during pregnancy and breast feeding as it is an essential nutrient for a growing infant.
+- AL-D3 has vital role on immunity boost up.
+
+## Pharmacology
+The active form of Vitamin D3, Calcitriol, exerts its effect by binding to the Vitamin D receptors (VDRs) which are widely distributed through many body tissues.Vitamin D3 has a half life of about 50 days as it is fat soluble.Vitamin D3 is absorbed in the small intestine and bound to specific a-globulins and transported to the liver where it is metabolised to 25-hydroxy Vitamin D3 (Calcidiol). A second hydroxylation to 1,25-dihydroxy Vitamin D3 (Calcitriol) occurs in the kidney. This metabolite is responsible for the vitamin's ability to increase the absorption of calcium. Non-metabolised Vitamin D3 is stored in tissues such as fat and muscle.Vitamin D3 is eliminated via faeces and urine.
+
+## Dosage & Administration
+For capsule : Adults: 
+
+- Treatment of Vitamin D3 deficiency: 40000 IU once weekly for 7 weeks. Doses for maintenance therapy is 1400-2000 IU/day. To confirm the target level of 25 hydroxyvitamin D, measurement of it should be determined 3-4 months after initiating the maintenance therapy.
+- Prevention of Vitamin D3 deficiency: 20000 IU every 4 weeks. Higher doses may be required in certain situations.
+- Addition to specific therapy for osteoporosis: 20000 IU once a month.
+For capsule : Children (12-18 years): 
+
+- Treatment of Vitamin D3 deficiency: 20000 IU once every 2 weeks for 6 weeks.
+- Prevention of Vitamin D3 deficiency: 20000 IU every 6 weeks.
+For film-coated tablet : 1000 IU (1-2 tablets) daily, or as directed by physician. Take the medicine with food or within 1 hour after a meal. 
+
+For oroflash or chewable tablets : 1000 IU to 2000 IU daily, or as directed by physician. Take the medicine with food or within 1 hour after a meal. Place the tablet in mouth swallow after chewing. 
+
+For Oral Solution : 
+
+- Up to one year: 400 IU once a day or as directed by the physician.
+- 1 year to 18 years: 600 IU once a day or as directed by the physician.
+Injection : For treatment- 
+
+- Rickets: 1 ampoule every 2 weeks for one month then 1 ampoule for every 4 months
+- Osteoporosis: 1 ampoule every 2 weeks for 3 months
+- Osteomalacia: 1 ampoule every 2 weeks for 3 months
+- Tetany caused by hypocalcaemia: 1 ampoule for every 4 months which may be increased to 2 ampoules
+- Menopause: 1 ampoule for every 6 months
+- Vitamin 03 deficiency: 1 ampoule can be repeated 1 to 6 months later
+Injection : For prevention- 
+
+- Pregnancy: 1/2 ampoule at 6th or 7th months
+- During breastfeeding: 1/2 ampoule for every 6 months
+- Children up to 5 years: 1 ampoule for every 6 months
+- Adolescent: 1 ampoule for every 6 months
+- Elderly Dosages: 1/2 ampoule for every 3 months.
+Direction of use of Injection- 
+For oral use - 
+
+- Step-1: Place the thumb on ampoule and break the upper narrow part of the ampoule.
+- Step-2: Pour out the solution of the ampoule in a spoon.
+- Step-3: Mix the solution with water or milk before oral use.
+For lM use - 
+
+- Step-1: Place the thumb on ampoule and break the upper narrow part of the ampoule.
+- Step-2: Then use as IM injection.
+
+## Interaction
+Drug interaction with medication : Concomitant treatment with phenytoin or barbiturates can decrease the effect of vitamin D because of metabolic activation. Concomitant use of glucocorticoids can decrease the effect of vitamin D. The effectsof digitalis and other cardiac glycosides may be accentuated with the oral administration of calcium combined with vitamin D. Strict medical supervision is needed and, if necessary monitoring of ECG and calcium. Simultaneous treatment with ion exchange resins such as cholestyramine or laxatives such as paraffin oil may reduce the gastrointestinal absorption of vitamin D. The cytotoxic agent actinomycin and imidazole antifungal agents interfere with vitamin D activity by inhibiting the conversion of 25-hydroxyvitamin D to 1, 25-dihydroxyvitamin D by the kidney enzyme, 25-hydroxyvitamin D-1-hydroxylase.
+
+## Contraindications
+Vitamin D3 is contraindicated in all diseases associated with hypercalcaemia. It is also contraindicated in patients with known hypersensitivity to Vitamin D3 (or medicines of the same class) and any of the excipients. It is contraindicated if there is evidence of Vitamin D3 toxicity.
+
+## Side Effects
+Generally all nutritional supplements are considered to be safe and well tolerable. However, few most common side effects can generally occur including hypocalcaemia syndrome or calcium intoxication (depending on the severity and duration of hypocalcaemia), occasional acute symptoms include anorexia, headache, nausea, vomiting, abdominal pain or stomach ache and constipation with the administration of colecalciferol.
+
+## Pregnancy & Lactation
+Studies have shown safe use of doses up to 4000 IU during pregnancy. The recommended daily intake for pregnant women is 400 IU, however, in women who are considered to be Vitamin D3 deficient a higher dose may be required. During pregnancy women should follow the advice of their medical practitioner as their requirements may vary depending on the severity of their disease and their response to treatment 
+
+Vitamin D3 and its metabolites are excreted in breast milk. Overdose in infants induced by nursing mothers has not been observed; however, when prescribing additional vitamin D3 to a breast-fed child the practitioner should consider the dose of any additional vitamin D3 given to the mother.
+
+## Precautions & Warnings
+Plasma-calcium concentration should be monitored at intervals in patients receiving high doses of Vitamin D3, in renal impairment, and during pregnancy & lactation. People using Digoxin and Thiazide Diuretics should consult a health care practitioner before supplementing with Vitamin D3. People with liver or kidney disease, primary hyperthyroidism, lymphoma, tuberculosis and granulomatous disease should consult a health care practitioner before supplementing with Vitamin D3.
+
+## Overdose Effects
+The most serious consequence of acute or chronic overdose is hypercalcaemia due to vitamin D toxicity. Symptoms may include nausea, vomiting, polyuria, anorexia, weakness, apathy, thirst and constipation. Chronic overdoses can lead to vascular and organ calcification as a result of hypercalcaemia. Treatment should consist of stopping all intakes of vitamin D and rehydration.
+
+## Therapeutic Class
+Vitamin in bone formation, Vitamin-D preparations
+
+## Storage Conditions
+Store in a cool (below 25°C) and dry place protected from light. Keep away from the reach of children.

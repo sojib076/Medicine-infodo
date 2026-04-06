@@ -1,43 +1,56 @@
 ## Indications
-Cef-3 is indicated for the treatment of the following infections caused by susceptible organisms: Upper respiratory tract infections including pharyngitis, tonsillitis, acute exacerbation of chronic bronchitis, sinusitis; Lower respiratory tract infections including uncomplicated pneumonia; Urinary tract infections (uncomplicated); Gonorrhoea (uncomplicated cervical and urethral); Typhoid fever (enteric fever) caused by Salmonella typhi.
+Cef-3 is an orally active cephalosporin antibiotic which has marked in-vitro bactericidal activity against a wide variety of Gram-positive and Gram-negative organism. It is indicated for the treatment of the following acute infections when caused by susceptible microorganisms. 
 
-## Composition
-Each tablet contains: Cefixime Trihydrate USP equivalent to Cefixime 200 mg. Excipients: Microcrystalline Cellulose, Sodium Starch Glycolate, Silicon Dioxide, Magnesium Stearate, Hypromellose, Polyethylene Glycol, Titanium Dioxide.
+Upper Respiratory Tract Infections (URTI) : e.g. otitis media; and other URTI where the causative organism is known or suspected to be resistant to other commonly used antibiotics, or where treatment failure may carry significant risk. Lower Respiratory Tract Infections-e.g. bronchitis. 
+
+Urinary Tract Infections : e.g. cystitis, cystourethritis, pyelonephritis. Clinical efficacy has been demonstrated in infections caused by commonly occurring pathogens including Streptococcus pneumonia, Streptococcus pyogenes, Escherichia coli, Proteus mirabilis, Klebsiella species, Haemophilus influenzae (beta-lactamase positive and negative), Moraxella catarrhalis (beta-lactamase positive and negative) and Enterobacter species. Cef-3 is highly stable in the presence of beta-lactamase enzymes.
 
 ## Pharmacology
-Cefixime is a third-generation oral cephalosporin antibiotic. It exerts bactericidal activity by binding to one or more penicillin-binding proteins (PBPs) which inhibits the final transpeptidation step in bacterial cell wall peptidoglycan synthesis. It is stable to a wide variety of both plasmid- and chromosomally-mediated beta-lactamases. Cefixime is well absorbed after oral administration with a bioavailability of 40-50%. It is not significantly metabolised and is excreted primarily in urine (50%) and bile (10%).
+Cefixime is a third generation semisynthetic cephalosporin antibiotic for oral administration. It is bactericidal against a broad spectrum of gram positive and gram negative bacteria at easily achievable plasma concentrations. It kills bacteria by interfering in the synthesis of bacterial cell wall. It is highly stable in the presence of Beta-lactamase enzyme. As a result, many organisms resistant to penicillins and some cephalsporins due to the presence of beta-lactamases, may be susceptible to Cefixime. Absorption of it is about 40% to 50% whether administered with or without food.
 
 ## Dosage & Administration
-Adults and children over 12 years: 200 mg twice daily or 400 mg once daily.
+Absorption of Cefixime is not significantly modified by the presence of food. The usual course of treatment is 7 days. This may be continued for up to 14 days if required. 
 
-Children: 8 mg/kg/day in 1-2 divided doses.
+Adults and children over 10 years : The recommended adult dosage is 200-400 mg daily according to the severity of the infection, given either as a single dose or in two divided doses. 
 
-Duration of treatment: 7-14 days for most infections; 10-14 days for S. pyogenes infections.
+Elderly : Elderly patients may be given the same dose as recommended for adults. Renal function should be assessed and dosage should be adjusted in severe renal impairment. 
 
-Typhoid fever: 200 mg twice daily for 7-14 days.
+Children : The recommended dosage for children is 8 mg/kg/day administered as a single dose or in two divided doses. As a general guide for prescribing in children the following daily doses in terms of volume of suspension are suggested: 
 
-Dose reduction required in renal impairment (GFR < 60 mL/min).
+- 6 months up to 1 year: 3.75 ml daily
+- Children 1-4 years: 5 ml daily
+- Children 5-10 years: 10 ml daily
+In typhoid : the recommended children dose is 5 mg/kg body weight twice daily for 10-14 days. 
+
+Children weighing more than 50 kg or older than 10 years : Should be treated with the recommended adult dose 200-400 mg daily depending on the severity of infection. 
+
+Children aged less than 6 months : The safety and efficacy of Cefixime has not been established in children aged less than 6 months. 
+
+Dosage in Renal Impairment : Cefixime may be administered in the presence of impaired renal function. Normal dose and schedule may be given in patients with creatinine clearances of 20 ml/min or greater. In patients whose creatinine clearance is less than 20 ml/min, it is recommended that a dose of 200 mg once daily should not be exceeded. The dose and regimen for patients who are maintained on chronic ambulatory peritoneal dialysis or haemodialysis should follow the same recommendation as that for patients with creatinine clearances of less than 20 ml/min.
 
 ## Interaction
-May enhance anticoagulant effect of warfarin. Probenecid reduces renal clearance and increases cefixime levels. Loop diuretics may increase nephrotoxicity risk.
+In common with other cephalosporins, increases in prothrombin times have been noted in a few patients. Care should therefore be taken in patients receiving anticoagulant therapy.
 
 ## Contraindications
-Known hypersensitivity to cefixime or other cephalosporins. History of immediate hypersensitivity reaction to penicillins (cross-sensitivity possible).
+Patients with known hypersensitivity to cephalosporin antibiotics.
 
 ## Side Effects
-Common: diarrhoea, loose stools, abdominal pain, nausea, dyspepsia. Uncommon: headache, dizziness, vomiting, skin rash. Rare: pseudomembranous colitis, serum sickness-like reactions, haematological disturbances, anaphylaxis.
+Cef-3 is generally well tolerated. The majority of adverse reactions observed in clinical trials were mild and self limiting in nature. Gastrointestinal disturbances: The most frequent side-effects seen with Cef-3 are diarrhoea and stool changes; diarrhoea has been more commonly associated with higher doses. Other gastrointestinal side-effects seen less frequently are nausea, abdominal pain, dyspepsia, vomiting and flatulence. Pseudomembraneous colitis has been reported. Central nervous system: headache and dizziness. Hypersensitivity reactions: allergies in the form of rash, pruritis, urticaria, drug fever and arthralgia have been observed. These reactions usually subsided upon discontinuation of therapy. Hematological and clinical chemistry: thrombocytopenia, leukopenia and eosinophilia have been reported. These reactions were infrequent and reversible. Mild transient change in liver and renal function tests have been observed. Miscellaneous: other possible reactions include genital pruritis and vaginitis.
 
 ## Pregnancy & Lactation
-Use during pregnancy only if clearly indicated. No adequate controlled studies in pregnant women. Excretion in breast milk is not known; use with caution during lactation.
+There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed. It is not known that Cefixime is excreted in human milk. So, caution should be exercised when Cefixime is administered to a nursing woman.
 
 ## Precautions & Warnings
-Use with caution in penicillin-sensitive patients (cross-sensitivity 1-2%). Monitor renal function in prolonged therapy. Antibiotic-associated colitis may occur. Superinfection with non-susceptible organisms may develop.
+Cef-3 should be given with caution to patients who have shown hypersensitivity to other drugs. Cephalosporin should be given with caution to penicillin-sensitive patients, as there is some evidence of partial cross-allergenicity between the penicillins and the cephalosporins. Patients have had severe reactions (including anaphylaxis) to both classes of drugs. If an allergic effect occurs with Cef-3, the drug should be discontinued and the patient treated with appropriate agents if necessary. Cef-3 should be administered with caution in patients with markedly impaired renal function. Treatment with broad spectrum antibiotics alters the normal flora of the colon and may permit overgrowth of clostridia. Studies indicate that a toxin produced by Clostridium difficile is a primary cause of antibiotic-associated diarrhoea. Use in pregnancy and lactation: There are no adequate and well-controlled studies in pregnant women. Cef-3 should therefore not be used in pregnancy or in nursing mothers unless considered essential by the physician.
 
 ## Overdose Effects
-No specific information on overdosage. Treatment is symptomatic and supportive. Haemodialysis and peritoneal dialysis do not significantly remove cefixime.
-
-## Therapeutic Class
-Third generation cephalosporin antibiotic
+Gastric Lavage may be indicated; otherwise, no specific antidote exists. Cef-3 is not removed in significant quantities from the circulation by hemodialysis or peritoneal dialysis. Adverse reactions in small numbers of healthy adult volunteers receiving single doses up to 2 g of Cef-3 did not differ from the profile seen in patients treated at the recommended doses.
 
 ## Storage Conditions
-Store below 25°C in a dry place. Protect from light and moisture. Keep out of reach of children.
+Keep below 30ºC temperature, protected from light & moisture. Keep out of the reach of children.
+
+## Chemical Structure
+Molecular Formula :C16H15N5O7S2Chemical Structure :
+
+## Common Questions about Cef-3 25 mg/ml Pediatric Drop
+What is Cef-3 25 mg/ml Drops?Cef-3 25 mg/ml Drops is an antibiotic used to treat bacterial infection. This medicine does not work for viral infections like flu. It works by preventing them from forming the bacterial protective covering (cell wall) which is essential for their development. What are the uses of Cef-3 25 mg/ml Drops?Cef-3 25 mg/ml Drops is used for the treatment and prevention from conditions such as Urinary Tract Infection, Tonsillitis, Pharyngitis, and Bronchitis. Apart from these, it can also be used to treat conditions of Fungal and Gonococcal Infections. What are the Side Effects of Cef-3 25 mg/ml Drops?Cef-3 25 mg/ml Drops has some commonly reported side effects. Some of these side-effects may be serious. These are Diarrhea, Abdominal pain, Dark or clay-colored stools, Swelling of the face, lips, eyelids, tongue, hands, and feet, Dizziness, Acid or sour stomach, excessive gas in the stomach, Heartburn, Indigestion, Redness of the skin, Chest pain, Sore throat, and Unusual tiredness. What are the instructions for storage and disposal Cef-3 25 mg/ml Drops?This medication should be kept in a cool dry place and in its original pack. Make sure Cef-3 25 mg/ml Drops remains unreachable to children and pets. Proper disposal of the expired and unused medications is important to avoid health problems. Will Cef-3 25 mg/ml Drops work for treating cold and flu?This medication belongs to an antibiotic class of drugs, hence Cef-3 25 mg/ml Drops won't work for colds, flu, or other viral infections. If you use antibiotics when they are not needed, it increases your risk of getting an infection later that resists antibiotic treatment. Is there any special dietary instruction which I should follow?Continue your normal diet unless your doctor asks you to change. Is Cef-3 25 mg/ml Drops can be used to treat diarrhoea?No, Cef-3 25 mg/ml Drops is not prescribed to treat diarrhoea. Is it safe to give Cef-3 25 mg/ml Drops to infants?The safety of Cef-3 25 mg/ml Drops, in case of newborns or infants aging less than 6 months, has not been positively established. Thus you need to consult a doctor before administering this medicine to an infant. Does Cef-3 25 mg/ml Drops is a penicillin variant?No, Cef-3 25 mg/ml Drops is not a penicillin variant. This medication belongs to cephalosporin antibiotic and functions in a similar way to that of penicillin. Concurrent use of these two must be discussed with a doctor. Does Cef-3 25 mg/ml Drops cause loose-motion?Diarrhoea is a known side effect of Cef-3 25 mg/ml Drops although it has been associated with higher doses only. Is constipation associated with Cef-3 25 mg/ml Drops?Constipation is an unusual side effect of Cef-3 25 mg/ml Drops. In case, it causes persistent constipation and seems circumstantially related to the ingestion of this medication, must consult a doctor. Does Cef-3 25 mg/ml Drops interact with contraception?No such evidence suggested the effect of Cef-3 25 mg/ml Drops on contraceptive medications. Can I take acetaminophen along with Cef-3 25 mg/ml Drops?No interactions have been clinically proven between Cef-3 25 mg/ml Drops and Acetaminophen (Paracetamol). It is advisable to consult a doctor before concurrent use of these two medicines. How long does Cef-3 25 mg/ml Drops take to work?Cef-3 25 mg/ml Drops start working as soon after you ingest it. However, it may take a few days to kill the harmful bacteria and relieve the symptoms completely. It is advised to complete the medication course for the suggested days. What if I do not get better after using Cef-3 25 mg/ml Drops?Inform your doctor if you do not feel better even after finishing the full course of treatment. You must also inform your doctor if the symptoms get worse while using this medicine. Quick TipsYour doctor has prescribed Cef-3 25 mg/ml Drops to cure your infection and improve your symptoms.Do not skip any doses and finish the full course of treatment even if you feel better. Stopping it early may make the infection harder to treat.Take it with food to avoid an upset stomach.Diarrhea may occur as a side effect but should stop when your course is complete. Inform your doctor if it does not stop or if you find blood in your stools.Avoid consuming alcohol while taking Cef-3 25 mg/ml Drops as it may cause increased side effects.Discontinue Cef-3 25 mg/ml Drops and inform your doctor immediately if you get a rash, itchy skin, swelling of face and mouth, or have difficulty in breathing.

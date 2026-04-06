@@ -33,7 +33,7 @@ CHECKPOINT_FILE = BASE_DIR / "checkpoint.json"
 
 # ── Tunables ──────────────────────────────────────────────────────────────
 BASE_URL    = "https://medex.com.bd"
-MAX_PAGES   = 3        # brand-list pages to scrape
+MAX_PAGES   = 839       # brand-list pages to scrape
 RETRY_LIMIT = 3        # attempts per URL before giving up
 RETRY_DELAY = 3.0      # base seconds between retries (doubles each attempt)
 PAGE_DELAY  = 2.5      # base seconds between successive medicine requests

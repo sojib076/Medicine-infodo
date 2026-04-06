@@ -1,0 +1,58 @@
+## Indications
+Memantine and donepezil hydrochlorides extended-release capsules are a combination of memantine hydrochloride, an NMDA receptor antagonist, and donepezil hydrochloride, an acetylcholinesterase inhibitor, indicated for the treatment of moderate to severe dementia of the Alzheimer’s type in patients stabilized on 10 mg of donepezil hydrochloride once daily.
+
+## Composition
+7/10 Capsule : Each Extended Release Capsule contains Memantine Hydrochloride (as Extended Release Pellets) 7 mg & Donepezil Hydrochloride (as Immediate Release Pellets) 10 mg. 
+
+14/10 Capsule : Each Extended Release Capsule contains Memantine Hydrochloride (as Extended Release Pellets) 14 mg & Donepezil Hydrochloride (as Immediate Release Pellets) 10 mg. 
+
+21/10 Capsule : Each Extended Release Capsule contains Memantine Hydrochloride (as Extended Release Pellets) 21 mg & Donepezil Hydrochloride (as Immediate Release Pellets) 10 mg. 
+
+28/10 Capsule : Each Extended Release Capsule contains Memantine Hydrochloride (as Extended Release Pellets) 28 mg & Donepezil Hydrochloride (as Immediate Release Pellets) 10 mg.
+
+## Pharmacology
+Memantine and donepezil hydrochlorides extended-release capsules contain two approved medications: memantine hydrochloride extended-release and donepezil hydrochloride. Each of those medications is postulated to have a different mechanism in Alzheimer’s disease. 
+
+Memantine : Persistent activation of central nervous system NMDA receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels. There is no evidence that memantine prevents or slows neurodegeneration in patients with Alzheimer’s disease. 
+
+Donepezil : Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil is postulated to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine in the central nervous system through reversible inhibition of its hydrolysis by acetylcholinesterase. There is no evidence that donepezil prevents or slows neurodegeneration in patients with Alzheimer’s disease.
+
+## Dosage & Administration
+For patients on donepezil hydrochloride 10 mg only, the recommended starting dose of memantine and donepezil hydrochlorides extended-release capsules is 7 mg/10 mg, taken once daily in the evening. The dose should be increased in 7 mg increments to the recommended maintenance dose of 28 mg/10 mg. The minimum recommended interval between dose increases is one week. 
+
+Patients on memantine hydrochloride (10 mg twice daily or 28 mg extended-release once daily) and donepezil hydrochloride 10 mg once daily can be switched to memantine and donepezil hydrochlorides extended- release capsules 28 mg/10 mg, taken once daily in the evening. 
+
+Memantine and donepezil hydrochlorides extended- release capsules can be taken with or without food, whole or sprinkled on applesauce; do not divide, chew, or crush. Severe renal impairment: the recommended maintenance dose for memantine and donepezil hydrochlorides extended-release capsules is 14 mg/10 mg once daily in the evening.
+
+## Interaction
+Combined use with NMDA antagonists: use with caution. Memantine and donepezil hydrochlorides extended-release may interfere with anticholinergic medications. Concomitant administration of succinylcholine, similar neuromuscular blocking agents, or cholinergic agonists may lead to synergistic effect.
+
+## Contraindications
+Memantine and donepezil hydrochlorides extended-release capsules are contraindicated in patients with known hypersensitivity to memantine hydrochloride, donepezil hydrochloride, piperidine derivatives, or to any excipients used in the formulation.
+
+## Side Effects
+The most common adverse reactions, occurring at a frequency of at least 5% and greater than placebo with memantine hydrochloride extended-release 28 mg/day, were headache, diarrhea, and dizziness. The most common adverse reactions occurring at a frequency of at least 5% in patients receiving donepezil and at twice or more the placebo rate, include diarrhea, anorexia, vomiting, nausea, and ecchymosis.
+
+## Pregnancy & Lactation
+There are no adequate data on the developmental risk associated with the use of memantine and donepezil hydrochlorides extended-release capsules or its active ingredients (memantine hydrochloride and donepezil hydrochloride) in pregnant women. There are no data on the presence of memantine or donepezil in human milk, the effects on the breastfed infant, or the effects of memantine and donepezil hydrochlorides extended-release capsules or its metabolites on milk production.
+
+## Precautions & Warnings
+- Memantine and donepezil hydrochlorides extended-release is likely to exaggerate succinylcholine-type muscle relaxation during anesthesia.
+- Memantine and donepezil hydrochlorides extended-release may have vagotonic effects on the sinoatrial and atrioventricular nodes manifesting as bradycardia or heart block.
+- Monitor patients for symptoms of active or occult gastrointestinal bleeding, especially those at increased risk for developing ulcers.
+- Memantine and donepezil hydrochlorides extended-release can cause diarrhea, nausea, and vomiting.
+- Memantine and donepezil hydrochlorides extended-release may cause bladder outflow obstructions.
+- Conditions that raise urine pH may decrease the urinary elimination of memantine, resulting in increased plasma levels of memantine.
+
+## Use in Special Populations
+Pediatric Use : Safety and effectiveness of memantine and donepezil hydrochlorides extended-release in pediatric patients have not been established. 
+
+Renal Impairment : No dosage adjustment is needed in patients with mild or moderate renal impairment. 
+
+Hepatic Impairment : No dosage adjustment is needed in patients with mild or moderate hepatic impairment. Memantine and donepezil hydrochlorides extended-release has not been studied in patients with severe hepatic impairment
+
+## Therapeutic Class
+Anti-Alzheimer drugs
+
+## Storage Conditions
+Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children.
