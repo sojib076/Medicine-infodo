@@ -12,6 +12,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import Paper from "@mui/material/Paper";
 import SearchIcon from "@mui/icons-material/Search";
 import NextLink from "next/link";
+import Image from "next/image";
 import MedicationIcon from "@mui/icons-material/Medication";
 import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
 import { tokens } from "@/lib/theme";
@@ -113,10 +114,9 @@ export default function SearchClient({ medicines }: { medicines: MedicineIndex[]
                 }}
               >
                 <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.5 }}>
-                  <Box sx={{ width: 48, height: 48, flexShrink: 0, borderRadius: "10px", background: `linear-gradient(135deg, ${tokens.primary}18, ${tokens.accent}22)`, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
+                  <Box sx={{ width: 48, height: 48, flexShrink: 0, borderRadius: "10px", background: `linear-gradient(135deg, ${tokens.primary}18, ${tokens.accent}22)`, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", position: "relative" }}>
                     {med.image ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img src={med.image} alt={med.name} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                      <Image src={med.image} alt={med.name} fill sizes="48px" style={{ objectFit: "contain" }} />
                     ) : (
                       <MedicationIcon sx={{ color: tokens.primary, fontSize: 24 }} />
                     )}

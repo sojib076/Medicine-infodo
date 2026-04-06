@@ -1,5 +1,6 @@
 // components/medicine/MedicineCard.tsx
 import NextLink from "next/link";
+import Image from "next/image";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -30,16 +31,15 @@ export default function MedicineCard({ med }: { med: MedicineIndex }) {
       }}
     >
       <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.5 }}>
-        {/* Icon */}
+        {/* Icon / image */}
         <Box sx={{
           width: 52, height: 52, flexShrink: 0, borderRadius: "10px",
           background: `linear-gradient(135deg, ${tokens.primary}18, ${tokens.accent}22)`,
           display: "flex", alignItems: "center", justifyContent: "center",
-          overflow: "hidden",
+          overflow: "hidden", position: "relative",
         }}>
           {med.image ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={med.image} alt={med.name} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+            <Image src={med.image} alt={med.name} fill sizes="52px" style={{ objectFit: "contain" }} />
           ) : (
             <MedicationIcon sx={{ color: tokens.primary, fontSize: 26 }} />
           )}

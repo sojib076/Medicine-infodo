@@ -15,10 +15,7 @@ import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
 import MedicineCard from "@/components/medicine/MedicineCard";
 import { tokens } from "@/lib/theme";
 
-// Medicines data is inlined at build-time via a server component wrapper.
-// We accept it as a prop from the server layer (see layout or server wrapper).
-// For pure client usage, we re-export this as a client component that receives
-// the pre-fetched list via props from the parent server component.
+// Client component — receives pre-fetched medicine list from the parent server component.
 import type { MedicineIndex } from "@/lib/scraped-data.server";
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");

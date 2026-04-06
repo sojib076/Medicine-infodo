@@ -86,6 +86,8 @@ export function getManufacturers(): Array<{ slug: string; name: string; count: n
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-// ── Legacy helpers kept for backward compat (no-op if old file absent) ───────
+// ── Legacy stubs — kept for backward compat; new code uses getMedicinesIndex() ──
+/** @deprecated Use getMedicinesIndex() instead */
 export function getScrapedMedicines() { return getMedicinesIndex() as never[]; }
-export function getScrapedMedicine(slug: string) { return undefined; }
+/** @deprecated No longer used; medicine sections are in per-slug .md files */
+export function getScrapedMedicine(_slug: string) { return undefined; }

@@ -26,6 +26,7 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import ArticleIcon from "@mui/icons-material/Article";
 import BusinessIcon from "@mui/icons-material/Business";
+import Image from "next/image";
 import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
 import MedicineCard from "@/components/medicine/MedicineCard";
 import type { MedicineIndex } from "@/lib/scraped-data.server";
@@ -81,11 +82,12 @@ export default function MedicineDetailClient({ med, related, sections, manufactu
             overflow: "hidden",
           }}>
             {med.image ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
+              <Image
                 src={med.image}
                 alt={med.name}
-                style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                fill
+                sizes="(max-width:600px) 150px, 260px"
+                style={{ objectFit: "contain" }}
               />
             ) : (
               <MedicationIcon sx={{ fontSize: { xs: 64, md: 100 }, color: tokens.primary, opacity: 0.5 }} />
