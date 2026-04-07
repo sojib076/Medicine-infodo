@@ -1,0 +1,44 @@
+## Indications
+Grafalon is indicated in combination with other immunosuppressive medicinal products for the suppression of immune competent cells, which are the cause for acute rejection or graft versus host disease. It is usually administered for the following indications:Prevention of acute transplant rejection in patients receiving allogeneic solid organ transplants... Read moreGrafalon is indicated in combination with other immunosuppressive medicinal products for the suppression of immune competent cells, which are the cause for acute rejection or graft versus host disease. It is usually administered for the following indications:Prevention of acute transplant rejection in patients receiving allogeneic solid organ transplants: Grafalon is indicated in combination with other immunosuppressive medicinal products (e.g. glucocorticosteroids, purin antagonists, calcineurin inhibitors or mTOR inhibitors) to enhance immunosuppression following allogeneic solid organ transplantation.Therapy of acute corticosteroid-resistant rejection after allogeneic solid organ transplantation: Grafalon is indicated for the treatment of acute corticosteroid-resistant rejection episodes after allogeneic solid organ transplantation if the therapeutic effect of methyl-prednisolone treatment has proven unsatisfactory.Prevention of graft-versus-host disease (GVHD) in adults after allogeneic stem cell transplantation (SCT): Grafalon is indicated for prevention of graft-versus-host disease (GVHD) in adults with haema- tological malignancies following stem cell transplantation from matched unrelated donors in combination with standard Cyclosporin A/methotrexate prophylaxis.
+
+## Pharmacology
+Grafalon is a polyclonal anti-T-lymphocyte immunoglobulin derived from rabbits immunized with Jurkat cells, a lymphoblastoid cell line. The expression of T-cell markers on Jurkat cells is con- sistent with the effects of Grafalon on lymphocytes. Grafalon has been found to contain anti- bodies against further surface antigens of Jurkat cells. Analysis of lymphocyte subsets in patients who received Grafalon, showed a decrease in lymphocyte subsets carrying surface proteins, which are expressed by the Jurkat cell line. Grafalon is cytotoxic against human lymphocytes. Data show that activated lymphocytes are more susceptible. Grafalon did not activate T-cells (via CD3) or lymphocytes but inhibited activation of T-cells by an anti-CD3 antibody. Grafalon reduced migration of human melanoma cells by binding to adhesion molecules. Anti-adhesive properties (anti-LFA-1 and anti-ICAM-1 activity) might explain why addition of Grafalon diminished the vascular resistance of kidney vessels and reduced lymphocyte retention in the kidney when porcine kidneys were perfused with human lymphocytes incubated with or without Grafalon. Grafalon prolonged skin graft survival in rhesus monkeys. Immunosuppression was evident in this model and leukopenia and lymphopenia were observed. In cynomolgus monkeys, Grafalon had a beneficial effect on ischemia/reperfusion injury by inhibition of adhesion of lymphocytes and neutrophils.
+
+## Dosage & Administration
+The dose of Grafalon is dependent on the indication. Dose recommendations are based on body weight. 
+
+Prevention of acute transplant rejection in patients receiving allogeneic solid organ transplants : The recommended dose range is 2 to 5 mg/kg/d of Grafalon. The most common doses are in the range of 3 to 4 mg/kg/d. Therapy should commence on the day of transplantation pre-, intra-, or immediately post-operatively. Depending on the patient's condition, selected daily dose and the concomitant immunosuppressive regimen, the recommended duration of therapy is in the range of 5 to 14 days. 
+
+Therapy of acute corticosteroid-resistant rejection after allogeneic solid organ transplantation : The recommended dose range is 3 to 5 mg/kg/d of Grafalon. The most common dosages are in the range of 3 to 4 mg/kg/d. Duration of therapy will vary according to the condition of the grafted organ and clinical response, usually between 5 to 14 days. 
+
+Prevention of graft-versus-host disease (GVHD) in adults after allogeneic stem cell transplantation (SCT) : As part of myeloablative conditioning regimens for stem cell transplantation, the recommended dose is 20 mg/kg/d of Grafalon, usually starting from day -3 to day -1 prior to SCT.
+
+## Interaction
+Immunosuppressive medicinal products : In addition to Grafalon, other concomitant immunosuppressive medicinal products are routinely administered. No direct interaction between Grafalon and corticosteroids, purin antagonists, calcineurin inhibitors or mTOR inhibitors has been observed. However, the co-administration of these medicinal products may increase the risk of infection, thrombocytopenia, and anemia. Thus, patients receiving combined immunosuppressive therapies are to be monitored carefully and an adequate adaptation of the regimen is recommended. 
+
+Vaccination : For immunosuppressed patients live-attenuated virus vaccination is contraindicated. The anti-body response to other vaccines may be diminished
+
+## Side Effects
+Very common side-effects likely to affect more than 1 in every 10 patients : fever, chills, headache, tremor, vomiting, nausea, diarrhea, abdominal pain, breathing difficulties, flushing, increased rate of infections (CMV infection, urinary tract infection), low count of red blood cells (anemia). 
+
+Common side-effects likely to affect less than 1 in every 10 patients : thrombocytopenia, leukopenia, pancytopenia (blood disorders), inflammation of mucosa, peripheral swelling, feeling tired, chest pain, joint and muscle pain, back pain, muscle stiffness, low or high blood pressure, sensation of tingling, pricking, or numbness in the skin, fast beating of heart, light sensitivity (photophobia), elevation of laboratory parameters, increased bilirubin in the blood, blood in urine, cough, nose bleeding, reddening of skin, itching, rash, anaphylactic shock, anaphylactic reaction, hypersensitivity, kidney function failure, lymphoproliferative disorder (type of cancer that originates from certain white blood cells), venoocclusive disease (blocked small veins in the liver), bacterial sepsis, pneumonia, pyelonephritis, herpes infection, Influenza, Candidiasis, bronchitis, rhinitis, sinusitis, nasopharyngitis, skin infection.
+
+## Pregnancy & Lactation
+The potential risk for the fetus is unknown. Caution should be exercised when prescribing to pregnant women. At least human immunoglobulin can potentially penetrate the placental barrier or be excreted into human breast milk. Therefore, the decision to treat pregnant or lactating women should be made by the treating physician and based on a risk/benefit evaluation.
+
+## Precautions & Warnings
+Patients receiving Grafalon must be managed in facilities equipped and staffed with adequate laboratory and supportive medical resources to provide emergency treatment if necessary. Grafalon must be administered and monitored under qualified medical supervision. 
+
+Hypersensitivity reactions : Hypersensitivity reactions have been reported with the administration of Grafalon. Before the first administration of Grafalon, it is recommended to determine whether the patient has an anamnestical allergic predisposition, in particular to rabbit proteins. In case of re-exposition in form of re-therapy with Grafalon or treatment with rabbit-immuno-globulin preparations of other manufacturers, the risk of developing an anaphylactic reaction is increased due to a possible sensitisation during the former therapy. 
+
+Severe thrombocytopenia : Treatment with Grafalon should be interrupted or stopped in solid organ transplant patients in whom severe thrombocytopenia develops (i.e. less than 50,000 platelets/μl) as Grafalon may enhance thrombocytopenia and thus increase the risk of hemorrhage. Clinical personnel should be prepared for appropriate emergency measures. 
+
+Hepatic disorders : Grafalon has to be administered with special caution in patients with hepatic diseases. Pre-existing clotting disorders may aggravate. Careful monitoring of thrombocytes and coagulation parameters is recommended. 
+
+Cardiovascular disorders : Grafalon has to be administered with special caution in patients with known or suspected cardio-vascular disorders. In patients with hypotension or cardiac decompensation with orthostatic symptoms (e.g. unconsciousness, weakness, vomiting, nausea), slowing/interrupting the infusion should be considered.
+
+## Therapeutic Class
+Vaccines, Anti-sera & Immunoglobulin
+
+## Storage Conditions
+Store in a refrigerator (2°C-8°C). Keep the vial in the outer carton in order to protect from light.

@@ -1,0 +1,42 @@
+## Indications
+Adjuvant treatment of postmenopausal women with hormone receptor positive early breast cancer.Adjuvant treatment of postmenopausal women with early breast cancer (positive or unknown oestrogen or progesterone receptor status) who have received 5 years of adjuvant tamoxifen therapy (extended... Read moreAdjuvant treatment of postmenopausal women with hormone receptor positive early breast cancer.Adjuvant treatment of postmenopausal women with early breast cancer (positive or unknown oestrogen or progesterone receptor status) who have received 5 years of adjuvant tamoxifen therapy (extended adjuvant therapy).First-line treatment in postmenopausal women with hormone-dependent advanced breast cancer.Treatment of advanced breast cancer in women with natural or artificially induced postmenopausal status, who have previously been treated with antioestrogens.Pre-operative therapy in postmenopausal women with localized hormone receptor positive breast cancer, to allow subsequent breast-conserving surgery in women not originally considered candidates for this type of surgery. Subsequent treatment after surgery should be in accordance with standard of care.
+
+## Pharmacology
+Mechanism of Action : Letrozole is a potent and highly specific nonsteroidal aromatase inhibitor. It inhibits the aromatase enzyme by competitively binding to the haem of the cytochrome P450 subunit of the enzyme, resulting in a reduction of estrogen biosynthesis in all tissues. Letrozole exerts its antitumor effect by depriving estrogen-dependent breast cancer cells of their growth stimulus. In postmenopausal women, estrogens are derived mainly from the action of the aromatase enzyme, which coverts adrenal androgens primarily androstenedione and testosterone-to oestrone (E1) and oestradiol (E2). The suppression of estrogen biosynthesis in the peripheral tissues and the malignant tissues can be achieved by specifically inhibiting the aromatase enzyme. 
+
+In healthy postmenopausal women, single doses of 0.1, 0.5 and 2.5mg letrozole suppress serum oestrone and oestradiol by 75-78% and 78% from baseline respectively. Maximum suppression is achieved in 48-78 hours. In post-menopausal patients, with advanced breast cancer, daily doses of 0.1 to 5mg suppress plasma concentration of oestradiol, oestrone, and oestrone sulphate by 78-95% from baseline in all patients treated. Letrozole had no effect on plasma androgen concentrations (androstenedione and testosterone) among healthy postmenopausal women after single doses of 0.1, 0.5 and 2.5mg indicating that the blockade of estrogen biosynthesis does not lead to accumulation of androgenic precursors. Impairment of adrenal steroidogenesis has not been observed. 
+
+Pharmacokinetics : Letrozole is rapidly and completely absorbed from the gastrointestinal tract (absolute bioavailability 99.9%). Food slightly decreases the rate of absorption, but the extent of absorption remains unchanged. The minor effect of the absorption rate is not considered to be of clinical relevance and therefore letrozole may be taken after, with or before food. Plasma protein binding of letrozole is approximately 60%, mainly to albumin (55%). The concentration of letrozole in erythrocytes is about 80% of that in plasma. Metabolic clearance to a pharmacologically inactive carbinol metabolite is the major elimination pathway of letrozole but is relatively slow when compared to hepatic blood flow. The cytochrome P450 isoenzymes 3A4 and 2A6 were found to be capable of converting letrozole to this metabolite in vitro but their individual contributions to letrozole metabolism in vivo have not been established. The apparent terminal elimination half-life in plasma is about 2 days. After daily administration of 2.5mg of letrozole, steady-state levels are reached within 2 to 6 weeks.
+
+## Dosage & Administration
+Adult and elderly patients : The recommended dose of Letrozole is 2.5 mg once daily. In the adjutant and extended adjutant setting, treatment with Letrozole should continue for 5 years or until tumor relapse occurs, whichever comes first. In patients with metastatic disease, treatment with Letrozole should continue until tumor progression is evident. No dose adjustment is required for elderly patients. 
+
+Patients with hepatic and/or renal impairment : No dosage adjustment is required for patients with hepatic impairment or renal impairment (creatinine clearance =10 mL/min). However, patients with severe hepatic impairment (Child-Pugh score C) should be kept under close supervision. 
+
+Children : Not applicable.
+
+## Interaction
+Clinical interaction studies with cimetidine and warfarin indicated that the co-administration of Letrocare with these drugs does not result in clinically significant drug reactions, even through cimetidine is a known inhibitor of one of the cytochrome P450 isoenzymes capable of metabolising Letrocare in vitro.
+
+## Contraindications
+Letrozole is contraindicated in known or suspected hypersensitivity to letrozole, other aromatase inhibitors, or to any of their ingredients. It is contraindicated during pregnancy, lactation and in pre-menopausal women. It is also contraindicated in severe hepatic dysfunction.
+
+## Side Effects
+Common : Plot flushes, Increased level of cholesterol (hypercholesterolemia), Fatigue, Increased sweating, Pain in bones and joints (arthralgia), Skin rash, Fleadache, Dizziness, Malaise (generally feeling unwell), gastrointestinal disorders such as nausea, vomiting, indigestion, constipation, diarrhea. Increase in or loss of appetite ,Pain in muscles Thinning or wasting of your bones (osteoporosis), leading to bone fractures in some cases, Swelling of arms, hands, feet, ankles (edema), Depression, Weight increase, Flair loss, Raised blood pressure (hypertension), Abdominal pain, Dry skin, Vaginal bleeding, Palpitations, rapid heart rate, Joint stiffness (arthritis), Chest pain. 
+
+Rare : Nervous disorders such as anxiety, nervousness, irritability, drowsiness, memory problems, Somnolence, insomnia, Pain or burning sensation in the hands or wrist (carpal tunnel syndrome) Impairment of sensation, especially that of touch ,Eye disorders such as blurred vision, eye irritation ,Skin disorders such as itching (urticarial). Vaginal discharge or dryness Dryness of mucous membranes, Weight decrease, Urinary tract infection, increased frequency of urination, Cough, Increased level of enzymes, yellowing of the skin and eyes, High blood levels of bilirubin (a breakdown product of red blood cells)
+
+## Pregnancy & Lactation
+Oral administration of letrozole in pregnant rats resulted in teratogenicity and maternal toxicity at 0.03 mg/kg. Embryotoxicity and foetotoxicity were seen at doses >0.003 mg/kg and there was an increase in the incidence of foetal malformation among the animals treated. However, there are no adequate and well-controlled studies of letrozole in pregnant women and its use in these patients is not recommended. It is not known whether letrozole is excreted in human milk. Because many drugs are excreted in human milk, letrozole should not be administered to a nursing woman.
+
+## Precautions & Warnings
+In breast cancer patients with moderate hepatic dysfunction, no dosage adjustment is necessary, but caution is recommended since Letrocare elimination depends mainly on intrinsic metabolic clearance. Renal impairment (calculated creatinine clearance: 20 to 50 ml/min) did not affect steady-state plasma Letrocare concentration at a dose of 2.5 mg or 5 mg. Hence, no dose adjustment is necessary for such renal function impairment. It is anticipated that Letrocare could be removed from blood by dialysis since it is weakly bound to plasma proteins. The potential risks and benefits to such patients should be considered carefully before prescribing Letrocare. In some cases, fatigue and dizziness have been observed with the use of Letrocare. Patients should therefore, be advised that their physical and/or mental abilities required for operating machinery or driving a car may be impaired.
+
+## Overdose Effects
+There is no clinical experience of overdosage. There is no specific antidote to Letrocare. Since Letrocare is not highly protein-bound, dialysis may be helpful. Emesis may be induced if the patient is alert. In general, supportive care and frequent monitoring of vital signs is appropriate.
+
+## Therapeutic Class
+Hormonal Chemotherapy
+
+## Storage Conditions
+Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children.
