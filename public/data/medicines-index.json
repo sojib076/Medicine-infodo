@@ -69790,5 +69790,13 @@
     "generic": "",
     "manufacturer": "ACME Laboratories Ltd.",
     "image": "/images/medicines/maxima-mups.webp"
+  },
+  {
+    "slug": "agafi",
+    "name": "Agafi",
+    "strength": "2 mg/0.05 ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/agafi.webp"
   }
 ]
