@@ -18,15 +18,33 @@ export async function generateStaticParams() {
   return getMedicinesIndex().map((m) => ({ slug: m.slug }));
 }
 
+/** Builds an SEO title guaranteed to be ≤ 60 characters. */
+function buildPageTitle(name: string, strength: string, generic: string): string {
+  const full = `${name} ${strength} – ${generic} | MedInfoBD`;
+  if (full.length <= 60) return full;
+  const withoutSite = `${name} ${strength} – ${generic}`;
+  if (withoutSite.length <= 60) return withoutSite;
+  const nameStrength = `${name} ${strength}`;
+  if (nameStrength.length <= 60) return nameStrength;
+  // Last resort: truncate with ellipsis
+  return nameStrength.slice(0, 57) + "…";
+}
+
+/** Builds a descriptive alt text string for the medicine image. */
+function buildImageAlt(name: string, strength: string, generic: string): string {
+  return `${name} ${strength} – ${generic}`;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const med = getMedicineBySlug(params.slug);
   if (!med) return {};
-  const title = `${med.name} ${med.strength} – ${med.generic} | MedInfoBD`;
+  const title = buildPageTitle(med.name, med.strength, med.generic);
   const description = `${med.name} (${med.generic} ${med.strength}) by ${med.manufacturer}. Dosage, side effects, indications, composition and storage information.`;
   return {
     title,
     description,
     keywords: [med.name, med.generic, med.manufacturer, "medicine bangladesh", "drug information", "DGDA"],
+    robots: { index: true, follow: true },
     openGraph: {
       title,
       description,
@@ -34,11 +52,87 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "MedInfoBD",
       locale: "en_BD",
       type: "article",
-      ...(med.image ? { images: [{ url: med.image }] } : {}),
+      ...(med.image ? { images: [{ url: med.image, alt: buildImageAlt(med.name, med.strength, med.generic) }] } : {}),
     },
     twitter: { card: "summary", title, description },
     alternates: { canonical: `${BASE_URL}/medicines/${med.slug}` },
   };
+}
+
+/** Derive a simple dosage form label from the medicine name or strength text. */
+function deriveDosageForm(name: string, strength: string): string {
+  const text = `${name} ${strength}`.toLowerCase();
+  if (text.includes("syrup") || text.includes("suspension")) return "Oral Liquid";
+  if (text.includes("injection") || text.includes("vial") || text.includes("i.v.")) return "Injection";
+  if (text.includes("cream") || text.includes("ointment") || text.includes("gel")) return "Topical";
+  if (text.includes("drop")) return "Eye/Ear Drops";
+  if (text.includes("capsule")) return "Capsule";
+  if (text.includes("sachet") || text.includes("powder")) return "Powder";
+  if (text.includes("inhaler")) return "Inhaler";
+  return "Tablet";
+}
+
+/** Max character limits for FAQ answers in structured data. */
+const FAQ_ANSWER_MAX_CHARS = 500;
+
+/**
+ * Builds FAQ entries from well-known medicine sections for use in the
+ * FAQPage JSON-LD structured data schema. Each entry pairs a common
+ * patient question with an answer derived from the corresponding section.
+ *
+ * @param name - Brand name of the medicine
+ * @param strength - Dosage strength (e.g., "500 mg")
+ * @param sections - Map of section titles to their text content
+ * @returns Array of question/answer pairs ready for FAQPage schema
+ */
+function buildFaqEntries(
+  name: string,
+  strength: string,
+  sections: Record<string, string>,
+): Array<{ question: string; answer: string }> {
+  const faqs: Array<{ question: string; answer: string }> = [];
+
+  const indications = sections["Indications"] ?? sections["Indication"];
+  if (indications) {
+    faqs.push({
+      question: `What is ${name} ${strength} used for?`,
+      answer: indications.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
+    });
+  }
+
+  const dosage = sections["Dosage & Administration"] ?? sections["Dosage"];
+  if (dosage) {
+    faqs.push({
+      question: `What is the dosage for ${name} ${strength}?`,
+      answer: dosage.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
+    });
+  }
+
+  const sideEffects = sections["Side Effects"];
+  if (sideEffects) {
+    faqs.push({
+      question: `What are the side effects of ${name} ${strength}?`,
+      answer: sideEffects.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
+    });
+  }
+
+  const precautions = sections["Precautions & Warnings"] ?? sections["Precautions"];
+  if (precautions) {
+    faqs.push({
+      question: `What precautions should I take with ${name}?`,
+      answer: precautions.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
+    });
+  }
+
+  const storage = sections["Storage Conditions"] ?? sections["Storage"];
+  if (storage) {
+    faqs.push({
+      question: `How should ${name} be stored?`,
+      answer: storage.replace(/\n+/g, " ").trim().slice(0, FAQ_ANSWER_MAX_CHARS),
+    });
+  }
+
+  return faqs;
 }
 
 export default function MedicineDetailPage({ params }: Props) {
@@ -58,18 +152,35 @@ export default function MedicineDetailPage({ params }: Props) {
     )
     .slice(0, 4);
 
+  const dosageForm = deriveDosageForm(med.name, med.strength);
+
   // JSON-LD Drug schema
-  const jsonLd = {
+  const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Drug",
-    name: med.name,
-    description: `${med.name} is a ${med.generic} ${med.strength} manufactured by ${med.manufacturer}.`,
+    name: `${med.name} ${med.strength}`,
+    description: `${med.name} (${med.generic} ${med.strength}) is manufactured by ${med.manufacturer}. It is available as a ${dosageForm}.`,
     activeIngredient: med.generic,
+    dosageForm,
     manufacturer: { "@type": "Organization", name: med.manufacturer },
     strengthValue: med.strength,
     url: `${BASE_URL}/medicines/${med.slug}`,
     ...(med.image ? { image: med.image } : {}),
   };
+
+  // FAQPage schema – derived from medicine sections
+  const faqEntries = buildFaqEntries(med.name, med.strength, sections);
+  const faqLd: Record<string, unknown> | null = faqEntries.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqEntries.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      }
+    : null;
 
   return (
     <>
@@ -78,11 +189,19 @@ export default function MedicineDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqLd && (
+        <Script
+          id={`jsonld-faq-${med.slug}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
       <MedicineDetailClient
         med={med}
         related={related}
         sections={sections}
         manufacturerSlug={manufacturerSlug}
+        faqEntries={faqEntries}
       />
     </>
   );
