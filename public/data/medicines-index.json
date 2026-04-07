@@ -69798,5 +69798,6061 @@
     "generic": "",
     "manufacturer": "Incepta Pharmaceuticals Ltd.",
     "image": "/images/medicines/agafi.webp"
+  },
+  {
+    "slug": "maximox",
+    "name": "Maximox",
+    "strength": "400 mg/250 ml",
+    "generic": "",
+    "manufacturer": "Orion Infusion Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxineb",
+    "name": "Maxineb",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/maxineb.jpg"
+  },
+  {
+    "slug": "maxipass",
+    "name": "Maxipass",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/maxipass.webp"
+  },
+  {
+    "slug": "maxipen",
+    "name": "Maxipen",
+    "strength": "(500 mg+500 mg)/vial",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/maxipen.webp"
+  },
+  {
+    "slug": "maxiron",
+    "name": "Maxiron",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/maxiron.jpg"
+  },
+  {
+    "slug": "maxito",
+    "name": "Maxito",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/maxito.webp"
+  },
+  {
+    "slug": "maxitrol",
+    "name": "Maxitrol",
+    "strength": "(1 mg+3500 IU+6000 IU)/ml",
+    "generic": "",
+    "manufacturer": "City Overseas Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxlev",
+    "name": "Maxlev",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Novus Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxnor",
+    "name": "Maxnor",
+    "strength": "4 mg/4 ml",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/maxnor.webp"
+  },
+  {
+    "slug": "maxocol",
+    "name": "Maxocol",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxolax",
+    "name": "Maxolax",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/maxolax.webp"
+  },
+  {
+    "slug": "maxomega",
+    "name": "MaxOmega",
+    "strength": "1000 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/maxomega.webp"
+  },
+  {
+    "slug": "maxora",
+    "name": "Maxora",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Army Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "maxora-mups",
+    "name": "Maxora MUPS",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Army Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "maxpain",
+    "name": "Maxpain",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Guardian Healthcare Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxpime",
+    "name": "Maxpime",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/maxpime.webp"
+  },
+  {
+    "slug": "maxpro",
+    "name": "Maxpro",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/maxpro.jpg"
+  },
+  {
+    "slug": "maxpro-hp",
+    "name": "Maxpro Hp",
+    "strength": "20 mg+1000 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/maxpro-hp.jpg"
+  },
+  {
+    "slug": "maxpro-mups",
+    "name": "Maxpro MUPS",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/maxpro-mups.jpg"
+  },
+  {
+    "slug": "maxrin",
+    "name": "Maxrin",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/maxrin.webp"
+  },
+  {
+    "slug": "maxrin-d",
+    "name": "Maxrin D",
+    "strength": "0.4 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/maxrin-d.webp"
+  },
+  {
+    "slug": "maxsulin",
+    "name": "Maxsulin",
+    "strength": "30%+70% in 40 IU/ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/maxsulin.webp"
+  },
+  {
+    "slug": "maxsulin-n",
+    "name": "Maxsulin N",
+    "strength": "40 IU/ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/maxsulin-n.webp"
+  },
+  {
+    "slug": "maxsulin-r",
+    "name": "Maxsulin R",
+    "strength": "40 IU/ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/maxsulin-r.webp"
+  },
+  {
+    "slug": "maxtra",
+    "name": "Maxtra",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/maxtra.jpg"
+  },
+  {
+    "slug": "maxvit-ace",
+    "name": "Maxvit Ace",
+    "strength": "6 mg+200 mg+50 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxvit-d",
+    "name": "Maxvit D",
+    "strength": "40000 IU",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "maxwel",
+    "name": "Maxwel",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Jenphar Bangladesh Ltd.",
+    "image": "/images/medicines/maxwel.jpg"
+  },
+  {
+    "slug": "maxzon",
+    "name": "Maxzon",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "One Pharma Ltd.",
+    "image": "/images/medicines/maxzon.jpg"
+  },
+  {
+    "slug": "mayapill",
+    "name": "Mayapill",
+    "strength": "0.03 mg+0.15 mg+75 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/mayapill.webp"
+  },
+  {
+    "slug": "mazic",
+    "name": "Mazic",
+    "strength": "10 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mazic.webp"
+  },
+  {
+    "slug": "mazic-ds",
+    "name": "Mazic DS",
+    "strength": "20 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mazic-ds.webp"
+  },
+  {
+    "slug": "mazic-jr",
+    "name": "Mazic Jr",
+    "strength": "4.05 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mazic-jr.webp"
+  },
+  {
+    "slug": "mazith",
+    "name": "Mazith",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mb-12",
+    "name": "MB 12",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/mb-12.webp"
+  },
+  {
+    "slug": "mbroxol",
+    "name": "Mbroxol",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Benham Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mdf-mdf808m",
+    "name": "MDF (MDF808M)",
+    "strength": "Manual blood pressure monitor",
+    "generic": "",
+    "manufacturer": "MDF Instruments",
+    "image": "/images/medicines/mdf-mdf808m.jpg"
+  },
+  {
+    "slug": "mebalon",
+    "name": "Mebalon",
+    "strength": "(5 mg+500 IU)/gm",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebantrin",
+    "name": "Mebantrin",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebastin",
+    "name": "Mebastin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mebastin.jpg"
+  },
+  {
+    "slug": "mebel",
+    "name": "Mebel",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebel-ds",
+    "name": "Mebel DS",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebendox",
+    "name": "Mebendox",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Indo Bangla Pharmaceutical",
+    "image": null
+  },
+  {
+    "slug": "mebevin",
+    "name": "Mebevin",
+    "strength": "135 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebidal",
+    "name": "Mebidal",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mebidal.webp"
+  },
+  {
+    "slug": "mebiz-sr",
+    "name": "Mebiz SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/mebiz-sr.webp"
+  },
+  {
+    "slug": "mebo-s",
+    "name": "Mebo S",
+    "strength": "70%+15%+15%",
+    "generic": "",
+    "manufacturer": "Jenphar Bangladesh Ltd.",
+    "image": "/images/medicines/mebo-s.jpg"
+  },
+  {
+    "slug": "mebolin",
+    "name": "Mebolin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/mebolin.webp"
+  },
+  {
+    "slug": "mebolos",
+    "name": "Mebolos",
+    "strength": "3.35 gm/5 ml",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mebrex",
+    "name": "Mebrex",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mecab",
+    "name": "Mecab",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mecab.png"
+  },
+  {
+    "slug": "mecabis",
+    "name": "Mecabis",
+    "strength": "5% w/w",
+    "generic": "",
+    "manufacturer": "Asiatic Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meclid",
+    "name": "Meclid",
+    "strength": "10 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/meclid.webp"
+  },
+  {
+    "slug": "mecliz-plus",
+    "name": "Mecliz Plus",
+    "strength": "25 mg+50 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/mecliz-plus.webp"
+  },
+  {
+    "slug": "mecobal",
+    "name": "Mecobal",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mecobal.jpg"
+  },
+  {
+    "slug": "mecol",
+    "name": "Mecol",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mecol.webp"
+  },
+  {
+    "slug": "mecolagin",
+    "name": "Mecolagin",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mecolagin.webp"
+  },
+  {
+    "slug": "mecolin",
+    "name": "Mecolin",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mecolin.jpg"
+  },
+  {
+    "slug": "mecomin",
+    "name": "Mecomin",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Peoples Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mecopen",
+    "name": "Mecopen",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mecozol",
+    "name": "Mecozol",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mectin",
+    "name": "Mectin",
+    "strength": "12 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mectin.webp"
+  },
+  {
+    "slug": "meczin",
+    "name": "Meczin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "med-cal",
+    "name": "Med Cal",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medcal-d",
+    "name": "Medcal-D",
+    "strength": "500 mg+200 IU",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mederma-advanced",
+    "name": "Mederma (Advanced)",
+    "strength": "10 gm",
+    "generic": "",
+    "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+    "image": "/images/medicines/mederma-advanced.webp"
+  },
+  {
+    "slug": "mederma-skin-care-for-scars",
+    "name": "Mederma (Skin care for scars)",
+    "strength": "20 gm",
+    "generic": "",
+    "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+    "image": "/images/medicines/mederma-skin-care-for-scars.webp"
+  },
+  {
+    "slug": "mederma-stretch-marks-therapy",
+    "name": "Mederma (Stretch marks therapy)",
+    "strength": "25 gm",
+    "generic": "",
+    "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+    "image": "/images/medicines/mederma-stretch-marks-therapy.webp"
+  },
+  {
+    "slug": "medi-gold",
+    "name": "Medi Gold",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medibion",
+    "name": "Medibion",
+    "strength": "100 mg+200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medica-advanced",
+    "name": "Medica (Advanced)",
+    "strength": "Digital blood pressure monitor",
+    "generic": "",
+    "manufacturer": "Medica Tech Limited",
+    "image": "/images/medicines/medica-advanced.jpg"
+  },
+  {
+    "slug": "medica-smart",
+    "name": "Medica (Smart)",
+    "strength": "Digital blood pressure monitor",
+    "generic": "",
+    "manufacturer": "Medica Tech Limited",
+    "image": "/images/medicines/medica-smart.jpg"
+  },
+  {
+    "slug": "medicef",
+    "name": "Medicef",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medicon-oral-saline",
+    "name": "Medicon Oral Saline",
+    "strength": "10.25 gm",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medifen",
+    "name": "Medifen",
+    "strength": "1% w/w",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medigra",
+    "name": "Medigra",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "MedRx Life Science Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medikast",
+    "name": "Medikast",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Leon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medimet-s-ors",
+    "name": "Medimet's ORS",
+    "strength": "10.25 gm",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medisign",
+    "name": "Medisign",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "EMPECS Medical Device Co., Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meditrim",
+    "name": "Meditrim",
+    "strength": "400 mg+80 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medivit",
+    "name": "Medivit",
+    "strength": "5 mg+2 mg+2 mg+20 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medizol",
+    "name": "Medizol",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medogen",
+    "name": "Medogen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medozil",
+    "name": "Medozil",
+    "strength": "14 mg+10 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/medozil.webp"
+  },
+  {
+    "slug": "medricox",
+    "name": "Medricox",
+    "strength": "90 mg",
+    "generic": "",
+    "manufacturer": "MedRx Life Science Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medrina",
+    "name": "Medrina",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/medrina.webp"
+  },
+  {
+    "slug": "medrogest",
+    "name": "Medrogest",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/medrogest.webp"
+  },
+  {
+    "slug": "medrol",
+    "name": "Medrol",
+    "strength": "40 mg/ml",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "medrolin",
+    "name": "Medrolin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/medrolin.webp"
+  },
+  {
+    "slug": "medroxy",
+    "name": "Medroxy",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/medroxy.jpg"
+  },
+  {
+    "slug": "medulax",
+    "name": "Medulax",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/medulax.webp"
+  },
+  {
+    "slug": "medzith",
+    "name": "Medzith",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "MedRx Life Science Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meera",
+    "name": "Meera",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/meera.jpg"
+  },
+  {
+    "slug": "meera-sr",
+    "name": "Meera SR",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/meera-sr.png"
+  },
+  {
+    "slug": "mef-q",
+    "name": "Mef-Q",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "mefalgin",
+    "name": "Mefalgin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Cosmic Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mefin",
+    "name": "Mefin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "United Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meflocin",
+    "name": "Meflocin",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "Asiatic Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meflon",
+    "name": "Meflon",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "mefoglip",
+    "name": "Mefoglip",
+    "strength": "2.5 mg+250 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mefoglip-ds",
+    "name": "Mefoglip DS",
+    "strength": "5 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mefoglip-ds.jpg"
+  },
+  {
+    "slug": "meforex",
+    "name": "Meforex",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/meforex.jpg"
+  },
+  {
+    "slug": "meforin",
+    "name": "Meforin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Jenphar Bangladesh Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meformin",
+    "name": "Meformin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mefotrix-ds",
+    "name": "Mefotrix DS",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mefrad",
+    "name": "Mefrad",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mega-cef",
+    "name": "Mega Cef",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mega-flox",
+    "name": "Mega Flox",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mega-c",
+    "name": "Mega-C",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "megabac",
+    "name": "Megabac",
+    "strength": "4.5 MIU (150 mg)",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/megabac.webp"
+  },
+  {
+    "slug": "megacilin",
+    "name": "Megacilin",
+    "strength": "(4 gm+0.5 gm)/vial",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/megacilin.jpg"
+  },
+  {
+    "slug": "megadox",
+    "name": "Megadox",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megafen",
+    "name": "Megafen",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/megafen.jpg"
+  },
+  {
+    "slug": "megafen-plus",
+    "name": "Megafen Plus",
+    "strength": "(75 mg+20 mg)/2 ml",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/megafen-plus.jpg"
+  },
+  {
+    "slug": "megafen-sr",
+    "name": "Megafen-SR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/megafen-sr.jpg"
+  },
+  {
+    "slug": "megafil",
+    "name": "Megafil",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megamag",
+    "name": "MegaMag",
+    "strength": "365 mg",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/megamag.webp"
+  },
+  {
+    "slug": "meganor",
+    "name": "Meganor",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meganor.webp"
+  },
+  {
+    "slug": "megapime",
+    "name": "Megapime",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megarin",
+    "name": "Megarin",
+    "strength": "25000 IU/5 ml",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megasim",
+    "name": "Megasim",
+    "strength": "(480 mg+20 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megatrim",
+    "name": "Megatrim",
+    "strength": "(200 mg+40 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megatrim-ds",
+    "name": "Megatrim DS",
+    "strength": "800 mg+160 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megatrol",
+    "name": "Megatrol",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Peoples Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megecare",
+    "name": "Megecare",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "megenox",
+    "name": "Megenox",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/megenox.webp"
+  },
+  {
+    "slug": "megestol",
+    "name": "Megestol",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/megestol.webp"
+  },
+  {
+    "slug": "meget",
+    "name": "Meget",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/meget.webp"
+  },
+  {
+    "slug": "megexia",
+    "name": "Megexia",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "ZAS Corporation",
+    "image": null
+  },
+  {
+    "slug": "meglu",
+    "name": "Meglu",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meglu.webp"
+  },
+  {
+    "slug": "meglu-er",
+    "name": "Meglu ER",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meglu-er.webp"
+  },
+  {
+    "slug": "megron-er",
+    "name": "Megron ER",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/megron-er.webp"
+  },
+  {
+    "slug": "melacare",
+    "name": "Melacare",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melafit",
+    "name": "Melafit",
+    "strength": "3 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/melafit.webp"
+  },
+  {
+    "slug": "melafresh",
+    "name": "Melafresh",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Cosmic Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melagyl",
+    "name": "Melagyl",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Reliance Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melano",
+    "name": "Melano",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/melano.webp"
+  },
+  {
+    "slug": "melanxit",
+    "name": "Melanxit",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": "/images/medicines/melanxit.jpg"
+  },
+  {
+    "slug": "melasin",
+    "name": "Melasin",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/melasin.jpg"
+  },
+  {
+    "slug": "melato",
+    "name": "Melato",
+    "strength": "3 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/melato.png"
+  },
+  {
+    "slug": "melatrin",
+    "name": "Melatrin",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/melatrin.webp"
+  },
+  {
+    "slug": "melazen",
+    "name": "Melazen",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melcam",
+    "name": "Melcam",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "melev",
+    "name": "Melev",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melit",
+    "name": "Melit",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Ethical Drugs Limited",
+    "image": null
+  },
+  {
+    "slug": "meliva",
+    "name": "Meliva",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/meliva.jpg"
+  },
+  {
+    "slug": "melixol",
+    "name": "Melixol",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/melixol.webp"
+  },
+  {
+    "slug": "melizin",
+    "name": "Melizin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meloderm",
+    "name": "Meloderm",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "melonin",
+    "name": "Melonin",
+    "strength": "3 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/melonin.webp"
+  },
+  {
+    "slug": "melphalan",
+    "name": "Melphalan",
+    "strength": "50 mg/vial",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "melphin",
+    "name": "Melphin",
+    "strength": "125 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "melpred",
+    "name": "Melpred",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": null
+  },
+  {
+    "slug": "meltix",
+    "name": "Meltix",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meltix.webp"
+  },
+  {
+    "slug": "melxit",
+    "name": "Melxit",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/melxit.webp"
+  },
+  {
+    "slug": "memanto",
+    "name": "Memanto",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "memogen",
+    "name": "Memogen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "memopil",
+    "name": "Memopil",
+    "strength": "800 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/memopil.webp"
+  },
+  {
+    "slug": "menactra",
+    "name": "Menactra",
+    "strength": "50 mcg/0.5 ml",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/menactra.webp"
+  },
+  {
+    "slug": "menaril",
+    "name": "Menaril",
+    "strength": "8 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/menaril.webp"
+  },
+  {
+    "slug": "menatrol",
+    "name": "Menatrol",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mendil",
+    "name": "Mendil",
+    "strength": "(14 mg+2 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mendil.jpg"
+  },
+  {
+    "slug": "menem",
+    "name": "Menem",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "menida",
+    "name": "Menida",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Oyster Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "menilet",
+    "name": "Menilet",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": "/images/medicines/menilet.jpg"
+  },
+  {
+    "slug": "menofactor",
+    "name": "Menofactor",
+    "strength": "75 IU/vial",
+    "generic": "",
+    "manufacturer": "ZAS Corporation",
+    "image": null
+  },
+  {
+    "slug": "menofin",
+    "name": "Menofin",
+    "strength": "75 IU/vial",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/menofin.webp"
+  },
+  {
+    "slug": "menogia",
+    "name": "Menogia",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/menogia.jpg"
+  },
+  {
+    "slug": "menol",
+    "name": "Menol",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Supreme Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "menoral",
+    "name": "Menoral",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/menoral.webp"
+  },
+  {
+    "slug": "menorest",
+    "name": "Menorest",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/menorest.webp"
+  },
+  {
+    "slug": "mensil-n",
+    "name": "Mensil N",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mensil-n.webp"
+  },
+  {
+    "slug": "meoral",
+    "name": "Meoral",
+    "strength": "5%+1%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/meoral.webp"
+  },
+  {
+    "slug": "mepal",
+    "name": "Mepal",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Royal Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mepcort",
+    "name": "Mepcort",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mepcort.jpg"
+  },
+  {
+    "slug": "mepen",
+    "name": "Mepen",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mepen.png"
+  },
+  {
+    "slug": "mepira",
+    "name": "Mepira",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/mepira.jpg"
+  },
+  {
+    "slug": "mepogest",
+    "name": "Mepogest",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mepogest.jpg"
+  },
+  {
+    "slug": "mepra",
+    "name": "Mepra",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Marksman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mepred",
+    "name": "Mepred",
+    "strength": "8 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "merin",
+    "name": "Merin",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "merison",
+    "name": "Merison",
+    "strength": "6 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/merison.jpg"
+  },
+  {
+    "slug": "merivit",
+    "name": "Merivit",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merivit.jpg"
+  },
+  {
+    "slug": "merobac",
+    "name": "Merobac",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merobac.webp"
+  },
+  {
+    "slug": "merocar",
+    "name": "Merocar",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merocar.jpg"
+  },
+  {
+    "slug": "merocef",
+    "name": "Merocef",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merocef.webp"
+  },
+  {
+    "slug": "merocil",
+    "name": "Merocil",
+    "strength": "250 mg/vial",
+    "generic": "",
+    "manufacturer": "Pharmacil Limited",
+    "image": null
+  },
+  {
+    "slug": "meroclav",
+    "name": "Meroclav",
+    "strength": "250 mg+62.5 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meroclav.webp"
+  },
+  {
+    "slug": "merocon",
+    "name": "Merocon",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "merogit",
+    "name": "Merogit",
+    "strength": "250 mg/vial",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merogit.png"
+  },
+  {
+    "slug": "meroject",
+    "name": "Meroject",
+    "strength": "250 mg/vial",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "merol-a",
+    "name": "Merol-A",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Jenphar Bangladesh Ltd.",
+    "image": "/images/medicines/merol-a.webp"
+  },
+  {
+    "slug": "merolab",
+    "name": "Merolab",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "Labaid Pharma Ltd.",
+    "image": "/images/medicines/merolab.jpg"
+  },
+  {
+    "slug": "merolin",
+    "name": "Merolin",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merolin.webp"
+  },
+  {
+    "slug": "merom",
+    "name": "Merom",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meromax",
+    "name": "Meromax",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/meromax.jpg"
+  },
+  {
+    "slug": "meronix",
+    "name": "Meronix",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meropen",
+    "name": "Meropen",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/meropen.webp"
+  },
+  {
+    "slug": "meropex",
+    "name": "Meropex",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "merostat",
+    "name": "Merostat",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "One Pharma Ltd.",
+    "image": "/images/medicines/merostat.jpg"
+  },
+  {
+    "slug": "merotic",
+    "name": "Merotic",
+    "strength": "1 gm/vial",
+    "generic": "",
+    "manufacturer": "Rangs Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "merotrax",
+    "name": "Merotrax",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merotrax.webp"
+  },
+  {
+    "slug": "merovent",
+    "name": "Merovent",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "DBL Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "merovia",
+    "name": "Merovia",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "Maks Drug Limited",
+    "image": null
+  },
+  {
+    "slug": "meroxin",
+    "name": "Meroxin",
+    "strength": "500 mg/vial",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/meroxin.webp"
+  },
+  {
+    "slug": "merozolyn",
+    "name": "Merozolyn",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/merozolyn.webp"
+  },
+  {
+    "slug": "mervan",
+    "name": "Mervan",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mervan.jpg"
+  },
+  {
+    "slug": "mervan-sr",
+    "name": "Mervan SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mervan-sr.webp"
+  },
+  {
+    "slug": "mes-d",
+    "name": "Mes-D",
+    "strength": "400 mg/4 ml",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mes-d.webp"
+  },
+  {
+    "slug": "mesacol",
+    "name": "Mesacol",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/mesacol.webp"
+  },
+  {
+    "slug": "mesagut",
+    "name": "Mesagut",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mesagut.jpg"
+  },
+  {
+    "slug": "mesala",
+    "name": "Mesala",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/mesala.webp"
+  },
+  {
+    "slug": "mesartin",
+    "name": "Mesartin",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mesartin-plus",
+    "name": "Mesartin Plus",
+    "strength": "5 mg+20 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meslamin-dr",
+    "name": "Meslamin DR",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/meslamin-dr.webp"
+  },
+  {
+    "slug": "mesna",
+    "name": "Mesna",
+    "strength": "400 mg/4 ml",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mesnex",
+    "name": "Mesnex",
+    "strength": "400 mg/4 ml",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mespa",
+    "name": "Mespa",
+    "strength": "135 mg",
+    "generic": "",
+    "manufacturer": "Ambee Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mesta-care",
+    "name": "Mesta Care",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mesta-care.jpg"
+  },
+  {
+    "slug": "mestaclean",
+    "name": "Mestaclean",
+    "strength": "0.01%+4%+0.05%",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "met",
+    "name": "Met",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/met.webp"
+  },
+  {
+    "slug": "met-xr",
+    "name": "Met XR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/met-xr.webp"
+  },
+  {
+    "slug": "meta-plus-tr",
+    "name": "Meta Plus TR",
+    "strength": "150 mg+0.5 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meta-z-tr",
+    "name": "Meta-Z TR",
+    "strength": "150 mg+0.5 mg+61.8 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metacard-mr",
+    "name": "Metacard MR",
+    "strength": "35 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/metacard-mr.jpg"
+  },
+  {
+    "slug": "metadaxan",
+    "name": "Metadaxan",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metadaxan.webp"
+  },
+  {
+    "slug": "metafen",
+    "name": "Metafen",
+    "strength": "200 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metafen.webp"
+  },
+  {
+    "slug": "metaloc",
+    "name": "Metaloc",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "metalone",
+    "name": "Metalone",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metalone.webp"
+  },
+  {
+    "slug": "metalone-plus",
+    "name": "Metalone Plus",
+    "strength": "0.1%+0.025%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metalone-plus.webp"
+  },
+  {
+    "slug": "metalyse",
+    "name": "Metalyse",
+    "strength": "5 mg/ml",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metamist",
+    "name": "Metamist",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metamist.webp"
+  },
+  {
+    "slug": "metanase",
+    "name": "Metanase",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metanase.webp"
+  },
+  {
+    "slug": "metanib",
+    "name": "Metanib",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/metanib.jpg"
+  },
+  {
+    "slug": "metarin",
+    "name": "Metarin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metarin.webp"
+  },
+  {
+    "slug": "metarin-xr",
+    "name": "Metarin XR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metarin-xr.webp"
+  },
+  {
+    "slug": "metason",
+    "name": "Metason",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": "/images/medicines/metason.jpg"
+  },
+  {
+    "slug": "metaspray",
+    "name": "Metaspray",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/metaspray.jpg"
+  },
+  {
+    "slug": "metaton",
+    "name": "Metaton",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Alkad Laboratories",
+    "image": null
+  },
+  {
+    "slug": "metavas-mr",
+    "name": "Metavas MR",
+    "strength": "35 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/metavas-mr.webp"
+  },
+  {
+    "slug": "metazine-mr",
+    "name": "Metazine MR",
+    "strength": "35 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metazine-mr.png"
+  },
+  {
+    "slug": "metco",
+    "name": "Metco",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metco.webp"
+  },
+  {
+    "slug": "metcure",
+    "name": "Metcure",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Desh Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metfar",
+    "name": "Metfar",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metfar-sr",
+    "name": "Metfar SR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metfen",
+    "name": "Metfen",
+    "strength": "850 mg",
+    "generic": "",
+    "manufacturer": "Doctor’s Chemical Works Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metfil",
+    "name": "Metfil",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Bristol Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metflu",
+    "name": "Metflu",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "MST Pharma",
+    "image": null
+  },
+  {
+    "slug": "metfo",
+    "name": "Metfo",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metfo.webp"
+  },
+  {
+    "slug": "metfo-xr",
+    "name": "Metfo XR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metfo-xr.webp"
+  },
+  {
+    "slug": "metfolin",
+    "name": "Metfolin",
+    "strength": "2.5 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metfomin",
+    "name": "Metfomin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metforal",
+    "name": "Metforal",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metforal.jpg"
+  },
+  {
+    "slug": "metforal-sr",
+    "name": "Metforal SR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metforal-sr.jpg"
+  },
+  {
+    "slug": "metform",
+    "name": "Metform",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/metform.webp"
+  },
+  {
+    "slug": "metform-er",
+    "name": "Metform ER",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/metform-er.webp"
+  },
+  {
+    "slug": "metfosil",
+    "name": "Metfosil",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Silco Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metglip",
+    "name": "Metglip",
+    "strength": "2.5 mg+250 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metglip-ds",
+    "name": "Metglip DS",
+    "strength": "5 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metglip-ds.jpg"
+  },
+  {
+    "slug": "metglip-plus",
+    "name": "Metglip Plus",
+    "strength": "2.5 mg+500 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metguard",
+    "name": "Metguard",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Guardian Healthcare Ltd.",
+    "image": null
+  },
+  {
+    "slug": "meth",
+    "name": "Meth",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/meth.jpg"
+  },
+  {
+    "slug": "methasol",
+    "name": "Methasol",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methasol-n",
+    "name": "Methasol-N",
+    "strength": "0.1%+0.5%",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methebac",
+    "name": "Methebac",
+    "strength": "1 gm",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/methebac.webp"
+  },
+  {
+    "slug": "metherspan",
+    "name": "Metherspan",
+    "strength": "125 mcg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/metherspan.webp"
+  },
+  {
+    "slug": "methicol",
+    "name": "Methicol",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/methicol.jpg"
+  },
+  {
+    "slug": "methigic",
+    "name": "Methigic",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/methigic.webp"
+  },
+  {
+    "slug": "methilon",
+    "name": "Methilon",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/methilon.webp"
+  },
+  {
+    "slug": "methipred",
+    "name": "Methipred",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/methipred.jpg"
+  },
+  {
+    "slug": "methiroid",
+    "name": "Methiroid",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methoflex",
+    "name": "Methoflex",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "DBL Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metholone",
+    "name": "Metholone",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methomol",
+    "name": "Methomol",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/methomol.jpg"
+  },
+  {
+    "slug": "methotrax",
+    "name": "Methotrax",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/methotrax.jpg"
+  },
+  {
+    "slug": "methovate-n",
+    "name": "Methovate-N",
+    "strength": "0.1%+0.5%",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methovate-r",
+    "name": "Methovate-R",
+    "strength": "0.05%+0.1%+2.5%",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methox",
+    "name": "Methox",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/methox.webp"
+  },
+  {
+    "slug": "methsolon",
+    "name": "Methsolon",
+    "strength": "8 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "methyphen",
+    "name": "Methyphen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/methyphen.webp"
+  },
+  {
+    "slug": "metin",
+    "name": "Metin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Supreme Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metle",
+    "name": "Metle",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metlife",
+    "name": "Metlife",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metmin",
+    "name": "Metmin",
+    "strength": "850 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": "/images/medicines/metmin.jpg"
+  },
+  {
+    "slug": "metmin-xr",
+    "name": "Metmin XR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metnaaf",
+    "name": "Metnaaf",
+    "strength": "850 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "metnil",
+    "name": "Metnil",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metnor",
+    "name": "Metnor",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metocard",
+    "name": "Metocard",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metocol",
+    "name": "Metocol",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metodex",
+    "name": "Metodex",
+    "strength": "10 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metomin",
+    "name": "Metomin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Somatec Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metonid",
+    "name": "Metonid",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metonid.jpg"
+  },
+  {
+    "slug": "metoprol-xl",
+    "name": "Metoprol-XL",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metorax",
+    "name": "Metorax",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": null
+  },
+  {
+    "slug": "metra",
+    "name": "Metra",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrinor",
+    "name": "Metrinor",
+    "strength": "2 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metrinor.webp"
+  },
+  {
+    "slug": "metrion",
+    "name": "Metrion",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrizol",
+    "name": "Metrizol",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Cosmo Pharma Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metro",
+    "name": "Metro",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "metrobac",
+    "name": "Metrobac",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metrobac.webp"
+  },
+  {
+    "slug": "metrocon",
+    "name": "Metrocon",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrogard",
+    "name": "Metrogard",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Guardian Healthcare Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrogyl",
+    "name": "Metrogyl",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrol",
+    "name": "Metrol",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Indo Bangla Pharmaceutical",
+    "image": null
+  },
+  {
+    "slug": "metrolin",
+    "name": "Metrolin",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "City Overseas Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metromax",
+    "name": "Metromax",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metron",
+    "name": "Metron",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Leon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrona",
+    "name": "Metrona",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Aztec Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metropill",
+    "name": "Metropill",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrosil",
+    "name": "Metrosil",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metroson",
+    "name": "Metroson",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metrozen",
+    "name": "Metrozen",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "metryl",
+    "name": "Metryl",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/metryl.webp"
+  },
+  {
+    "slug": "metsa",
+    "name": "Metsa",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/metsa.jpg"
+  },
+  {
+    "slug": "metsa-xr",
+    "name": "Metsa XR",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/metsa-xr.webp"
+  },
+  {
+    "slug": "metsina",
+    "name": "Metsina",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/metsina.jpg"
+  },
+  {
+    "slug": "meverine",
+    "name": "Meverine",
+    "strength": "135 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/meverine.jpg"
+  },
+  {
+    "slug": "meverine-sr",
+    "name": "Meverine SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/meverine-sr.jpg"
+  },
+  {
+    "slug": "mevigut-sr",
+    "name": "Mevigut SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/mevigut-sr.webp"
+  },
+  {
+    "slug": "mevin",
+    "name": "Mevin",
+    "strength": "135 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mevin.webp"
+  },
+  {
+    "slug": "mevin-sr",
+    "name": "Mevin SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mevin-sr.webp"
+  },
+  {
+    "slug": "mexaton",
+    "name": "Mexaton",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mexaton.jpg"
+  },
+  {
+    "slug": "mexclav",
+    "name": "Mexclav",
+    "strength": "250 mg+62.5 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mexclav.png"
+  },
+  {
+    "slug": "mexiderm",
+    "name": "Mexiderm",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mexiderm.jpg"
+  },
+  {
+    "slug": "mexiderm-f",
+    "name": "Mexiderm-F",
+    "strength": "2%+0.1%",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mexiderm-f.jpg"
+  },
+  {
+    "slug": "mexiderm-n",
+    "name": "Mexiderm-N",
+    "strength": "0.1%+0.5%",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mexiderm-n.jpg"
+  },
+  {
+    "slug": "mexilyt",
+    "name": "Mexilyt",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mexlo",
+    "name": "Mexlo",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mexlo.jpg"
+  },
+  {
+    "slug": "mextil",
+    "name": "Mextil",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mextil.png"
+  },
+  {
+    "slug": "mextil-ds",
+    "name": "Mextil DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mextil-ds.jpg"
+  },
+  {
+    "slug": "mez",
+    "name": "Mez",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mez.webp"
+  },
+  {
+    "slug": "mezest",
+    "name": "Mezest",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mezest.jpeg"
+  },
+  {
+    "slug": "mezoxia",
+    "name": "Mezoxia",
+    "strength": "160 mg",
+    "generic": "",
+    "manufacturer": "Everest Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mezoxia.webp"
+  },
+  {
+    "slug": "mfc",
+    "name": "MFC",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mg",
+    "name": "Mg",
+    "strength": "365 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mg.webp"
+  },
+  {
+    "slug": "mhc",
+    "name": "MHC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mhc.jpg"
+  },
+  {
+    "slug": "miaz",
+    "name": "Miaz",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mic",
+    "name": "MIC",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mic.jpg"
+  },
+  {
+    "slug": "mic-hc",
+    "name": "Mic-HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mic-hc.jpg"
+  },
+  {
+    "slug": "micac",
+    "name": "Micac",
+    "strength": "1000 mg+327 mg (Conventional calcium)+500 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micagin",
+    "name": "Micagin",
+    "strength": "50 mg/vial",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micason",
+    "name": "Micason",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "micason-hc",
+    "name": "Micason HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "micatel",
+    "name": "Micatel",
+    "strength": "80 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miclo",
+    "name": "Miclo",
+    "strength": "0.05%",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miclo.webp"
+  },
+  {
+    "slug": "miclocin",
+    "name": "Miclocin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miclofen",
+    "name": "Miclofen",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miclofen-tr",
+    "name": "Miclofen TR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miclofenac",
+    "name": "Miclofenac",
+    "strength": "50 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": null
+  },
+  {
+    "slug": "micoderm",
+    "name": "Micoderm",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/micoderm.jpg"
+  },
+  {
+    "slug": "micoderm-hc",
+    "name": "Micoderm-HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/micoderm-hc.jpg"
+  },
+  {
+    "slug": "micofun",
+    "name": "Micofun",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micofun-hc",
+    "name": "Micofun-HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micogyl",
+    "name": "Micogyl",
+    "strength": "500 mg/100 ml",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/micogyl.jpg"
+  },
+  {
+    "slug": "micoheal",
+    "name": "Micoheal",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Al-Madina Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miconex",
+    "name": "Miconex",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/miconex.jpg"
+  },
+  {
+    "slug": "miconil",
+    "name": "Miconil",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micoplex-b",
+    "name": "Micoplex-B",
+    "strength": "5 mg+2 mg+2 mg+20 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micoplex-m",
+    "name": "Micoplex-M",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "micoral",
+    "name": "Micoral",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/micoral.webp"
+  },
+  {
+    "slug": "micosina",
+    "name": "Micosina",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/micosina.webp"
+  },
+  {
+    "slug": "micosone",
+    "name": "Micosone",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/micosone.webp"
+  },
+  {
+    "slug": "micro",
+    "name": "Micro",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Alkad Laboratories",
+    "image": null
+  },
+  {
+    "slug": "microcef",
+    "name": "Microcef",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "microcef-ds",
+    "name": "Microcef DS",
+    "strength": "200 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "microgest",
+    "name": "Microgest",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/microgest.webp"
+  },
+  {
+    "slug": "microgest-aq",
+    "name": "Microgest AQ",
+    "strength": "25 mg/1.119 ml",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/microgest-aq.webp"
+  },
+  {
+    "slug": "microlife-ag1-20",
+    "name": "Microlife (AG1-20)",
+    "strength": "Manual blood pressure monitor",
+    "generic": "",
+    "manufacturer": "Microlife Corporation",
+    "image": "/images/medicines/microlife-ag1-20.webp"
+  },
+  {
+    "slug": "microlife-bp-a2-classic",
+    "name": "Microlife (BP-A2 Classic)",
+    "strength": "Digital blood pressure monitor",
+    "generic": "",
+    "manufacturer": "Microlife Corporation",
+    "image": "/images/medicines/microlife-bp-a2-classic.jpg"
+  },
+  {
+    "slug": "microlon",
+    "name": "Microlon",
+    "strength": "0.02 mg+0.15 mg",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": "/images/medicines/microlon.webp"
+  },
+  {
+    "slug": "mictrol",
+    "name": "Mictrol",
+    "strength": "0.4 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "midalam",
+    "name": "Midalam",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Biogen Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "midazolam-hameln",
+    "name": "Midazolam Hameln",
+    "strength": "50 mg/50 ml",
+    "generic": "",
+    "manufacturer": "ZAS Corporation",
+    "image": null
+  },
+  {
+    "slug": "midita",
+    "name": "Midita",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/midita.png"
+  },
+  {
+    "slug": "midolam",
+    "name": "Midolam",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/midolam.webp"
+  },
+  {
+    "slug": "midorest",
+    "name": "Midorest",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Benham Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "midoria",
+    "name": "Midoria",
+    "strength": "0.02%+0.31%+1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/midoria.webp"
+  },
+  {
+    "slug": "midothal",
+    "name": "Midothal",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "midzo",
+    "name": "Midzo",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/midzo.jpg"
+  },
+  {
+    "slug": "mif",
+    "name": "MIF",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mif.webp"
+  },
+  {
+    "slug": "mifenac",
+    "name": "Mifenac",
+    "strength": "50 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mifeston",
+    "name": "Mifeston",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mig",
+    "name": "Mig",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mig.webp"
+  },
+  {
+    "slug": "migaba",
+    "name": "Migaba",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Team Pharmaceuticals Ltd.",
+    "image": "/images/medicines/migaba.webp"
+  },
+  {
+    "slug": "migalin",
+    "name": "Migalin",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/migalin.webp"
+  },
+  {
+    "slug": "miganil",
+    "name": "Miganil",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miganil.jpg"
+  },
+  {
+    "slug": "migesic",
+    "name": "Migesic",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/migesic.webp"
+  },
+  {
+    "slug": "migofen",
+    "name": "Migofen",
+    "strength": "0.5 mg",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "migon",
+    "name": "Migon",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/migon.jpg"
+  },
+  {
+    "slug": "migrafix",
+    "name": "Migrafix",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "migranex",
+    "name": "Migranex",
+    "strength": "0.5 mg",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "migranil",
+    "name": "Migranil",
+    "strength": "0.5 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/migranil.webp"
+  },
+  {
+    "slug": "migratol",
+    "name": "Migratol",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/migratol.jpg"
+  },
+  {
+    "slug": "migrex",
+    "name": "Migrex",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/migrex.jpg"
+  },
+  {
+    "slug": "migrium",
+    "name": "Migrium",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "migron-er",
+    "name": "Migron ER",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/migron-er.webp"
+  },
+  {
+    "slug": "miki-h",
+    "name": "Miki-H",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/miki-h.jpg"
+  },
+  {
+    "slug": "mikocid",
+    "name": "Mikocid",
+    "strength": "(175 mg+225 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mikotrim",
+    "name": "Mikotrim",
+    "strength": "(200 mg+40 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "milam",
+    "name": "Milam",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/milam.webp"
+  },
+  {
+    "slug": "milast-a",
+    "name": "Milast-A",
+    "strength": "500 mcg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "milcal",
+    "name": "Milcal",
+    "strength": "250 mg+250 IU",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/milcal.webp"
+  },
+  {
+    "slug": "milium",
+    "name": "Milium",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Everest Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "milk-of-magnesia",
+    "name": "Milk of Magnesia",
+    "strength": "400 mg/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/milk-of-magnesia.webp"
+  },
+  {
+    "slug": "milk-of-magnesia-plus",
+    "name": "Milk of Magnesia Plus",
+    "strength": "(300 mg+1.25 ml)/5 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/milk-of-magnesia-plus.webp"
+  },
+  {
+    "slug": "milkaid",
+    "name": "Milkaid",
+    "strength": "9000 IU",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "millat-malam",
+    "name": "Millat malam",
+    "strength": "0.1%+1%+2%",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "millat-s-ors",
+    "name": "Millat's ORS",
+    "strength": "10.25 gm",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "milran",
+    "name": "Milran",
+    "strength": "12.5 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/milran.webp"
+  },
+  {
+    "slug": "miltefos",
+    "name": "Miltefos",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mimi-kit",
+    "name": "Mimi Kit",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Benham Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mimoxclav",
+    "name": "Mimoxclav",
+    "strength": "500 mg+125 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "mini-28",
+    "name": "Mini 28",
+    "strength": "0.03 mg+0.15 mg+75 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "minia",
+    "name": "Minia",
+    "strength": "1 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minibet",
+    "name": "Minibet",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/minibet.webp"
+  },
+  {
+    "slug": "minicod",
+    "name": "Minicod",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minicon",
+    "name": "Minicon",
+    "strength": "0.075 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/minicon.jpg"
+  },
+  {
+    "slug": "minipil",
+    "name": "Minipil",
+    "strength": "0.075 mg",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minipress-xl",
+    "name": "Minipress XL",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Janata Traders",
+    "image": "/images/medicines/minipress-xl.jpg"
+  },
+  {
+    "slug": "minirfor",
+    "name": "Minirfor",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minirin-melt",
+    "name": "Minirin Melt",
+    "strength": "60 mcg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/minirin-melt.webp"
+  },
+  {
+    "slug": "minisec",
+    "name": "Minisec",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Army Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "minista",
+    "name": "Minista",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/minista.jpg"
+  },
+  {
+    "slug": "minium",
+    "name": "Minium",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/minium.webp"
+  },
+  {
+    "slug": "minocin",
+    "name": "Minocin",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/minocin.webp"
+  },
+  {
+    "slug": "minolac",
+    "name": "Minolac",
+    "strength": "60 mg/2 ml",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "minomal-r",
+    "name": "Minomal R",
+    "strength": "350 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minomal-sr",
+    "name": "Minomal SR",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minopa",
+    "name": "Minopa",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "minoxil",
+    "name": "Minoxil",
+    "strength": "5%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/minoxil.webp"
+  },
+  {
+    "slug": "minzin",
+    "name": "Minzin",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Avarox Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "miotrol",
+    "name": "Miotrol",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/miotrol.jpg"
+  },
+  {
+    "slug": "miovit",
+    "name": "Miovit",
+    "strength": "100 mg+200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Somatec Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miovit.jpg"
+  },
+  {
+    "slug": "miptol",
+    "name": "Miptol",
+    "strength": "200 mcg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/miptol.webp"
+  },
+  {
+    "slug": "miraba",
+    "name": "Miraba",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/miraba.webp"
+  },
+  {
+    "slug": "mirabeg-er",
+    "name": "Mirabeg ER",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mirabeg-er.jpg"
+  },
+  {
+    "slug": "miracal-d",
+    "name": "Miracal-D",
+    "strength": "500 mg+200 IU",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miracal-d.jpg"
+  },
+  {
+    "slug": "miracit",
+    "name": "Miracit",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/miracit.jpg"
+  },
+  {
+    "slug": "miraclon",
+    "name": "Miraclon",
+    "strength": "0.5 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/miraclon.webp"
+  },
+  {
+    "slug": "mirader",
+    "name": "Mirader",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mirader.webp"
+  },
+  {
+    "slug": "mirafilter",
+    "name": "MiraFilter",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/mirafilter.jpg"
+  },
+  {
+    "slug": "miraflo",
+    "name": "Miraflo",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miraflo.webp"
+  },
+  {
+    "slug": "miragaba",
+    "name": "Miragaba",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": "/images/medicines/miragaba.webp"
+  },
+  {
+    "slug": "miragon",
+    "name": "Miragon",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "mirakof",
+    "name": "Mirakof",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mirakof.jpeg"
+  },
+  {
+    "slug": "mirakof-sr",
+    "name": "Mirakof SR",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mirakof-sr.jpeg"
+  },
+  {
+    "slug": "miralin",
+    "name": "Miralin",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/miralin.jpg"
+  },
+  {
+    "slug": "miramind",
+    "name": "Miramind",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/miramind.jpg"
+  },
+  {
+    "slug": "mirapex",
+    "name": "Mirapex",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/mirapex.jpg"
+  },
+  {
+    "slug": "mirapin",
+    "name": "Mirapin",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mirapin.webp"
+  },
+  {
+    "slug": "mirapro",
+    "name": "Mirapro",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mirapro.webp"
+  },
+  {
+    "slug": "mirasol-xr",
+    "name": "Mirasol XR",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mirasol-xr.png"
+  },
+  {
+    "slug": "miraten",
+    "name": "Miraten",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/miraten.jpg"
+  },
+  {
+    "slug": "mircera",
+    "name": "Mircera",
+    "strength": "50 µg/0.3 ml",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mircera.webp"
+  },
+  {
+    "slug": "mirez",
+    "name": "Mirez",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mirez.webp"
+  },
+  {
+    "slug": "miroflex",
+    "name": "Miroflex",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/miroflex.webp"
+  },
+  {
+    "slug": "mirogab",
+    "name": "Mirogab",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mirogab.webp"
+  },
+  {
+    "slug": "mirolast",
+    "name": "Mirolast",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mirotiv",
+    "name": "Mirotiv",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mirotiv.webp"
+  },
+  {
+    "slug": "mirotop",
+    "name": "Mirotop",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": "/images/medicines/mirotop.webp"
+  },
+  {
+    "slug": "mirovan",
+    "name": "Mirovan",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mirovan.jpg"
+  },
+  {
+    "slug": "mirtaz",
+    "name": "Mirtaz",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/mirtaz.jpg"
+  },
+  {
+    "slug": "mirzalux",
+    "name": "Mirzalux",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "SANDOZ (A Novartis Division)",
+    "image": "/images/medicines/mirzalux.webp"
+  },
+  {
+    "slug": "misoclo",
+    "name": "Misoclo",
+    "strength": "50 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "misocon",
+    "name": "Misocon",
+    "strength": "200 mcg",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "misofenac",
+    "name": "Misofenac",
+    "strength": "50 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "misopa",
+    "name": "Misopa",
+    "strength": "200 mcg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/misopa.jpg"
+  },
+  {
+    "slug": "misotab",
+    "name": "Misotab",
+    "strength": "600 mcg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/misotab.jpg"
+  },
+  {
+    "slug": "misotol",
+    "name": "Misotol",
+    "strength": "200 mcg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/misotol.webp"
+  },
+  {
+    "slug": "mita",
+    "name": "Mita",
+    "strength": "7.5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mitadip",
+    "name": "Mitadip",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mitadip.webp"
+  },
+  {
+    "slug": "mitaprex",
+    "name": "Mitaprex",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mitaprex.webp"
+  },
+  {
+    "slug": "mitargan",
+    "name": "Mitargan",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mitazapine",
+    "name": "Mitazapine",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/mitazapine.jpg"
+  },
+  {
+    "slug": "mithin",
+    "name": "Mithin",
+    "strength": "5% w/w",
+    "generic": "",
+    "manufacturer": "Edruc Limited",
+    "image": null
+  },
+  {
+    "slug": "mitigal",
+    "name": "Mitigal",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mitigal.webp"
+  },
+  {
+    "slug": "mitosan",
+    "name": "Mitosan",
+    "strength": "40 mg",
+    "generic": "",
+    "manufacturer": "SANDOZ (A Novartis Division)",
+    "image": "/images/medicines/mitosan.webp"
+  },
+  {
+    "slug": "mitosan-plus",
+    "name": "Mitosan Plus",
+    "strength": "40 mg+12.5 mg",
+    "generic": "",
+    "manufacturer": "SANDOZ (A Novartis Division)",
+    "image": "/images/medicines/mitosan-plus.webp"
+  },
+  {
+    "slug": "mitrazin",
+    "name": "Mitrazin",
+    "strength": "30 mg",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mitrazin.jpg"
+  },
+  {
+    "slug": "mitrocin",
+    "name": "Mitrocin",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mitrocin-ds",
+    "name": "Mitrocin DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Millat Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mixavit",
+    "name": "Mixavit",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mixavit.webp"
+  },
+  {
+    "slug": "mixit",
+    "name": "Mixit",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/mixit.jpg"
+  },
+  {
+    "slug": "mixtard-30",
+    "name": "Mixtard 30",
+    "strength": "30%+70% in 100 IU/ml",
+    "generic": "",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "image": "/images/medicines/mixtard-30.webp"
+  },
+  {
+    "slug": "mixtard-50",
+    "name": "Mixtard 50",
+    "strength": "50%+50% in 100 IU/ml",
+    "generic": "",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "image": "/images/medicines/mixtard-50.webp"
+  },
+  {
+    "slug": "mizol",
+    "name": "Mizol",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mizol-hc",
+    "name": "Mizol HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mizolam",
+    "name": "Mizolam",
+    "strength": "7.5 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/mizolam.webp"
+  },
+  {
+    "slug": "mm-kit",
+    "name": "MM Kit",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mm-kit.webp"
+  },
+  {
+    "slug": "mmf",
+    "name": "MMF",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mmf.webp"
+  },
+  {
+    "slug": "mmr-vaccine",
+    "name": "MMR Vaccine",
+    "strength": "0.5 ml",
+    "generic": "",
+    "manufacturer": "Janata Traders",
+    "image": null
+  },
+  {
+    "slug": "mobicam",
+    "name": "Mobicam",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mobifen",
+    "name": "Mobifen",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/mobifen.webp"
+  },
+  {
+    "slug": "mobifen-plus",
+    "name": "Mobifen Plus",
+    "strength": "(75 mg+20 mg)/2 ml",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "mobifen-sr",
+    "name": "Mobifen SR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": null
+  },
+  {
+    "slug": "modern-s-milk-of-magnesia",
+    "name": "Modern's Milk of Magnesia",
+    "strength": "400 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "modern-s-whitfield",
+    "name": "Modern's Whitfield",
+    "strength": "6%+3%",
+    "generic": "",
+    "manufacturer": "Modern Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "modesto-xr",
+    "name": "Modesto XR",
+    "strength": "3 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/modesto-xr.png"
+  },
+  {
+    "slug": "modipran",
+    "name": "Modipran",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/modipran.png"
+  },
+  {
+    "slug": "mokast",
+    "name": "Mokast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": "/images/medicines/mokast.jpg"
+  },
+  {
+    "slug": "molenzavir",
+    "name": "Molenzavir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/molenzavir.jpg"
+  },
+  {
+    "slug": "molicust",
+    "name": "Molicust",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "molly",
+    "name": "Molly",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Save Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "molnuva",
+    "name": "Molnuva",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/molnuva.webp"
+  },
+  {
+    "slug": "molukat",
+    "name": "Molukat",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "molvir",
+    "name": "Molvir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/molvir.webp"
+  },
+  {
+    "slug": "mom",
+    "name": "Mom",
+    "strength": "400 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/mom.jpg"
+  },
+  {
+    "slug": "momcare",
+    "name": "MomCare",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "ACI Limited",
+    "image": "/images/medicines/momcare.png"
+  },
+  {
+    "slug": "momelo",
+    "name": "Momelo",
+    "strength": "(25 mcg+600 mcg)/Spray",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/momelo.png"
+  },
+  {
+    "slug": "momenex",
+    "name": "Momenex",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "OSL Pharma Limited",
+    "image": null
+  },
+  {
+    "slug": "momento",
+    "name": "Momento",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/momento.png"
+  },
+  {
+    "slug": "momeson",
+    "name": "Momeson",
+    "strength": "220 mcg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/momeson.webp"
+  },
+  {
+    "slug": "momespray",
+    "name": "Momespray",
+    "strength": "50 mcg/spray",
+    "generic": "",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "image": "/images/medicines/momespray.webp"
+  },
+  {
+    "slug": "momet-f",
+    "name": "Momet-F",
+    "strength": "(100 mcg+5 mcg)/puff",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/momet-f.webp"
+  },
+  {
+    "slug": "mometa",
+    "name": "Mometa",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mometa.webp"
+  },
+  {
+    "slug": "momneed",
+    "name": "Momneed",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/momneed.webp"
+  },
+  {
+    "slug": "momodol",
+    "name": "Momodol",
+    "strength": "125 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/momodol.webp"
+  },
+  {
+    "slug": "momodol-extra",
+    "name": "Momodol Extra",
+    "strength": "500 mg+65 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/momodol-extra.webp"
+  },
+  {
+    "slug": "momodol-xr",
+    "name": "Momodol XR",
+    "strength": "665 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": null
+  },
+  {
+    "slug": "momtas",
+    "name": "Momtas",
+    "strength": "0.1%",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "momvit",
+    "name": "Momvit",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/momvit.webp"
+  },
+  {
+    "slug": "mon",
+    "name": "Mon",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Benham Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mon-x",
+    "name": "Mon-X",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Desh Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monaclox-f",
+    "name": "Monaclox-F",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monacom",
+    "name": "Monacom",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monalast",
+    "name": "Monalast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/monalast.jpg"
+  },
+  {
+    "slug": "monalast-odt",
+    "name": "Monalast ODT",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/monalast-odt.jpg"
+  },
+  {
+    "slug": "monamox",
+    "name": "Monamox",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monamycin",
+    "name": "Monamycin",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monark",
+    "name": "Monark",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monas",
+    "name": "Monas",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/monas.webp"
+  },
+  {
+    "slug": "monas-oft",
+    "name": "Monas OFT",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/monas-oft.jpeg"
+  },
+  {
+    "slug": "monasic",
+    "name": "Monasic",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Physic pharmaceuticals ltd.",
+    "image": null
+  },
+  {
+    "slug": "moneka",
+    "name": "Moneka",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Silco Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monfast",
+    "name": "Monfast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/monfast.webp"
+  },
+  {
+    "slug": "monfast-odt",
+    "name": "Monfast ODT",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/monfast-odt.jpg"
+  },
+  {
+    "slug": "monimix",
+    "name": "MoniMix",
+    "strength": "1 gm/sachet",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/monimix.jpg"
+  },
+  {
+    "slug": "monimix-plus",
+    "name": "MoniMix Plus",
+    "strength": "1 gm/sachet",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/monimix-plus.jpg"
+  },
+  {
+    "slug": "monipro",
+    "name": "Monipro",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monipro-e",
+    "name": "Monipro-E",
+    "strength": "0.3%",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monitol",
+    "name": "Monitol",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Skylab Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monivis",
+    "name": "Monivis",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monkon",
+    "name": "Monkon",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "monlumax",
+    "name": "Monlumax",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/monlumax.webp"
+  },
+  {
+    "slug": "monocal",
+    "name": "Monocal",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monocal-d",
+    "name": "Monocal D",
+    "strength": "500 mg+200 IU",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monocal-gold",
+    "name": "Monocal Gold",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monocard",
+    "name": "Monocard",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/monocard.jpg"
+  },
+  {
+    "slug": "monocard-sr",
+    "name": "Monocard-SR",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/monocard-sr.webp"
+  },
+  {
+    "slug": "monocast",
+    "name": "Monocast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/monocast.jpg"
+  },
+  {
+    "slug": "monofast",
+    "name": "Monofast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monofocin",
+    "name": "Monofocin",
+    "strength": "3 gm/sachet",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/monofocin.webp"
+  },
+  {
+    "slug": "monoplex",
+    "name": "Monoplex",
+    "strength": "5 mg+2 mg+2 mg+20 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monotate",
+    "name": "Monotate",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monovas",
+    "name": "Monovas",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monovit",
+    "name": "Monovit",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monprox",
+    "name": "Monprox",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Rangs Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "monprox-oft",
+    "name": "Monprox OFT",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Rangs Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mont-r",
+    "name": "Mont-R",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montair",
+    "name": "Montair",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/montair.webp"
+  },
+  {
+    "slug": "montair-odt",
+    "name": "Montair ODT",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/montair-odt.webp"
+  },
+  {
+    "slug": "montaro",
+    "name": "Montaro",
+    "strength": "2.5 mg/0.5 ml",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/montaro.webp"
+  },
+  {
+    "slug": "montek",
+    "name": "Montek",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Sun Pharmaceutical (Bangladesh) Ltd.",
+    "image": "/images/medicines/montek.webp"
+  },
+  {
+    "slug": "montekast",
+    "name": "Montekast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": "/images/medicines/montekast.jpg"
+  },
+  {
+    "slug": "montela",
+    "name": "Montela",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Delta Pharma Ltd.",
+    "image": "/images/medicines/montela.webp"
+  },
+  {
+    "slug": "montelon",
+    "name": "Montelon",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/montelon.jpg"
+  },
+  {
+    "slug": "montelon-kidz",
+    "name": "Montelon Kidz",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/montelon-kidz.jpg"
+  },
+  {
+    "slug": "monteluk",
+    "name": "Monteluk",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montemax",
+    "name": "Montemax",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montenaaf",
+    "name": "Montenaaf",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "montenaaf-odt",
+    "name": "Montenaaf ODT",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "montene",
+    "name": "Montene",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/montene.png"
+  },
+  {
+    "slug": "montex",
+    "name": "Montex",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/montex.webp"
+  },
+  {
+    "slug": "montezen",
+    "name": "Montezen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montica",
+    "name": "Montica",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/montica.webp"
+  },
+  {
+    "slug": "montifast",
+    "name": "MontiFast",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": "/images/medicines/montifast.jpg"
+  },
+  {
+    "slug": "montilab",
+    "name": "Montilab",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Labaid Pharma Ltd.",
+    "image": "/images/medicines/montilab.jpg"
+  },
+  {
+    "slug": "montilet",
+    "name": "Montilet",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Amulet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montinex",
+    "name": "Montinex",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/montinex.png"
+  },
+  {
+    "slug": "montinex-fast",
+    "name": "Montinex Fast",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/montinex-fast.png"
+  },
+  {
+    "slug": "montinex-r",
+    "name": "Montinex R",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/montinex-r.webp"
+  },
+  {
+    "slug": "montison",
+    "name": "Montison",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Jayson Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "montium",
+    "name": "Montium",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Maks Drug Limited",
+    "image": null
+  },
+  {
+    "slug": "montiva",
+    "name": "Montiva",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/montiva.webp"
+  },
+  {
+    "slug": "montoz",
+    "name": "Montoz",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Albion Laboratories Limited",
+    "image": null
+  },
+  {
+    "slug": "montril",
+    "name": "Montril",
+    "strength": "4 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/montril.jpg"
+  },
+  {
+    "slug": "monuril",
+    "name": "Monuril",
+    "strength": "3 gm/sachet",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/monuril.webp"
+  },
+  {
+    "slug": "monuvir",
+    "name": "Monuvir",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/monuvir.webp"
+  },
+  {
+    "slug": "moodnor",
+    "name": "Moodnor",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moodnor.webp"
+  },
+  {
+    "slug": "moov",
+    "name": "Moov",
+    "strength": "1% w/w",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moov-sr",
+    "name": "Moov SR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moovepain",
+    "name": "Moovepain",
+    "strength": "30%+10%+4%",
+    "generic": "",
+    "manufacturer": "Pharmik Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mooverix",
+    "name": "Mooverix",
+    "strength": "30%+10%+4%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mooverix.jpg"
+  },
+  {
+    "slug": "mopride",
+    "name": "Mopride",
+    "strength": "1 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mopride.jpg"
+  },
+  {
+    "slug": "moriamin-m",
+    "name": "Moriamin-M",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Desh Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moset",
+    "name": "Moset",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motelity",
+    "name": "Motelity",
+    "strength": "1 mg",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": "/images/medicines/motelity.jpg"
+  },
+  {
+    "slug": "moticare",
+    "name": "Moticare",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "SMC Enterprise Ltd",
+    "image": "/images/medicines/moticare.png"
+  },
+  {
+    "slug": "motifen",
+    "name": "Motifen",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Pharmadesh Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motigen",
+    "name": "Motigen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Novo Healthcare and Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motigut",
+    "name": "Motigut",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/motigut.webp"
+  },
+  {
+    "slug": "motil",
+    "name": "Motil",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motilex",
+    "name": "Motilex",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motilium",
+    "name": "Motilium",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Ethical Drugs Limited",
+    "image": null
+  },
+  {
+    "slug": "motilon",
+    "name": "Motilon",
+    "strength": "10 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": null
+  },
+  {
+    "slug": "motiper",
+    "name": "Motiper",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Mystic Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motiwin",
+    "name": "Motiwin",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Goodman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "motodon",
+    "name": "Motodon",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mounvia",
+    "name": "Mounvia",
+    "strength": "5 mg/0.5 ml",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/mounvia.webp"
+  },
+  {
+    "slug": "mouthcare",
+    "name": "Mouthcare",
+    "strength": "3 gm/100 ml",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/mouthcare.webp"
+  },
+  {
+    "slug": "moventa",
+    "name": "Moventa",
+    "strength": "0.2%+2%",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moventa.webp"
+  },
+  {
+    "slug": "movex",
+    "name": "Movex",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/movex.webp"
+  },
+  {
+    "slug": "movex-sr",
+    "name": "Movex SR",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/movex-sr.webp"
+  },
+  {
+    "slug": "movibac",
+    "name": "Movibac",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "C2C Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "movicol",
+    "name": "Movicol",
+    "strength": "(13.125 gm+350.7 mg+178.5 mg+46.6 mg)/sachet",
+    "generic": "",
+    "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+    "image": "/images/medicines/movicol.webp"
+  },
+  {
+    "slug": "movifast",
+    "name": "Movifast",
+    "strength": "(13.125 gm+350.7 mg+178.5 mg+46.6 mg)/sachet",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/movifast.webp"
+  },
+  {
+    "slug": "movigel",
+    "name": "Movigel",
+    "strength": "0.2%+2%",
+    "generic": "",
+    "manufacturer": "Nuvista Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "movilax",
+    "name": "Movilax",
+    "strength": "(13.125 gm+350.7 mg+178.5 mg+46.6 mg)/sachet",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/movilax.webp"
+  },
+  {
+    "slug": "movon",
+    "name": "Movon",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "movonac-tr",
+    "name": "Movonac TR",
+    "strength": "100 mg",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/movonac-tr.jpg"
+  },
+  {
+    "slug": "mox",
+    "name": "Mox",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mox-plus",
+    "name": "Mox-plus",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Hudson Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxacil",
+    "name": "Moxacil",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/moxacil.webp"
+  },
+  {
+    "slug": "moxaclav",
+    "name": "Moxaclav",
+    "strength": "875 mg+125 mg",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/moxaclav.jpeg"
+  },
+  {
+    "slug": "moxaclav-forte",
+    "name": "Moxaclav Forte",
+    "strength": "(400 mg+57.50 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/moxaclav-forte.webp"
+  },
+  {
+    "slug": "moxana",
+    "name": "Moxana",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Synovia Pharma PLC.",
+    "image": "/images/medicines/moxana.webp"
+  },
+  {
+    "slug": "moxapen",
+    "name": "Moxapen",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxarif",
+    "name": "Moxarif",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxflo",
+    "name": "Moxflo",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxflo.jpg"
+  },
+  {
+    "slug": "moxibac",
+    "name": "Moxibac",
+    "strength": "400 mg/250 ml",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxibac.webp"
+  },
+  {
+    "slug": "moxibac-xg",
+    "name": "Moxibac XG",
+    "strength": "0.5%+0.4%",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxibac-xg.webp"
+  },
+  {
+    "slug": "moxibest",
+    "name": "Moxibest",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "One Pharma Ltd.",
+    "image": "/images/medicines/moxibest.jpg"
+  },
+  {
+    "slug": "moxichem",
+    "name": "Moxichem",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Chemist Laboratories  Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxico",
+    "name": "Moxico",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Supreme Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxico-ds",
+    "name": "Moxico DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Supreme Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxidal",
+    "name": "Moxidal",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Biogen Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxidex",
+    "name": "Moxidex",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "Popular Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxidex.jpg"
+  },
+  {
+    "slug": "moxier",
+    "name": "Moxier",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/moxier.jpg"
+  },
+  {
+    "slug": "moxif",
+    "name": "Moxif",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/moxif.png"
+  },
+  {
+    "slug": "moxifix",
+    "name": "Moxifix",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/moxifix.webp"
+  },
+  {
+    "slug": "moxiflox",
+    "name": "Moxiflox",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": "/images/medicines/moxiflox.jpg"
+  },
+  {
+    "slug": "moxigen",
+    "name": "Moxigen",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxigen.webp"
+  },
+  {
+    "slug": "moxigen-d",
+    "name": "Moxigen D",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxigen-d.webp"
+  },
+  {
+    "slug": "moxigen-xg",
+    "name": "Moxigen XG",
+    "strength": "0.5%+0.4%",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxigen-xg.webp"
+  },
+  {
+    "slug": "moxigram",
+    "name": "Moxigram",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Apex Pharma Ltd.",
+    "image": "/images/medicines/moxigram.jpg"
+  },
+  {
+    "slug": "moxihil",
+    "name": "Moxihil",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Goodman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxikem",
+    "name": "Moxikem",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Kemiko Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxilin",
+    "name": "Moxilin",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/moxilin.webp"
+  },
+  {
+    "slug": "moxilin-cv",
+    "name": "Moxilin-CV",
+    "strength": "250 mg+125 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": "/images/medicines/moxilin-cv.webp"
+  },
+  {
+    "slug": "moxilocin",
+    "name": "Moxilocin",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/moxilocin.webp"
+  },
+  {
+    "slug": "moxilocin-d",
+    "name": "Moxilocin D",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/moxilocin-d.webp"
+  },
+  {
+    "slug": "moxilocin-xg",
+    "name": "Moxilocin XG",
+    "strength": "0.5%+0.4%",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/moxilocin-xg.webp"
+  },
+  {
+    "slug": "moxin",
+    "name": "Moxin",
+    "strength": "250 mg/vial",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/moxin.webp"
+  },
+  {
+    "slug": "moxin-ds",
+    "name": "Moxin DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/moxin-ds.webp"
+  },
+  {
+    "slug": "moxivin",
+    "name": "Moxivin",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxivin.webp"
+  },
+  {
+    "slug": "moxivin-dx",
+    "name": "Moxivin DX",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxivin-dx.webp"
+  },
+  {
+    "slug": "moxiwell",
+    "name": "Moxiwell",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "National Drug Co. Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxiwin",
+    "name": "Moxiwin",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Salton Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxkil",
+    "name": "Moxkil",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Naafco Pharma PLC",
+    "image": null
+  },
+  {
+    "slug": "moxlocin-d",
+    "name": "Moxlocin D",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxlocin-xg",
+    "name": "Moxlocin XG",
+    "strength": "0.5%+0.4%",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "moxquin",
+    "name": "Moxquin",
+    "strength": "0.5%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxquin.jpg"
+  },
+  {
+    "slug": "moxquin-d",
+    "name": "Moxquin D",
+    "strength": "0.5%+0.1%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxquin-d.webp"
+  },
+  {
+    "slug": "moxquin-xg",
+    "name": "Moxquin XG",
+    "strength": "0.5%+0.4%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/moxquin-xg.webp"
+  },
+  {
+    "slug": "mq-4",
+    "name": "MQ-4",
+    "strength": "400 mg",
+    "generic": "",
+    "manufacturer": "Silco Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mr-kit",
+    "name": "MR Kit",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/mr-kit.jpg"
+  },
+  {
+    "slug": "msl",
+    "name": "MSL",
+    "strength": "5 mg/5 ml",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/msl.webp"
+  },
+  {
+    "slug": "msl-retard",
+    "name": "MSL Retard",
+    "strength": "15 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/msl-retard.webp"
+  },
+  {
+    "slug": "mtp-kit",
+    "name": "MTP Kit",
+    "strength": "200 mg+200 mcg",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mtp-kit.webp"
+  },
+  {
+    "slug": "mtrex",
+    "name": "Mtrex",
+    "strength": "50 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Techno Drugs Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mts",
+    "name": "MTS",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mtx",
+    "name": "MTX",
+    "strength": "2.5 mg",
+    "generic": "",
+    "manufacturer": "Choongwae Pharma Corporation",
+    "image": null
+  },
+  {
+    "slug": "mubrox",
+    "name": "Mubrox",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Hallmark Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucobrox",
+    "name": "Mucobrox",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Somatec Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucobrox.jpg"
+  },
+  {
+    "slug": "mucoclean",
+    "name": "Mucoclean",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucodil",
+    "name": "Mucodil",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "NIPRO JMI Pharma Ltd.",
+    "image": "/images/medicines/mucodil.jpg"
+  },
+  {
+    "slug": "mucodox",
+    "name": "Mucodox",
+    "strength": "200 mg",
+    "generic": "",
+    "manufacturer": "Nipa Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucodox.jpg"
+  },
+  {
+    "slug": "mucogel",
+    "name": "Mucogel",
+    "strength": "(175 mg+225 mg)/5 ml",
+    "generic": "",
+    "manufacturer": "Medicon Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucola",
+    "name": "Mucola",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucolex",
+    "name": "Mucolex",
+    "strength": "125 mg/5 ml",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucolex-ds",
+    "name": "Mucolex DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucolyt",
+    "name": "Mucolyt",
+    "strength": "8 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucolyt.webp"
+  },
+  {
+    "slug": "mucomist",
+    "name": "Mucomist",
+    "strength": "600 mg/3 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucomist.webp"
+  },
+  {
+    "slug": "mucomist-dt",
+    "name": "Mucomist DT",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucomist-dt.jpg"
+  },
+  {
+    "slug": "muconil",
+    "name": "Muconil",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ziska Pharmaceuticals Ltd.",
+    "image": "/images/medicines/muconil.jpg"
+  },
+  {
+    "slug": "mucopront",
+    "name": "Mucopront",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Cosmic Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucosol",
+    "name": "Mucosol",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucosol.jpg"
+  },
+  {
+    "slug": "mucospel",
+    "name": "Mucospel",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/mucospel.webp"
+  },
+  {
+    "slug": "mucotec",
+    "name": "Mucotec",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Globex Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucoten",
+    "name": "Mucoten",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mucovan",
+    "name": "Mucovan",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucovan.webp"
+  },
+  {
+    "slug": "mucoxin",
+    "name": "Mucoxin",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mucoxin.webp"
+  },
+  {
+    "slug": "mucut",
+    "name": "Mucut",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Biopharma Limited",
+    "image": "/images/medicines/mucut.jpg"
+  },
+  {
+    "slug": "muderm",
+    "name": "Muderm",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Globe Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mudibak",
+    "name": "Mudibak",
+    "strength": "0.5 mg+10 mg",
+    "generic": "",
+    "manufacturer": "Rephco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mudiral",
+    "name": "Mudiral",
+    "strength": "25 mg",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "muex",
+    "name": "Muex",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Avarox Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mufree",
+    "name": "Mufree",
+    "strength": "100 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Beacon Pharmaceuticals PLC",
+    "image": "/images/medicines/mufree.jpg"
+  },
+  {
+    "slug": "mukof",
+    "name": "Mukof",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mukof.webp"
+  },
+  {
+    "slug": "mulina",
+    "name": "Mulina",
+    "strength": "600 mg",
+    "generic": "",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multi-7",
+    "name": "Multi 7",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Apollo Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multi-gold",
+    "name": "Multi Gold",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": "/images/medicines/multi-gold.webp"
+  },
+  {
+    "slug": "multi-kids",
+    "name": "Multi Kids",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Ethical Drugs Limited",
+    "image": null
+  },
+  {
+    "slug": "multi-m",
+    "name": "Multi M",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Apollo Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multi-seas",
+    "name": "Multi Seas",
+    "strength": "600 IU+85 IU+0.3 IU",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/multi-seas.webp"
+  },
+  {
+    "slug": "multical",
+    "name": "Multical",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multicef",
+    "name": "Multicef",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Desh Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multicod",
+    "name": "Multicod",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Pacific Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multiparin",
+    "name": "Multiparin",
+    "strength": "25000 IU/5 ml",
+    "generic": "",
+    "manufacturer": "Radiant Pharmaceuticals Ltd.",
+    "image": "/images/medicines/multiparin.webp"
+  },
+  {
+    "slug": "multisina",
+    "name": "Multisina",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/multisina.jpg"
+  },
+  {
+    "slug": "multitonic",
+    "name": "Multitonic",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Silva Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "multivit-plus",
+    "name": "Multivit Plus",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "image": "/images/medicines/multivit-plus.jpg"
+  },
+  {
+    "slug": "multivita-forte",
+    "name": "Multivita Forte",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Aexim Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mulyt",
+    "name": "Mulyt",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mumox",
+    "name": "Mumox",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Marker Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "munil",
+    "name": "Munil",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "image": "/images/medicines/munil.webp"
+  },
+  {
+    "slug": "mupi",
+    "name": "Mupi",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Alco Pharma Ltd.",
+    "image": "/images/medicines/mupi.jpg"
+  },
+  {
+    "slug": "mupibac",
+    "name": "Mupibac",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/mupibac.jpg"
+  },
+  {
+    "slug": "mupicin",
+    "name": "Mupicin",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Orion Pharma Ltd.",
+    "image": "/images/medicines/mupicin.jpg"
+  },
+  {
+    "slug": "mupiderm",
+    "name": "Mupiderm",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mupiderm.webp"
+  },
+  {
+    "slug": "mupiron",
+    "name": "Mupiron",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mupiron.webp"
+  },
+  {
+    "slug": "mupiskin",
+    "name": "Mupiskin",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Euro Pharma Ltd.",
+    "image": "/images/medicines/mupiskin.webp"
+  },
+  {
+    "slug": "mupitas",
+    "name": "Mupitas",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Kumudini Pharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mupitop",
+    "name": "Mupitop",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Renata PLC",
+    "image": "/images/medicines/mupitop.jpg"
+  },
+  {
+    "slug": "murein",
+    "name": "Murein",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "One Pharma Ltd.",
+    "image": "/images/medicines/murein.jpg"
+  },
+  {
+    "slug": "muroderm",
+    "name": "Muroderm",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "image": "/images/medicines/muroderm.webp"
+  },
+  {
+    "slug": "muron",
+    "name": "Muron",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/muron.webp"
+  },
+  {
+    "slug": "murtrum",
+    "name": "Murtrum",
+    "strength": "100 mg/2 ml",
+    "generic": "",
+    "manufacturer": "Monicopharma Ltd.",
+    "image": null
+  },
+  {
+    "slug": "musclex",
+    "name": "Musclex",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/musclex.jpg"
+  },
+  {
+    "slug": "muslofen",
+    "name": "Muslofen",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": "/images/medicines/muslofen.jpg"
+  },
+  {
+    "slug": "mute",
+    "name": "Mute",
+    "strength": "4 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "muterol",
+    "name": "Muterol",
+    "strength": "10 mg",
+    "generic": "",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mutex",
+    "name": "Mutex",
+    "strength": "15 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Astra Biopharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mv-cod",
+    "name": "MV-COD",
+    "strength": "",
+    "generic": "",
+    "manufacturer": "Silco Pharmaceutical Ltd.",
+    "image": null
+  },
+  {
+    "slug": "my-jelly",
+    "name": "MY Jelly",
+    "strength": "11.25%",
+    "generic": "",
+    "manufacturer": "Sharif Pharmaceuticals Ltd.",
+    "image": "/images/medicines/my-jelly.jpg"
+  },
+  {
+    "slug": "my-zinc",
+    "name": "My Zinc",
+    "strength": "20 mg",
+    "generic": "",
+    "manufacturer": "Concord Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "my-azi",
+    "name": "My-Azi",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Doctor TIMS Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycal",
+    "name": "Mycal",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycal-d",
+    "name": "Mycal-D",
+    "strength": "500 mg+200 IU",
+    "generic": "",
+    "manufacturer": "Novatek Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycef",
+    "name": "Mycef",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ambee Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycef-ds",
+    "name": "Mycef DS",
+    "strength": "250 mg/5 ml",
+    "generic": "",
+    "manufacturer": "Ambee Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycept-s",
+    "name": "Mycept-S",
+    "strength": "180 mg",
+    "generic": "",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycept-s.webp"
+  },
+  {
+    "slug": "mycin",
+    "name": "Mycin",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "Ambee Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "myco-hc",
+    "name": "Myco HC",
+    "strength": "2%+1%",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": null
+  },
+  {
+    "slug": "myco-og",
+    "name": "Myco OG",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Pharmasia Limited",
+    "image": "/images/medicines/myco-og.webp"
+  },
+  {
+    "slug": "mycocin",
+    "name": "Mycocin",
+    "strength": "100000 unit/ml",
+    "generic": "",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycocin.webp"
+  },
+  {
+    "slug": "mycocure",
+    "name": "Mycocure",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycocure.webp"
+  },
+  {
+    "slug": "mycoder",
+    "name": "Mycoder",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycoder.webp"
+  },
+  {
+    "slug": "mycofast",
+    "name": "Mycofast",
+    "strength": "2%",
+    "generic": "",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycofast.webp"
+  },
+  {
+    "slug": "mycofin",
+    "name": "Mycofin",
+    "strength": "1%",
+    "generic": "",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "image": "/images/medicines/mycofin.jpg"
+  },
+  {
+    "slug": "mycofree",
+    "name": "Mycofree",
+    "strength": "250 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mycofree.webp"
+  },
+  {
+    "slug": "mycofree-oc",
+    "name": "Mycofree-OC",
+    "strength": "0.05%+0.75%+2%+1%",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mycon",
+    "name": "Mycon",
+    "strength": "2% w/w",
+    "generic": "",
+    "manufacturer": "Aristopharma Ltd.",
+    "image": "/images/medicines/mycon.png"
+  },
+  {
+    "slug": "mycophenolate-mofetil",
+    "name": "Mycophenolate-Mofetil",
+    "strength": "500 mg",
+    "generic": "",
+    "manufacturer": "SANDOZ (A Novartis Division)",
+    "image": "/images/medicines/mycophenolate-mofetil.webp"
+  },
+  {
+    "slug": "mycorest",
+    "name": "Mycorest",
+    "strength": "50 mg",
+    "generic": "",
+    "manufacturer": "Marksman Pharmaceuticals Ltd.",
+    "image": null
+  },
+  {
+    "slug": "mydipin",
+    "name": "Mydipin",
+    "strength": "5 mg",
+    "generic": "",
+    "manufacturer": "Drug International Ltd.",
+    "image": "/images/medicines/mydipin.jpg"
   }
 ]
