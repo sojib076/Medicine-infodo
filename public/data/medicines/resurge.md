@@ -1,0 +1,43 @@
+## Indications
+Anexate is indicated for reversal of the centrally sedative effects of benzodiazepines. It should therefore be used in anaesthesia and intensive care in the following indications:In anaesthesia-Termination of general anaesthesia induced and maintained with benzodiazepines in inpatients.... Read moreAnexate is indicated for reversal of the centrally sedative effects of benzodiazepines. It should therefore be used in anaesthesia and intensive care in the following indications:In anaesthesia-Termination of general anaesthesia induced and maintained with benzodiazepines in inpatients.Reversal of benzodiazepine sedation in short diagnostic and therapeutic procedures in both inpatients and outpatients.Reversal of paradoxical reactions due to benzodiazepines.In intensive care and in the management of unconsciousness of unknown origin-For the diagnosis and/or management of benzodiazepine overdose due to self-poisoning or accidental overdose.As a diagnostic measure in unconsciousness of unknown origin to differentiate between involvement of benzodiazepines, other medicines or drugs or brain damage.Anexate may also be used for specific reversal of the central effects of benzodiazepines in drug or medicine overdose (return to spontaneous respiration and consciousness in order to render intubation unnecessary or allow extubation)
+
+## Dosage & Administration
+Flumazenil is recommended for intravenous (IV) use only and should be administered by an anaesthesiologist or experienced physician. 
+
+In anaesthesia : The recommended initial dose of Flumazenil is 0.2 mg administered IV over 15 seconds. If the desired degree of consciousness is not obtained within 60 seconds, a second dose of 0.1 mg can be injected; this may be repeated at 60-second intervals where necessary, up to a total dose of 1 mg. The usual dose is 0.3-0.6 mg, but individual requirements may vary considerably, depending on the dose and duration of effect of the benzodiazepine administered and patient characteristics. 
+
+In intensive care and in the management of unconsciousness of unknown origin : The recommended initial dose of Flumazenil is 0.3 mg IV. If the desired level of consciousness is not obtained within 60 seconds, Flumazenil may be injected repeatedly until the patient awakes or up to a total dose of 2 mg. If drowsiness recurs, Flumazenil may be administered as one or more bolus IV doses as above, or as an IV infusion of 0.1-0.4 mg per hour. The rate of infusion should be individually adjusted to the desired level of arousal. If a significant improvement in consciousness or respiratory function is not obtained after repeated doses of Flumazenil, a non-benzodiazepine aetiology must be assumed. In the intensive care unit, in patients treated with high doses of benzodiazepines and/or for long periods of time, the individually titrated injections of Flumazenil, slowly administered, should not produce withdrawal syndromes. If unexpected symptoms occur, diazepam or midazolam could be carefully titrated intravenously according to patient response. 
+
+Children >1 year-of-age : For the reversal of conscious sedation induced with benzodiazepines in children above one year-of- age, the recommended initial dose is 0.01 mg/kg (up to 0.2 mg) administered IV over 15 seconds. If the desired level of consciousness is not obtained after waiting an additional 45 seconds, further injections of 0.01 mg/kg (up to 0.2 mg) can be administered and repeated at 60-second intervals where necessary (up to a maximum of four additional times) to a maximum total dose of 0.05 mg/kg or 1 mg, whichever is lower. The dose should be individualised based on patient response. No data are available on the safety and efficacy of repeated administration of Flumazenil to children for re-sedation.
+
+## Interaction
+Interaction with other medicines and other forms of interaction: Resurge blocks the central effects of benzodiazepines by competitive interaction at the receptor level. The effects of non-benzodiazepine agonists at benzodiazepine receptors, such as zopiclone, triazolopyridazines and others, are also blocked by Resurge. The pharmacokinetics of benzodiazepine agonists are unaltered in the presence of Anexate and vice versa. There is no pharmacokinetic interaction between ethanol and Resurge.
+
+## Contraindications
+Flumazenil is contraindicated in patients with known hypersensitivity to the medicine. Flumazenil is contraindicated in patients who have been given a benzodiazepine for control of a potentially life-threatening condition (e.g. control of intracranial pressure or status epilepticus).
+
+## Side Effects
+Resurge is well tolerated in adults and children. In adults, Resurge is well tolerated even at doses exceeding those recommended. Hypersensitivity reactions, including anaphylaxis, have been observed. Complaints such as feelings of anxiety, palpitations and fear have been infrequently observed after rapid injection of Resurge. These adverse effects usually do not necessitate special treatment. Seizures have been reported in patients known to suffer from epilepsy or severe hepatic impairment, particularly after long-term treatment with benzodiazepines or in cases of mixed- substance overdose. In cases of mixed-substance overdose, particularly with cyclic antidepressants, toxic effects (such as convulsions and cardiac dysrhythmias) may emerge with the reversal of benzodiazepine effects by Resurge. Withdrawal symptoms may occur following rapid injection of Resurge in patients with long-term exposure to benzodiazepines ending at any time within the weeks preceding Resurge administration. Resurge has been reported to provoke panic attacks in patients with a history of panic disorders.
+
+## Pregnancy & Lactation
+Although in-vitro and animal studies using high doses of Flumazenil have not shown evidence of mutagenicity, teratogenicity or impairment of fertility, the safety of Flumazenil in human pregnancy has not been established. Therefore, the benefits of medication during pregnancy should be weighed against possible risks to the foetus. Parenteral administration of Flumazenil in emergencies is not contraindicated during lactation. Animal studies using high doses of Flumazenil have not shown evidence of impairment of fertility.
+
+## Precautions & Warnings
+Particular caution is necessary when using Resurge in cases of mixed-substance overdose since the toxic effects (such as convulsions and cardiac dysrhythmias) of other medicines taken in overdose (especially cyclic antidepressants) may emerge with the reversal of benzodiazepine effects by Resurge. 
+
+The use of Resurge is not recommended in epileptic patients who have been receiving benzodiazepine treatment for a prolonged period. Although Resurge exerts a slight intrinsic anticonvulsant effect, its abrupt suppression of the protective effect of a benzodiazepine agonist can give rise to convulsions in epileptic patients. 
+
+Patients who have received Resurge for the reversal of benzodiazepine effects should be monitored for resedation, respiratory depression or other residual benzodiazepine effects for an appropriate period based on the dose and duration of effect of the benzodiazepine employed. As patients with underlying hepatic impairment may experience delayed benzodiazepine effects, an extended observation period may be required. 
+
+When Resurge is used with neuromuscular-blocking agents, it should not be injected until the effects of neuromuscular blockade have been fully reversed. 
+
+Resurge should be used with caution in patients with head injury as it may be capable of precipitating convulsions or altering cerebral blood flow in patients receiving benzodiazepines. 
+
+Rapid injection of Resurge should be avoided in patients with high dose and/or long-term exposure to benzodiazepines ending at any time within the weeks preceding Resurge administration as it may produce withdrawal symptoms, including agitation, anxiety, emotional lability as well as mild confusion and sensory distortions. 
+
+Resurge is not recommended either as a treatment for benzodiazepine dependence or for the management of protracted benzodiazepine abstinence syndromes. 
+
+Resurge should be used with caution for the reversal of conscious sedation in children below the age of one year, for the management of overdose in children, for resuscitation of the newborn and for reversal of the sedative effects of benzodiazepines used for induction of general anaesthesia in children, as experience is limited.
+
+## Storage Conditions
+Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children.

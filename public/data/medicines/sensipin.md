@@ -1,0 +1,49 @@
+## Indications
+Sensipin is indicated in- 
+
+- Schizophrenia in patients unresponsive to, or intolerant of, conventional antipsychotic drugs.
+- Psychosis in Parkinson's disease.
+
+## Pharmacology
+Clozapine is classified as an 'atypical' antipsychotic drug because of its profile of binding to dopamine receptors and its effects on various dopamine-mediated behaviors differ from those exhibited by other typical antipsychotic drug products. In particular, although Clozapine does interfere with the binding of dopamine at D1, D2, D3 and D5 receptors, and has a high affinity for the D4 receptor. This evidence, consistent with the view that Clozapine is preferentially more active at limbic than at striatal dopamine receptors. This may explain the relative freedom of Clozapine from extrapyramidal side effects. Clozapine also acts as an antagonist at adrenergic, cholinergic, histaminergic and serotonergic receptors.
+
+## Dosage & Administration
+Schizophrenia : Adult over 16 years, 12.5 mg once or twice (elderly 12.5 mg once) on first day then 25-50 mg (elderly 25-37.5 mg) on second day then increased gradually (if well tolerated) in steps of 25-50 mg daily (elderly max. increment 25 mg daily) over 14-21 days up to 300 mg daily in divided doses (larger dose at night, up to 200 mg daily may be taken as a single dose at bedtime); if necessary may be further increased in steps of 50-100 mg once (preferably) or twice weekly; usual dose 200-450 mg daily (max. 900 mg daily) 
+
+Psychosis in Parkinson's disease : Adult over 16 years, 12.5 mg at bedtime then increased according to response in steps of 12.5 mg up to twice weekly; usual dose range 25-37.5 mg at bedtime, usual maximum 50 mg daily; exceptionally, dose may be increased further in steps of 12.5 mg weekly to maximum 100 mg daily in 1-2 divided doses.
+
+## Interaction
+Myelosuppression may be aggravated with concomitant use of myelosuppressants. Sensipin may interact with other CNS active drugs or alcohol. Orthostatic hypotension may occur with benzodiazepine usage or other psychotropics. Since Sensipin is highly bound to proteins. It may be displaced by other drugs, which are also highly protein bound. Conversely, Sensipin may also displace protein bound drugs (e.g. warfarin, digoxin). Cimetidine may decrease plasma Sensipin levels. 
+
+Although concomitant administration of Carbamazepine and Sensipin is not recommended, it should be noted that discontinuation of concomitant Carbamazepine may result in an increase in plasma Sensipin levels. A reduced Sensipin dosage should be used when it is combined with drugs like fluvoxamine, paroxetine and sertraline. The action of hypotensive drugs may be potentiated. Other anticholinergic drug action may also be increased. Administration of adrenaline should generally be avoided due to possibility of reversal of adrenaline effect due to alpha adrenergic blockade by Sensipin. Concomitant use of Sensipin with other drugs metabolized by cytochrome P450 2D6 (such as phenothiazines, antidepressants, propafenone, flecainide and encainide) or those that inhibit this enzyme such as quinidine; require lower doses of either Sensipin or the other drugs.
+
+## Contraindications
+Severe cardiac disorders (e.g. myocarditis); renal impairment (avoid if creatinine clearance less than 10 ml/minute); history of neutropenia or agranulocytosis; bone-marrow disorders; paralytic ileus; alcoholic and toxic psychoses; history of circulatory collapse; drug intoxication; coma or severe CNS depression; uncontrolled epilepsy; breast-feeding.
+
+## Side Effects
+Common side effects are constipation, dizziness or lightheadedness (mild), drowsiness, headache (mild), increased watering of mouth, nausea or vomiting, unusual weight gain. Less common side effects include abdominal discomfort or heartburn, dryness of mouth.
+
+## Pregnancy & Lactation
+There are no adequate studies of Clozapine in pregnant women. Studies in animals suggest no important effects on the fetus. Clozapine can be used in pregnancy if the physician feels that it is necessary. Animal studies suggest that Clozapine is secreted in breast milk. Therefore, women taking Clozapine should not nurse their infants.
+
+## Precautions & Warnings
+Medication should not be stopped abruptly; should be tapered off over 1-2 weeks. If conditions warrant abrupt discontinuation (leukopenia, myocarditis, cardiomyopathy), monitor patient for psychosis and cholinergic rebound (headache, nausea, vomiting, diarrhea). Elderly patients are more susceptible to adverse effects  (including agranulocytosis, cardiovascular, anticholinergic, and tardive dyskinesia). Significant risk of agranulocytosis, potentially life-threatening. WBC testing should occur weekly for the first 6 months of therapy; thereafter, if acceptable WBC counts are maintained (WBC 3000/mm3, ANC 1500/mm3) then WBC counts can be monitored every other week. WBCs must be monitored weekly for the first 4 weeks after therapy discontinuation. Use with caution in patients receiving other marrow suppressive agents. Eosinophilia has been reported to occur with Sensipin and may require temporary or permanent interruption of therapy. 
+
+Cognitive and/or motor impairment (sedation) is common with Sensipin, resulting in impaired performance of tasks requiring alertness (eg, operating machinery or driving). Use with caution in patients at risk of seizures, including those with a history of seizures, head trauma, brain damage, alcoholism, or concurrent therapy with medications which may lower seizure threshold. Has been associated with benign, self-limiting fever (<100.4°F, usually within first 3 weeks). However, dozapine may also be associated with severe febrile reactions, including neuroleptic malignant syndrome (NMS). Sensipin's potential for extrapyramidal symptoms appear to be extremely low. 
+
+May cause anticholinergic effects; should be used with caution in patients with urinary retention, benign prostatic hyperplasia, narrow-angle glaucoma, xerostomia, visual problems, constipation, or history of bowel obstruction. May cause hyperglycemia; in some cases may be extreme and associated with ketoacidosis, hyperosmolar coma, or death. Use with caution in patients with diabetes or other disorders of glucose regulation; monitor for worsening of glucose control. Use with caution in patients with hepatic disease or impairment; hepatitis has been reported as a consequence of therapy. 
+
+May cause orthostatic hypotension and tachycardia; should be used with caution in patients at risk of hypotension or in patients where transient hypotensive episodes would be poorly tolerated (cardiovascular disease or cerebrovascular disease). Concurrent use of psychotropics and benzodiazepines may increase the risk of severe cardiopulmonary reactions. 
+
+Myocarditis, pericarditis, pericardial effusion, cardiomyopathy, and CHF have also been associated with Sensipin. Fatalities due to myocarditis have been reported; highest risk in the first month of therapy, however, later cases also reported. Myocarditis or cardiomyopathy should be considered in patients who present with signs/symptoms of heart failure (dyspnea, fatigue, orthopnea, paroxysmal nocturnal dyspnea, peripheral edema), chest pain, palpitations, new electrocardiographic abnormalities (arrhythmias, ST-T wave abnormalities), or unexplained fever. Patients with tachycardia during the first month of therapy should be closely monitored for other signs of myocarditis. Discontinue Sensipin if myocarditis is suspected; do not rechallenge in patients with Sensipin-related myocarditis. The reported rate of cardiomyopathy in Sensipin treated patients is similar to that in the general population. The majority of patients were over 50 years of age and were taking Sensipin for >6 months. Sensipin should be discontinued in patients with confirmed cardiomyopathy unless benefit clearly outweighs risk. Rare cases of thromboembolism, including pulmonary embolism and stroke resulting in fatalities, have been associated with Sensipin.
+
+## Overdose Effects
+The most commonly reported signs and symptoms associated with Sensipin overdose are: altered states of consciousness, including drowsiness, delirium and coma; tachycardia; hypotension; respiratory depression or failure; hypersalivation. Aspiration pneumonia and cardiac arrhythmias have also been reported. Seizures have occurred in a minority of reported cases. Fatal overdoses have been reported with Sensipin, generally at doses above 2500 mg. There have also been reports of patients recovering from overdoses well in excess of 4 gm. 
+
+Management of Overdose: Should be established and maintained an airway; should be ensured adequate oxygenation and ventilation. Activated charcoal, which may be used with sorbitol, may be as or more effective than emesis or lavage, and should be considered in treating overdosage. Cardiac and vital signs monitoring is recommended along with general symptomatic and supportive measures. Additional surveillance should be continued for several days because of the risk of delayed effects. Avoid epinephrine and derivatives when treating hypotension, and quinidine and procainamide when treating cardiac arrhythmia. There are no specific antidotes for Sensipin. Forced diuresis, dialysis, hemoperfusion and exchange transfusion are unlikely to be of benefit. ln managing overdosage, the physician should consider the possibility of multiple drug involvement.
+
+## Therapeutic Class
+Atypical neuroleptic drugs
+
+## Storage Conditions
+Do not store above 30°C. Keep away from light and out of the reach of children.
