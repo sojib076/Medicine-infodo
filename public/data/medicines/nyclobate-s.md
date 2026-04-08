@@ -1,0 +1,36 @@
+## Indications
+This ointment is indicated for the relief of the inflammatory manifestations of hyperkeratotic and dry corticosteroid responsive dermatoses such as, psoriasis, chronic atopic dermatitis, neurodermatitis (licehen Simplex, Chronicus), lichen planus, eczema (including nummular eczema, hand eczema, eczematous dermatitis), seborrheic dermatitis of the scalp, ichthyosis vulgaris and other ichthyotic conditions.
+
+## Pharmacology
+Clobetasol Propionate high potency corticosteroid. Corticosteroids decrease inflammation by stabilizing leukocyte lysosomal membranes, preventing release of destructive acid hydrolases from leukocytes; inhibiting macrophage accumulation in inflamed areas; reducing leukocyte adhesion to capillary endothelium; reducing capillary wall permeability and edema formation; decreasing complement components; antagonizing histamine activity and release of kinin from substrates; and reducing fibroblast proliferation, collagen deposition, and subsequent scar tissue formation. 
+
+Salicylic acid has a potent keratolytic action and a slight antiseptic action when applied topically. It softens and destroys the stratum corneum by increasing endogenous hydration which causes the horny layer of the skin to swell, soften, and then desquamate. At high concentrations, salicylic acid has a caustic effect. It also possesses weak antifungal and antibacterial activity.
+
+## Dosage & Administration
+Adult : Apply a thin layer of this ointment to the affected skin areas twice daily and rub in gently & completely. For some patients, adequate maintenance therapy may be achieved with less frequent application. As with other higher active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. It should not be used with occlusive dressing. Treatment beyond 2 consecutive weeks is not exceeding 50 gm/week because of the potential for the drug to suppress the hypothalamic pituitary adrenal axis. 
+
+Children : Use in pediatric patients under 12 years of age is not recommended.
+
+## Interaction
+There has been no report of interaction with Clobetasol Propionate ointment and cream. There are no known interactions of Salicylic Acid when used as indicated. However, topical salicylic acid may increase the absorption of other topically applied medicines. Concomitant use of Salicylic Acid Ointment and other topical medicines on the same area of skin should therefore be avoided.
+
+## Contraindications
+Clobetasol Propionate is contraindicated in patients with hypersensitivity to Clobetasol Propionate. This preparation is contraindicated also in the treatment of primary infected bacterial or fungal skin lesions if no anti-infective agent is used simultaneously, in primary cutaneous viral infections (i.e., herpes simplex, vaccinia and varicella) and in tuberculous skin lesions. Clobetasol Propionate is also contraindicated in dermatoses in children under one year of age, including dermatitis and diaper eruptions. Salicylic Acid is contraindicated in patients displaying salicylate hyersensitivity, or sensitivity to any other ingredient in the preparation.
+
+## Side Effects
+As with other topical corticosteroids, prolonged use of large amounts of Clobetasol Propionate or treatment of extensive areas can result in sufficient systemic absorption to produce the features of hypercortisolism. This effect is more likely to occur in infants and children, and if occlusive dressings are used. Local atrophy may occur after prolonged treatment. In rare instances, treatment of psoriasis with corticosteroids (or its withdrawal) is thought to have provoked the pustular form of the diseases. Clobetasol Propionate is usually well tolerated, but if signs of hypersensitivity appear, application should be stopped immediately. Possible sensitivity reactions, drying and irritation when using Salicylic Acid.
+
+## Pregnancy & Lactation
+Topical administration of corticosteroids to pregnant animals can cause abnormalities of fetal development. The relevance of this finding to human beings has not been established. The safe use of Clobetasol Propionate during lactation has not been established. However, the administration of Clobetasol Propionate during pregnancy and lactation should only be considered if the expected benefit to the mother is greater than any possible risk to the fetus. Drugs of this class should not be used extensively in pregnant patients in large amounts or for prolonged periods of time. Whilst there are no known contra-indications to the use of Salicylic Acid ointment during pregnancy and lactation, the safety has not been established. Salicylic Acid ointment shold therefore be used with caution.
+
+## Precautions & Warnings
+Clobetasol Propionate should be used with caution on lesions close to the eye. When Clobetasol Propionate is used over extensive areas for prolonged periods, it is possible that sufficient absorption may take place to give rise to adrenal suppression. This is particularly true for pediatric patients who may be more susceptible to systemic toxicity from equivalent doses due to their larger skin surface to body mass ratio. Topical corticosteroids may be hazardous in psoriasis for a number of reasons including rebound relapases, development of tolearance, risk of generalisedpustular psoriasis and development of local or systemic toxicity due to impaired barrier function of the skin. If used in psoriasis, careful patient supervision is important. Appropriate antimicrobial therapy should be used whenever treating inflammatory lesions which have become infected. Any spread of infection requires withdrawal of topical corticosteroid therapy and systemic administration of antimicrobial agents. Bacterial infection is encouraged by the warm, moist conditions induced by occlusive dressings, and so the skin should be cleansed before a fresh dressing is applied. Avoid contact with broken or inflammed skin. Salicylate toxicity may occur if applied to large areas of skin or to the skin of neonates.
+
+## Overdose Effects
+Acute overdosage is very unlikely to occur, however, in the case of chronic overdosage or misuse, the features of hypercortisolism may appear and in this situation topical steroids should be discontinued gradually. However, because of the risk of acute adrenal suppression this should be done under medical supervision. Symptoms osslystemic salicylate poisoning (tinnitus, dizziness and deafness) have been reported after the application of Salicylic Acid to large areas of skin and for prolonged periods. Salicylism may also occur in the unlikely event of large quantities being ingested. Salicylism is ullikely to occur if Salicylic Acid ointment is used as indicated. Salicylate poisoining is usually associated with plasma concentrations >350 mg/L. Most adult deaths occur in patients whose concentrations exceed 700 ml/L. Single doses less than 100 mg/kg are unlikely to cause serious poisoning.
+
+## Therapeutic Class
+Clobetasol / Clobetasone & Combined Preparations
+
+## Storage Conditions
+Store in a cool and dry place, protected from light.

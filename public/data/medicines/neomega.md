@@ -1,0 +1,55 @@
+## Indications
+Neomega is indicated as an adjunct to diet to reduce very high (>500mg/dl) triglyceride (TG) levels in adult patients and as an adjunct in secondary prevention in those who have had a myocardial infarction in the preceding 3 months. It is also indicated to help reduce the joint inflammation associated with mild arthritis, mood disorders & impulse control, age-related macular degeneration.
+
+## Composition
+Each Soft Gelatin Capsule Contains Omega-3-Acid Ethyl Esters BP 1000 mg. A combination of- 
+
+- Eicosapentaenoic Acid BP 80 mg
+- Docosahexaenoic Acid BP 120 mg
+
+## Pharmacology
+Omega-3-acid ethyl esters reduce triglyceride production by the liver but this mechanism is not well understood. Omega-3-acid ethyl esters inhibit acyl-CoA: 1,2-diacylglycerol acyltransferase, reducing triglyceride synthesis and increasing paroxysmal beta-oxidation, which increases fatty aside metabolism. Omega-3-acid ethyl esters also inhibit the release of fatty acids by competing for enzymes involved in the synthesis of triglycerides, increase triglyceride clearance by increasing the activity of lipoprotein lipase, and decrease production of VLDL-C.
+
+## Dosage & Administration
+In hypertriglyceridaemia : it can be taken as a single dose of 4 capsules (4 gm) or 2 capsules (2 gm) twice daily. 
+
+In previously myocardial infarction patients : It can be taken 1 capsule (1 gm ) daily with food. Patients should be placed on an appropriate lipid lowering diet before receiving Omega-3 Acid Ethyl Esters and should continue this diet during treatment. 
+
+In joint inflammation associated with mild arthritis : The dose is 2.7 gm daily. 
+
+In mood disorders & impulse control and age-related macular degeneration : The dose is 1 capsule (1 gm) per day. Or, as directed by the registered physician.
+
+## Interaction
+Neomega-acid ethyl esters has been given in conjunction with warfarin without haemorrhagic complications. However, the prothrombin time must be checked when Neomega-acid ethyl esters is combined with warfarin or when treatment with Neomega-acid ethyl esters is stopped.
+
+## Contraindications
+It is contraindicated in patients who exhibit hypersensitivity to any component of this medication.
+
+## Side Effects
+Immune system disorders : Rare- hypersensitivity; 
+
+Metabolism and nutrition disorders : Uncommon-hyperglycaemia, gout; 
+
+Nervous system disorders : Uncommon- dizziness, dysgeusia, headache; 
+
+Vascular disorders : Uncommon- hypotension; 
+
+Respiratory thoracic and mediastinal disorders : Uncommon- epistaxis; 
+
+Gastrointestinal disorders : Common- gastrointestinal disorders (including abdominal distension, abdominal pain, constipation, diarrhoea, dyspepsia, flatulence, eructation, gastro-oesophageal reflux disease, nausea or vomiting), Uncommon- gastrointestinal haemorrhage; 
+
+Hepatobiliary disorders : Rare- liver disorders (including transaminases increased, alanine aminotransferase increased and aspartate aminotransferase increased); 
+
+Skin and subcutaneous tissue disorders : Uncommon- rash, Rare-urticarial.
+
+## Pregnancy & Lactation
+Omega-3-acid ethyl esters should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. It is not known whether it is excreted in human milk. Caution should be exercised when Omega-3-acid ethyl esters are administered to a lactating mother.
+
+## Precautions & Warnings
+Because of the moderate increase in bleeding time (with the high dosage, i.e. 4 capsules), patients receiving anti-coagulant therapy must be monitored and the dosage of anti-coagulant adjusted if necessary. Use of this medication does not eliminate the need for the surveillance usually required for patients of this type. Make allowance for the increased bleeding time in patients at high risk of haemorrhage (because of severe trauma, surgery, etc). In the absence of efficacy and safety data, use of this medication in children is not recommended. During treatment with Neomega-acid ethyl esters, there is a fall in thromboxane A2 production. No significant effect has been observed on the other coagulation factors. Some studies with omega-3-acids demonstrated a prolongation of bleeding time, but the bleeding time reported in these studies has not exceeded normal limits and did not produce clinically significant bleeding episodes. In some patients a small but significant increase (within normal values) in ASAT and ALAT was reported, but there are no data indicating an increased risk for patients with hepatic impairment. ALAT and ASAT levels should be monitored in patients with any signs of liver damage (in particular with the high dosage, i.e. 4 capsules). Neomega-acid ethyl esters is not indicated in exogenous hypertriglyceridaemia (type 1 hyperchylomicronaemia). There is only limited experience in secondary endogenous hypertriglyceridaemia (especially uncontrolled diabetes). There is no experience regarding hypertriglyceridaemia in combination with fibrates.
+
+## Therapeutic Class
+Other lipid regulating drugs
+
+## Storage Conditions
+Store below 25°C in a dry & cool place.

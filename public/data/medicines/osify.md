@@ -1,0 +1,8 @@
+## Indications
+Osifyhydroxyapatite complex (OHC) is a protein-mineral compound that's used to prevent bone loss and treat conditions like osteoporosis and osteopenia.Composition: OHC is a microcrystalline form of calcium that also contains magnesium, phosphorus, potassium, zinc, and proteins... Read moreOsifyhydroxyapatite complex (OHC) is a protein-mineral compound that's used to prevent bone loss and treat conditions like osteoporosis and osteopenia.Composition: OHC is a microcrystalline form of calcium that also contains magnesium, phosphorus, potassium, zinc, and proteins like osteocalcin and type I collagen.Bone health: OHC can help maintain bone mineral density (BMD) and may be more effective than calcium supplements alone. It may also have an analgesic effect and help increase bone mass.Bone remodeling: OHC can stimulate bone metabolism, especially when osteoblast activity is reduced.Bone fractures: OHC may help relieve pain and increase bone mass in patients with bone fractures.Bone replacement: Hydroxyapatite, a component of OHC, is used as a filler to replace amputated bones or as a coating to promote bone growth into prosthetic implants.
+
+## Dosage & Administration
+Typical dosage of ossein-hydroxyapatite is two 830 mg tablets twice daily; each tablet contains 178 mg elemental calcium, for a daily total of 712 mg elemental calcium.
+
+## Storage Conditions
+Keep below 30°C temperature, away from light & moisture. Keep out of the reach of children.

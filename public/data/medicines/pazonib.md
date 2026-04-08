@@ -1,0 +1,72 @@
+## Indications
+Pazonib is indicated for the treatment of patients with advanced renal cell carcinoma (RCC). Pazonib is indicated for the treatment of patients with advanced soft tissue sarcoma (STS) who have received prior chemotherapy. The efficacy of Pazonib for the treatment of patients with adipocytic STS or gastrointestinal stromal tumors has not been demonstrated.
+
+## Pharmacology
+Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR 2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, Pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors. 
+
+Absorption : Pazopanib is absorbed orally with median time to achieve peak concentrations of 2 to 4 hours after the dose. Daily dosing at 800 mg results in geometric mean AUC and C max of 1,037 mcg/mL and 58.1 mcg/mL (equivalent to 132 µM), respectively. There was no consistent increase in AUC or C max at Pazopanib doses above 800 mg. 
+
+Distribution : Binding of Pazopanib to human plasma protein in vivo was greater than 99% with no concentration dependence over the range of 10 to 100 mcg/mL. In vitro, studies suggest that Pazopanib is a substrate for P-gp and BCRP. 
+
+Metabolism : In vitro studies demonstrated that Pazopanib is metabolized by CYP3A4 with a minor contribution from CYP1A2 and CYP2C8. 
+
+Elimination : Pazopanib has a mean half-life of 30.9 hours after administration of the recommended dose of 800 mg. Elimination is primarily via feces with renal elimination accounting for less than 4% of the administered dose.
+
+## Dosage & Administration
+The recommended starting dose of Pazopanib is 800 mg orally once daily without food (at least 1 hour before or 2 hours after a meal). The dose of Pazopanib should not exceed 800 mg. Tablets should not be crushed due to the potential for increased rate of absorption which may affect systemic exposure. If a dose is missed, it should not be taken if it is less than 12 hours until the next dose. Or, as directed by the registered physicians.
+
+## Interaction
+Drugs that Inhibit or Induce Cytochrome P450 3A4 Enzymes : In vitro studies suggested that the oxidative metabolism of Pazonib in human liver microsomes is mediated primarily by CYP3A4, with minor contributions from CYP1A2 and CYP2C8. Therefore, inhibitors and inducers of CYP3A4 may alter the metabolism of Pazonib. 
+
+CYP3A4 Inhibitors : Coadministration of Pazonib with strong inhibitors of CYP3A4 (e.g., Ketoconazole, Ritonavir, Clarithromycin) increases Pazonib concentrations and should be avoided. Consider an alternate concomitant medication with no or minimal potential to inhibit CYP3A4. If coadministration of a strong CYP3A4 inhibitor is warranted, reduce the dose of Pazonib to 400 mg. Grapefruit or grapefruit juice should be avoided as it inhibits CYP3A4 activity and may also increase plasma concentrations of Pazonib. 
+
+CYP3A4 Inducers : CYP3A4 inducers, such as Rifampin, may decrease plasma Pazonib concentrations. Consider an alternate concomitant medication with no or minimal enzyme induction potential. Pazonib should not be used if chronic use of strong CYP3A4 inducers cannot be avoided. 
+
+Drugs that Inhibit Transporters : In vitro studies suggested that Pazonib is a substrate of P-glycoprotein (P-gp) and breast cancer resistance protein (BCRP). Therefore, absorption and subsequent elimination of Pazonib may be influenced by products that affect P-gp and BCRP. Concomitant treatment with strong inhibitors of P-gp or BCRP should be avoided due to risk of increased exposure to Pazonib. Selection of alternative concomitant medicinal products with no or minimal potential to inhibit P-gp or BCRP should be considered. 
+
+Effects of Pazonib on CYP Substrates : Results from drug-drug interaction trials conducted in cancer patients suggest that Pazonib is a weak inhibitor of CYP3A4, CYP2C8, and CYP2D6 in vivo, but had no effect on CYP1A2, CYP2C9, or CYP2C19. Concomitant use of Pazonib with agents with narrow therapeutic windows that are metabolized by CYP3A4, CYP2D6, or CYP2C8 is not recommended. Coadministration may result in inhibition of the metabolism of these products and create the potential for serious adverse events. 
+
+Effect of Concomitant Use of Pazonib and Simvastatin : Concomitant use of Pazonib and Simvastatin increases the incidence of ALT elevations. Across monotherapy trials with Pazonib, ALT greater than 3 x ULN was reported in 126/895 (14%) of patients who did not use statins, compared with 11/41 (27%) of patients who had concomitant use of Simvastatin. If a patient receiving concomitant Simvastatin develops ALT elevations, follow dosing guidelines for Pazonib or consider alternatives to Pazonib. Alternatively, consider discontinuing Simvastatin. Insufficient data are available to assess the risk of concomitant administration of alternative statins and Pazonib.
+
+## Contraindications
+It is contraindicated in patients with known hypersensitivity to Pazopanib or any other components of this product.
+
+## Side Effects
+Common side effects of Pazonib include: 
+
+- Hepatic Toxicity and Hepatic Impairment
+- QT Prolongation and Torsades de Pointes
+- Cardiac Dysfunction
+- Hemorrhagic Events
+- Arterial and Venous Thromboembolic Events
+- Thrombotic Microangiopathy
+- Gastrointestinal Perforation and Fistula
+- Interstitial Lung Disease/Pneumonitis
+- Reversible Posterior Leukoencephalopathy Syndrome
+- Hypertension
+- Hypothyroidism
+- Proteinuria
+- Tumor Lysis Syndrome
+- Infection
+- Increased Toxicity with Other Cancer Therapy
+
+## Pregnancy & Lactation
+Pazopanib can cause fetal harm when administered to a pregnant woman. There are no available data in pregnant women to inform a drug-associated risk. Pregnant women or women should be advised of the childbearing potential of the potential risk to a fetus. There is no information regarding the presence of Pazopanib or its metabolites in human milk, or their effects on the breastfed infant, or on milk production. Because of the potential for serious adverse reactions in breastfed infants from Pazopanib, a lactating woman should be advised not to breastfeed during treatment with Pazopanib and for 2 weeks after the final dose.
+
+## Precautions & Warnings
+Hepatic Toxicity and Hepatic Impairment : In clinical trials with Pazonib, hepatotoxicity, manifested as increases in serum transaminases (alanine transferase [ALT], aspartate aminotransferase [AST]) and bilirubin, was observed. This hepatotoxicity can be severe and fatal. Patients older than 65 years are at greater risk for hepatotoxicity. Transaminase elevations occur early in the course of treatment (92.5% of all transaminase elevations of any grade occurred in the first 18 weeks). 
+
+QT Prolongation and Torsades De Pointes : In the RCC trials of Pazonib, QT prolongation (greater than or equal to 500 msec) was identified on routine electrocardiogram (ECG) monitoring in 2% (11/558) of patients. Torsades de pointes occurred in less than 1% (2/977) of patients who received Pazonib in the monotherapy trials. Pazonib should be used with caution in patients with a history of QT interval prolongation, in patients taking antiarrhythmics or other medications that may prolong QT interval, and those with relevant pre-existing cardiac disease. When using Pazonib, baseline and periodic monitoring of ECGs and maintenance of electrolytes (e.g., calcium, magnesium, potassium) within the normal range should be performed.
+
+## Use in Special Populations
+Females : Pazonib can cause fetal harm when administered to a pregnant woman. Females of reproductive potential should be advised to use effective contraception during treatment and for at least 2 weeks after the last dose of Pazonib. 
+
+Males : To avoid potential drug exposure to pregnant partners and female partners of reproductive potential, male patients (including those who have had vasectomies) with female partners of reproductive potential should be advised to use condoms during treatment with Pazonib and for at least 2 weeks after the last dose. 
+
+Pediatric Use : The safety and effectiveness of Pazonib in pediatric patients have not been established.
+
+## Overdose Effects
+Pazonib doses up to 2000 mg have been evaluated in clinical trials. Dose-limiting toxicity (Grade 3 fatigue) and Grade 3 hypertension were each observed in 1 of 3 patients dosed at 2000 mg daily and 1000 mg daily, respectively. Treatment of overdose with Pazonib should consist of general supportive measures. There is no specific antidote for overdosage of Pazonib. Hemodialysis is not expected to enhance the elimination of Pazonib because Pazonib is not significantly renally excreted and is highly bound to plasma proteins.
+
+## Storage Conditions
+Store below 30° C in a cool and dry place, away from sunlight. Keep out of reach of children.
