@@ -7,26 +7,25 @@ import Typography from "@mui/material/Typography";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { tokens } from "@/lib/theme";
 import type { Category } from "@/lib/data";
-import { useState } from "react";
 
 export default function CategoryCard({ cat }: { cat: Category }) {
-  const [hovered, setHovered] = useState(false);
   return (
     <Paper
       component={NextLink}
       href={`/categories/${cat.slug}`}
       elevation={0}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
       sx={{
         display: "block", textDecoration: "none",
         p: { xs: "15px", md: "20px" },
         borderRadius: tokens.radius,
         bgcolor: tokens.cardBg,
-        boxShadow: hovered ? tokens.shadowHover : tokens.shadow,
-        transform: hovered ? "translateY(-4px)" : "none",
+        boxShadow: tokens.shadow,
         transition: "box-shadow 0.2s, transform 0.2s",
         cursor: "pointer",
+        "&:hover": {
+          boxShadow: tokens.shadowHover,
+          transform: "translateY(-4px)",
+        },
       }}
     >
       <Typography sx={{ fontSize: { xs: 28, md: 34 }, mb: 1, lineHeight: 1 }}>{cat.icon}</Typography>

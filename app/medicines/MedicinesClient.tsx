@@ -52,7 +52,7 @@ export default function MedicinesClient({ medicines }: { medicines: MedicineInde
     <Container maxWidth="lg" sx={{ py: { xs: "15px", md: "25px" }, px: { xs: "10px", md: "20px" } }}>
       <AppBreadcrumbs crumbs={[{ label: "Home", href: "/" }, { label: "Medicines" }]} />
 
-      <Typography variant="h4" sx={{ mb: 0.5 }}>All Medicines</Typography>
+      <Typography variant="h4" component="h1" sx={{ mb: 0.5 }}>All Medicines</Typography>
       <Typography variant="body1" sx={{ color: tokens.secondary, mb: 3 }}>
         {medicines.length.toLocaleString()} medicines registered in Bangladesh
       </Typography>
@@ -61,6 +61,7 @@ export default function MedicinesClient({ medicines }: { medicines: MedicineInde
       <Box sx={{ mb: 3, maxWidth: 480 }}>
         <TextField
           fullWidth
+          label="Search medicines"
           placeholder="Search by name, generic or manufacturer"
           value={search}
           onChange={(e) => { setSearch(e.target.value); setPage(1); }}

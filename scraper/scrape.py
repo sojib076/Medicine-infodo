@@ -137,6 +137,54 @@ def write_md(slug: str, sections: dict) -> None:
     (MD_DIR / f"{slug}.md").write_text("\n\n".join(parts), encoding="utf-8")
 
 
+# ── Content cleaning ────────────────────────────────────────────────────────
+
+# Phrases that add no medical value and are common scraping artefacts
+_NOISE_PHRASES = re.compile(
+    r"(read\s+more\.{0,3}|click\s+here|show\s+more|see\s+more|learn\s+more"
+    r"|advertisement|sponsored|loading\.{0,3}|please\s+wait\.{0,3})",
+    re.IGNORECASE,
+)
+
+# Collapse runs of 3+ blank lines into 2
+_EXCESS_BLANK = re.compile(r"\n{3,}")
+
+
+def clean_section_text(text: str) -> str:
+    """
+    Remove common scraping artefacts from a section body:
+      1. Strip noise phrases (Read more…, Click here, etc.)
+      2. Deduplicate consecutive identical sentences.
+      3. Collapse excess blank lines.
+      4. Strip leading/trailing whitespace.
+    """
+    # 1. Remove noise phrases (whole line if nothing remains)
+    lines = text.splitlines()
+    cleaned_lines: list[str] = []
+    for line in lines:
+        line = _NOISE_PHRASES.sub("", line).strip()
+        if line:
+            cleaned_lines.append(line)
+
+    # 2. Deduplicate consecutive identical lines
+    deduped: list[str] = []
+    for line in cleaned_lines:
+        if not deduped or line.lower() != deduped[-1].lower():
+            deduped.append(line)
+
+    result = "\n".join(deduped)
+
+    # 3. Collapse excess blank lines
+    result = _EXCESS_BLANK.sub("\n\n", result)
+
+    return result.strip()
+
+
+def clean_sections(sections: dict) -> dict:
+    """Apply clean_section_text to every section value."""
+    return {title: clean_section_text(body) for title, body in sections.items()}
+
+
 def download_image(session: requests.Session, image_url: str, slug: str):
     """Download medicine image locally; returns the local public path or None."""
     if not image_url:
@@ -290,6 +338,9 @@ def scrape() -> None:
                     if not data["sections"]:
                         raise ValueError("No sections found — page content may be invalid or empty")
 
+                    # Clean scraped content before persisting
+                    cleaned_sections = clean_sections(data["sections"])
+
                     results.append({
                         "slug":         slug,
                         "name":         item["name"],
@@ -299,7 +350,7 @@ def scrape() -> None:
                         "image":        download_image(session, data["image"], slug),
                     })
 
-                    write_md(slug, data["sections"])
+                    write_md(slug, cleaned_sections)
 
                     done_set.add(slug)
                     checkpoint["done"] = list(done_set)

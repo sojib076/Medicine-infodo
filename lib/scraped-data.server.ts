@@ -86,7 +86,44 @@ export function getManufacturers(): Array<{ slug: string; name: string; count: n
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-// ── Legacy stubs — kept for backward compat; new code uses getMedicinesIndex() ──
+// ── Category mapping ───────────────────────────────────────────────────────
+
+/**
+ * Keyword → category slug mapping.
+ * Checks the medicine's generic name (lowercase) for any of the listed substrings.
+ */
+const CATEGORY_KEYWORDS: Record<string, string[]> = {
+  analgesic:       ["paracetamol", "ibuprofen", "aspirin", "naproxen", "diclofenac", "tramadol", "ketorolac", "mefenamic"],
+  antibiotic:      ["amoxicillin", "azithromycin", "cefixime", "ciprofloxacin", "doxycycline", "metronidazole", "cephalexin", "moxifloxacin", "levofloxacin", "clarithromycin", "erythromycin", "ampicillin", "ceftriaxone", "cefuroxime"],
+  cardiac:         ["atenolol", "amlodipine", "losartan", "valsartan", "metoprolol", "digoxin", "atorvastatin", "warfarin", "clopidogrel", "furosemide", "ramipril", "enalapril", "bisoprolol", "diltiazem", "spironolactone"],
+  gastrointestinal:["omeprazole", "pantoprazole", "ranitidine", "lansoprazole", "esomeprazole", "metoclopramide", "domperidone", "bismuth", "loperamide", "lactulose"],
+  diabetic:        ["metformin", "glibenclamide", "insulin", "glipizide", "sitagliptin", "gliclazide", "pioglitazone", "empagliflozin", "dapagliflozin", "vildagliptin"],
+  antihistamine:   ["cetirizine", "fexofenadine", "loratadine", "chlorphenamine", "desloratadine", "levocetirizine", "hydroxyzine"],
+  respiratory:     ["salbutamol", "theophylline", "montelukast", "beclometasone", "fluticasone", "salmeterol", "ipratropium", "budesonide", "tiotropium"],
+  neurological:    ["phenobarbital", "carbamazepine", "diazepam", "haloperidol", "phenytoin", "valproate", "levetiracetam", "risperidone", "quetiapine", "olanzapine"],
+  vitamin:         ["vitamin", "calcium", "zinc", "iron", "folic", "thiamine", "riboflavin", "ascorbic", "tocopherol", "cholecalciferol", "cyanocobalamin"],
+  musculoskeletal: ["methocarbamol", "baclofen", "tizanidine", "cyclobenzaprine", "colchicine", "allopurinol", "etoricoxib", "celecoxib"],
+  dental:          ["chlorhexidine", "benzocaine", "lidocaine", "tetracycline", "minocycline"],
+  ophthalmology:   ["timolol", "latanoprost", "dorzolamide", "prednisolone acetate", "ciprofloxacin eye", "ofloxacin", "sodium cromoglicate"],
+};
+
+export function getCategorySlug(generic: string): string | null {
+  const lower = generic.toLowerCase();
+  for (const [cat, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
+    if (keywords.some((kw) => lower.includes(kw))) return cat;
+  }
+  return null;
+}
+
+/** Return all medicines whose generic name matches a given category slug */
+export function getMedicinesByCategory(categorySlug: string): MedicineIndex[] {
+  const keywords = CATEGORY_KEYWORDS[categorySlug];
+  if (!keywords) return [];
+  return getMedicinesIndex().filter((m) => {
+    const lower = m.generic.toLowerCase();
+    return keywords.some((kw) => lower.includes(kw));
+  });
+}
 /** @deprecated Use getMedicinesIndex() instead */
 export function getScrapedMedicines() { return getMedicinesIndex() as never[]; }
 /** @deprecated No longer used; medicine sections are in per-slug .md files */
