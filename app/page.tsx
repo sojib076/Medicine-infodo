@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   title: "MedInfoBD – Bangladesh Medicine Information Database",
   description:
     "Search and explore detailed information on DGDA-approved medicines in Bangladesh. Find brand names, generics, dosage, side effects, and pricing.",
+  alternates: { canonical: "https://medinfo.com.bd" },
   openGraph: {
     title: "MedInfoBD – Bangladesh Medicine Database",
     description:

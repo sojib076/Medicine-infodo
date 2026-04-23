@@ -64,7 +64,7 @@ export default function BrandMedicinesPage({ params }: Props) {
           <BusinessIcon sx={{ color: tokens.primary, fontSize: 28 }} />
         </Box>
         <Box>
-          <Typography variant="h4" sx={{ mb: 0.3, fontWeight: 800 }}>{mfr.name}</Typography>
+          <Typography variant="h4" component="h1" sx={{ mb: 0.3, fontWeight: 800 }}>{mfr.name}</Typography>
           <Typography variant="body1" sx={{ color: tokens.secondary }}>
             {medicines.length} medicine{medicines.length !== 1 ? "s" : ""} in our database
           </Typography>

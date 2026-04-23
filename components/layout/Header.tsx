@@ -60,6 +60,7 @@ export default function Header() {
             <TextField
               fullWidth
               size="small"
+              label="Search medicine"
               placeholder="Search medicine by name"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -117,6 +118,7 @@ export default function Header() {
           <Box component="form" onSubmit={handleSearch} sx={{ px: 2, pb: 2 }}>
             <TextField
               fullWidth size="small"
+              label="Search medicine"
               placeholder="Search medicine…"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}

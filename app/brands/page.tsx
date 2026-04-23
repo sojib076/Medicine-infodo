@@ -12,9 +12,12 @@ import AppBreadcrumbs from "@/components/ui/AppBreadcrumbs";
 import { getManufacturers } from "@/lib/scraped-data.server";
 import { tokens } from "@/lib/theme";
 
+const BASE_URL = "https://medinfo.com.bd";
+
 export const metadata: Metadata = {
   title: "Medicine Brands – MedInfoBD",
   description: "Browse all pharmaceutical manufacturers and brands in Bangladesh. Click a brand to see all its medicines.",
+  alternates: { canonical: `${BASE_URL}/brands` },
 };
 
 export default function BrandsPage() {
@@ -24,7 +27,7 @@ export default function BrandsPage() {
     <Container maxWidth="lg" sx={{ py: { xs: "15px", md: "25px" }, px: { xs: "10px", md: "20px" } }}>
       <AppBreadcrumbs crumbs={[{ label: "Home", href: "/" }, { label: "Brands" }]} />
 
-      <Typography variant="h4" sx={{ mb: 0.5 }}>Medicine Brands</Typography>
+      <Typography variant="h4" component="h1" sx={{ mb: 0.5 }}>Medicine Brands</Typography>
       <Typography variant="body1" sx={{ color: tokens.secondary, mb: 4 }}>
         {manufacturers.length} pharmaceutical companies — click a brand to see all its medicines.
       </Typography>
